@@ -2,7 +2,7 @@
 
 ## 로컬 실행
 
-필요환경: Node.js24 이상(현재26.5.0에서 확인), Python3.12 이상, .NET SDK10.0.402. SDK가 PATH에 없으면 `~/.dotnet/dotnet`을 사용한다. `global.json`과 잠금파일을 보존한다.
+필요환경: Git, Node.js24 이상(현재26.5.0에서 확인), Python3.12 이상, .NET SDK10.0.402. SDK가 PATH에 없으면 `~/.dotnet/dotnet`을 사용한다. `global.json`과 잠금파일을 보존한다. 소스 ZIP에는 증빙 commit 검증에 필요한 이 프로젝트의 Git 이력이 포함되며, remote·hooks·개발 비밀번호·실제 DB는 포함하지 않는다.
 
 ```sh
 npm run setup
