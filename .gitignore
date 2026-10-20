@@ -1,0 +1,15 @@
+node_modules/
+apps/web/node_modules/
+apps/web/dist/
+**/bin/
+**/obj/
+apps/api/data/
+.env
+.env.*
+!.env.example
+.DS_Store
+tmp/
+*.pdf
+evidence/source/krds-guideline.txt
+reports/previews/
+artifacts/

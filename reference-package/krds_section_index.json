@@ -1,0 +1,1566 @@
+[
+  {
+    "chapter": "디자인 원칙",
+    "category": "원칙",
+    "title": "사용자 중심의 서비스",
+    "start_page": 49,
+    "end_page": 50,
+    "id": "KRDS-SEC-001",
+    "source_page": 49,
+    "source_pdf_page": 49,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-001"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 원칙",
+    "category": "원칙",
+    "title": "모든 사용자를 포용하는 서비스",
+    "start_page": 51,
+    "end_page": 52,
+    "id": "KRDS-SEC-002",
+    "source_page": 51,
+    "source_pdf_page": 51,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-002"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 원칙",
+    "category": "원칙",
+    "title": "공통된 경험 안에서 개별 특성을 고려한 서비스",
+    "start_page": 53,
+    "end_page": 54,
+    "id": "KRDS-SEC-003",
+    "source_page": 53,
+    "source_pdf_page": 53,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-003"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 원칙",
+    "category": "원칙",
+    "title": "빠르고 간단한 서비스",
+    "start_page": 55,
+    "end_page": 56,
+    "id": "KRDS-SEC-004",
+    "source_page": 55,
+    "source_pdf_page": 55,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-004"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 원칙",
+    "category": "원칙",
+    "title": "쉽게 이해하고 사용할 수 있는 서비스",
+    "start_page": 57,
+    "end_page": 58,
+    "id": "KRDS-SEC-005",
+    "source_page": 57,
+    "source_pdf_page": 57,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-005"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 원칙",
+    "category": "원칙",
+    "title": "사용자의 다양한 상황을 고려하는 서비스",
+    "start_page": 59,
+    "end_page": 60,
+    "id": "KRDS-SEC-006",
+    "source_page": 59,
+    "source_pdf_page": 59,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-006"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 원칙",
+    "category": "원칙",
+    "title": "신뢰할 수 있는 서비스",
+    "start_page": 61,
+    "end_page": 64,
+    "id": "KRDS-SEC-007",
+    "source_page": 61,
+    "source_pdf_page": 61,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-007"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 스타일",
+    "category": "스타일",
+    "title": "디자인 스타일 소개",
+    "start_page": 65,
+    "end_page": 73,
+    "id": "KRDS-SEC-008",
+    "source_page": 65,
+    "source_pdf_page": 65,
+    "numbered_candidate_count": 0,
+    "company_controls": [],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 스타일",
+    "category": "스타일",
+    "title": "색상",
+    "start_page": 74,
+    "end_page": 101,
+    "id": "KRDS-SEC-009",
+    "source_page": 74,
+    "source_pdf_page": 74,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-008"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 스타일",
+    "category": "스타일",
+    "title": "타이포그래피",
+    "start_page": 102,
+    "end_page": 125,
+    "id": "KRDS-SEC-010",
+    "source_page": 102,
+    "source_pdf_page": 102,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-009",
+      "UI-098",
+      "UI-099"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 스타일",
+    "category": "스타일",
+    "title": "형태",
+    "start_page": 126,
+    "end_page": 138,
+    "id": "KRDS-SEC-011",
+    "source_page": 126,
+    "source_pdf_page": 126,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-010"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 스타일",
+    "category": "스타일",
+    "title": "레이아웃",
+    "start_page": 139,
+    "end_page": 161,
+    "id": "KRDS-SEC-012",
+    "source_page": 139,
+    "source_pdf_page": 139,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-011"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 스타일",
+    "category": "스타일",
+    "title": "아이콘",
+    "start_page": 162,
+    "end_page": 176,
+    "id": "KRDS-SEC-013",
+    "source_page": 162,
+    "source_pdf_page": 162,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-012"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 스타일",
+    "category": "스타일",
+    "title": "엘리베이션",
+    "start_page": 177,
+    "end_page": 191,
+    "id": "KRDS-SEC-014",
+    "source_page": 177,
+    "source_pdf_page": 177,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-013"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 스타일",
+    "category": "스타일",
+    "title": "선명한 화면 모드",
+    "start_page": 192,
+    "end_page": 204,
+    "id": "KRDS-SEC-015",
+    "source_page": 192,
+    "source_pdf_page": 192,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-014",
+      "UI-100"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "디자인 스타일",
+    "category": "스타일",
+    "title": "디자인 토큰",
+    "start_page": 205,
+    "end_page": 219,
+    "id": "KRDS-SEC-016",
+    "source_page": 205,
+    "source_pdf_page": 205,
+    "numbered_candidate_count": 0,
+    "company_controls": [
+      "UI-015"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "아이덴티티",
+    "title": "공식 배너",
+    "start_page": 220,
+    "end_page": 226,
+    "id": "KRDS-SEC-017",
+    "source_page": 220,
+    "source_pdf_page": 220,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-016"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "아이덴티티",
+    "title": "운영기관 식별자",
+    "start_page": 227,
+    "end_page": 232,
+    "id": "KRDS-SEC-018",
+    "source_page": 227,
+    "source_pdf_page": 227,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-017",
+      "UI-126"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "아이덴티티",
+    "title": "헤더",
+    "start_page": 233,
+    "end_page": 245,
+    "id": "KRDS-SEC-019",
+    "source_page": 233,
+    "source_pdf_page": 233,
+    "numbered_candidate_count": 14,
+    "company_controls": [
+      "UI-018",
+      "UI-101"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "아이덴티티",
+    "title": "푸터",
+    "start_page": 246,
+    "end_page": 253,
+    "id": "KRDS-SEC-020",
+    "source_page": 246,
+    "source_pdf_page": 246,
+    "numbered_candidate_count": 10,
+    "company_controls": [
+      "UI-019",
+      "UI-125",
+      "UI-127"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "탐색",
+    "title": "건너뛰기 링크",
+    "start_page": 254,
+    "end_page": 262,
+    "id": "KRDS-SEC-021",
+    "source_page": 254,
+    "source_pdf_page": 254,
+    "numbered_candidate_count": 8,
+    "company_controls": [
+      "UI-020",
+      "UI-102"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "탐색",
+    "title": "메인 메뉴",
+    "start_page": 263,
+    "end_page": 279,
+    "id": "KRDS-SEC-022",
+    "source_page": 263,
+    "source_pdf_page": 263,
+    "numbered_candidate_count": 15,
+    "company_controls": [
+      "UI-021",
+      "UI-103"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "탐색",
+    "title": "브레드크럼",
+    "start_page": 280,
+    "end_page": 292,
+    "id": "KRDS-SEC-023",
+    "source_page": 280,
+    "source_pdf_page": 280,
+    "numbered_candidate_count": 13,
+    "company_controls": [
+      "UI-022"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "탐색",
+    "title": "사이드 메뉴",
+    "start_page": 293,
+    "end_page": 307,
+    "id": "KRDS-SEC-024",
+    "source_page": 293,
+    "source_pdf_page": 293,
+    "numbered_candidate_count": 12,
+    "company_controls": [
+      "UI-023"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "탐색",
+    "title": "콘텐츠 내 탐색",
+    "start_page": 308,
+    "end_page": 316,
+    "id": "KRDS-SEC-025",
+    "source_page": 308,
+    "source_pdf_page": 308,
+    "numbered_candidate_count": 9,
+    "company_controls": [
+      "UI-024"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "탐색",
+    "title": "페이지네이션",
+    "start_page": 317,
+    "end_page": 338,
+    "id": "KRDS-SEC-026",
+    "source_page": 317,
+    "source_pdf_page": 317,
+    "numbered_candidate_count": 19,
+    "company_controls": [
+      "UI-025"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "탐색",
+    "title": "탭바",
+    "start_page": 339,
+    "end_page": 352,
+    "id": "KRDS-SEC-027",
+    "source_page": 339,
+    "source_pdf_page": 339,
+    "numbered_candidate_count": 10,
+    "company_controls": [
+      "UI-026"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "구조화 목록",
+    "start_page": 353,
+    "end_page": 359,
+    "id": "KRDS-SEC-028",
+    "source_page": 353,
+    "source_pdf_page": 353,
+    "numbered_candidate_count": 7,
+    "company_controls": [
+      "UI-027"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "긴급 공지",
+    "start_page": 360,
+    "end_page": 367,
+    "id": "KRDS-SEC-029",
+    "source_page": 360,
+    "source_pdf_page": 360,
+    "numbered_candidate_count": 11,
+    "company_controls": [
+      "UI-028"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "달력",
+    "start_page": 368,
+    "end_page": 378,
+    "id": "KRDS-SEC-030",
+    "source_page": 368,
+    "source_pdf_page": 368,
+    "numbered_candidate_count": 8,
+    "company_controls": [
+      "UI-029"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "디스클로저",
+    "start_page": 379,
+    "end_page": 386,
+    "id": "KRDS-SEC-031",
+    "source_page": 379,
+    "source_pdf_page": 379,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-030"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "모달",
+    "start_page": 387,
+    "end_page": 398,
+    "id": "KRDS-SEC-032",
+    "source_page": 387,
+    "source_pdf_page": 387,
+    "numbered_candidate_count": 7,
+    "company_controls": [
+      "UI-031",
+      "UI-104",
+      "UI-105"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "배지",
+    "start_page": 399,
+    "end_page": 404,
+    "id": "KRDS-SEC-033",
+    "source_page": 399,
+    "source_pdf_page": 399,
+    "numbered_candidate_count": 7,
+    "company_controls": [
+      "UI-032"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "아코디언",
+    "start_page": 405,
+    "end_page": 415,
+    "id": "KRDS-SEC-034",
+    "source_page": 405,
+    "source_pdf_page": 405,
+    "numbered_candidate_count": 8,
+    "company_controls": [
+      "UI-033"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "이미지",
+    "start_page": 416,
+    "end_page": 423,
+    "id": "KRDS-SEC-035",
+    "source_page": 416,
+    "source_pdf_page": 416,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-034"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "캐러셀",
+    "start_page": 424,
+    "end_page": 444,
+    "id": "KRDS-SEC-036",
+    "source_page": 424,
+    "source_pdf_page": 424,
+    "numbered_candidate_count": 18,
+    "company_controls": [
+      "UI-035"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "탭",
+    "start_page": 445,
+    "end_page": 458,
+    "id": "KRDS-SEC-037",
+    "source_page": 445,
+    "source_pdf_page": 445,
+    "numbered_candidate_count": 11,
+    "company_controls": [
+      "UI-036"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "표",
+    "start_page": 459,
+    "end_page": 470,
+    "id": "KRDS-SEC-038",
+    "source_page": 459,
+    "source_pdf_page": 459,
+    "numbered_candidate_count": 12,
+    "company_controls": [
+      "UI-037",
+      "UI-106"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "스플래시 스크린",
+    "start_page": 471,
+    "end_page": 483,
+    "id": "KRDS-SEC-039",
+    "source_page": 471,
+    "source_pdf_page": 471,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-038"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "레이아웃·표현",
+    "title": "텍스트 목록",
+    "start_page": 484,
+    "end_page": 494,
+    "id": "KRDS-SEC-040",
+    "source_page": 484,
+    "source_pdf_page": 484,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-039"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "액션",
+    "title": "링크",
+    "start_page": 495,
+    "end_page": 509,
+    "id": "KRDS-SEC-041",
+    "source_page": 495,
+    "source_pdf_page": 495,
+    "numbered_candidate_count": 12,
+    "company_controls": [
+      "UI-040"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "액션",
+    "title": "버튼",
+    "start_page": 510,
+    "end_page": 522,
+    "id": "KRDS-SEC-042",
+    "source_page": 510,
+    "source_pdf_page": 510,
+    "numbered_candidate_count": 14,
+    "company_controls": [
+      "UI-041"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "선택",
+    "title": "라디오 버튼",
+    "start_page": 523,
+    "end_page": 537,
+    "id": "KRDS-SEC-043",
+    "source_page": 523,
+    "source_pdf_page": 523,
+    "numbered_candidate_count": 12,
+    "company_controls": [
+      "UI-042"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "선택",
+    "title": "체크박스",
+    "start_page": 538,
+    "end_page": 550,
+    "id": "KRDS-SEC-044",
+    "source_page": 538,
+    "source_pdf_page": 538,
+    "numbered_candidate_count": 10,
+    "company_controls": [
+      "UI-043",
+      "UI-107"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "선택",
+    "title": "셀렉트",
+    "start_page": 551,
+    "end_page": 558,
+    "id": "KRDS-SEC-045",
+    "source_page": 551,
+    "source_pdf_page": 551,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-044",
+      "UI-108"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "선택",
+    "title": "태그",
+    "start_page": 559,
+    "end_page": 569,
+    "id": "KRDS-SEC-046",
+    "source_page": 559,
+    "source_pdf_page": 559,
+    "numbered_candidate_count": 10,
+    "company_controls": [
+      "UI-045"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "선택",
+    "title": "토글 스위치",
+    "start_page": 570,
+    "end_page": 581,
+    "id": "KRDS-SEC-047",
+    "source_page": 570,
+    "source_pdf_page": 570,
+    "numbered_candidate_count": 9,
+    "company_controls": [
+      "UI-046",
+      "UI-109"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "피드백",
+    "title": "단계 표시기",
+    "start_page": 582,
+    "end_page": 588,
+    "id": "KRDS-SEC-048",
+    "source_page": 582,
+    "source_pdf_page": 582,
+    "numbered_candidate_count": 9,
+    "company_controls": [
+      "UI-047"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "피드백",
+    "title": "스피너",
+    "start_page": 589,
+    "end_page": 597,
+    "id": "KRDS-SEC-049",
+    "source_page": 589,
+    "source_pdf_page": 589,
+    "numbered_candidate_count": 7,
+    "company_controls": [
+      "UI-048"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "도움",
+    "title": "도움 패널",
+    "start_page": 598,
+    "end_page": 610,
+    "id": "KRDS-SEC-050",
+    "source_page": 598,
+    "source_pdf_page": 598,
+    "numbered_candidate_count": 15,
+    "company_controls": [
+      "UI-049"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "도움",
+    "title": "따라하기 패널",
+    "start_page": 611,
+    "end_page": 619,
+    "id": "KRDS-SEC-051",
+    "source_page": 611,
+    "source_pdf_page": 611,
+    "numbered_candidate_count": 7,
+    "company_controls": [
+      "UI-050"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "도움",
+    "title": "맥락적 도움말",
+    "start_page": 620,
+    "end_page": 635,
+    "id": "KRDS-SEC-052",
+    "source_page": 620,
+    "source_pdf_page": 620,
+    "numbered_candidate_count": 15,
+    "company_controls": [
+      "UI-051"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "도움",
+    "title": "코치마크",
+    "start_page": 636,
+    "end_page": 648,
+    "id": "KRDS-SEC-053",
+    "source_page": 636,
+    "source_pdf_page": 636,
+    "numbered_candidate_count": 16,
+    "company_controls": [
+      "UI-052"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "도움",
+    "title": "툴팁",
+    "start_page": 649,
+    "end_page": 663,
+    "id": "KRDS-SEC-054",
+    "source_page": 649,
+    "source_pdf_page": 649,
+    "numbered_candidate_count": 12,
+    "company_controls": [
+      "UI-053",
+      "UI-110"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "입력",
+    "title": "날짜 입력 필드",
+    "start_page": 664,
+    "end_page": 676,
+    "id": "KRDS-SEC-055",
+    "source_page": 664,
+    "source_pdf_page": 664,
+    "numbered_candidate_count": 8,
+    "company_controls": [
+      "UI-054"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "입력",
+    "title": "텍스트 영역",
+    "start_page": 677,
+    "end_page": 685,
+    "id": "KRDS-SEC-056",
+    "source_page": 677,
+    "source_pdf_page": 677,
+    "numbered_candidate_count": 7,
+    "company_controls": [
+      "UI-055"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "입력",
+    "title": "텍스트 입력 필드",
+    "start_page": 686,
+    "end_page": 696,
+    "id": "KRDS-SEC-057",
+    "source_page": 686,
+    "source_pdf_page": 686,
+    "numbered_candidate_count": 8,
+    "company_controls": [
+      "UI-056"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "입력",
+    "title": "파일 업로드",
+    "start_page": 697,
+    "end_page": 715,
+    "id": "KRDS-SEC-058",
+    "source_page": 697,
+    "source_pdf_page": 697,
+    "numbered_candidate_count": 16,
+    "company_controls": [
+      "UI-057",
+      "UI-111",
+      "UI-112",
+      "UI-113",
+      "UI-114"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "설정",
+    "title": "언어 변경",
+    "start_page": 716,
+    "end_page": 726,
+    "id": "KRDS-SEC-059",
+    "source_page": 716,
+    "source_pdf_page": 716,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-058"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "설정",
+    "title": "화면 크기 조정",
+    "start_page": 727,
+    "end_page": 737,
+    "id": "KRDS-SEC-060",
+    "source_page": 727,
+    "source_pdf_page": 727,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-059"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "콘텐츠",
+    "title": "접근 가능한 미디어",
+    "start_page": 738,
+    "end_page": 746,
+    "id": "KRDS-SEC-061",
+    "source_page": 738,
+    "source_pdf_page": 738,
+    "numbered_candidate_count": 7,
+    "company_controls": [
+      "UI-060"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "컴포넌트",
+    "category": "콘텐츠",
+    "title": "숨긴 콘텐츠",
+    "start_page": 747,
+    "end_page": 753,
+    "id": "KRDS-SEC-062",
+    "source_page": 747,
+    "source_pdf_page": 747,
+    "numbered_candidate_count": 9,
+    "company_controls": [
+      "UI-061",
+      "UI-115"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "개인 식별 정보 입력",
+    "start_page": 754,
+    "end_page": 773,
+    "id": "KRDS-SEC-063",
+    "source_page": 754,
+    "source_pdf_page": 754,
+    "numbered_candidate_count": 7,
+    "company_controls": [
+      "UI-062"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "도움",
+    "start_page": 774,
+    "end_page": 790,
+    "id": "KRDS-SEC-064",
+    "source_page": 774,
+    "source_pdf_page": 774,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-063"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "동의",
+    "start_page": 791,
+    "end_page": 797,
+    "id": "KRDS-SEC-065",
+    "source_page": 791,
+    "source_pdf_page": 791,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-064"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "목록 탐색",
+    "start_page": 798,
+    "end_page": 802,
+    "id": "KRDS-SEC-066",
+    "source_page": 798,
+    "source_pdf_page": 798,
+    "numbered_candidate_count": 9,
+    "company_controls": [
+      "UI-065"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "사용자 피드백",
+    "start_page": 803,
+    "end_page": 812,
+    "id": "KRDS-SEC-067",
+    "source_page": 803,
+    "source_pdf_page": 803,
+    "numbered_candidate_count": 9,
+    "company_controls": [
+      "UI-066"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "상세 정보 확인",
+    "start_page": 813,
+    "end_page": 826,
+    "id": "KRDS-SEC-068",
+    "source_page": 813,
+    "source_pdf_page": 813,
+    "numbered_candidate_count": 16,
+    "company_controls": [
+      "UI-067"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "오류",
+    "start_page": 827,
+    "end_page": 831,
+    "id": "KRDS-SEC-069",
+    "source_page": 827,
+    "source_pdf_page": 827,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-068",
+      "UI-116"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "입력폼",
+    "start_page": 832,
+    "end_page": 851,
+    "id": "KRDS-SEC-070",
+    "source_page": 832,
+    "source_pdf_page": 832,
+    "numbered_candidate_count": 18,
+    "company_controls": [
+      "UI-069",
+      "UI-117",
+      "UI-118",
+      "UI-119"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "첨부파일",
+    "start_page": 852,
+    "end_page": 856,
+    "id": "KRDS-SEC-071",
+    "source_page": 852,
+    "source_pdf_page": 852,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-070"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "필터링·정렬",
+    "start_page": 857,
+    "end_page": 877,
+    "id": "KRDS-SEC-072",
+    "source_page": 857,
+    "source_pdf_page": 857,
+    "numbered_candidate_count": 15,
+    "company_controls": [
+      "UI-071"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "기본 패턴",
+    "category": "패턴",
+    "title": "확인",
+    "start_page": 878,
+    "end_page": 884,
+    "id": "KRDS-SEC-073",
+    "source_page": 878,
+    "source_pdf_page": 878,
+    "numbered_candidate_count": 4,
+    "company_controls": [
+      "UI-072"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "방문",
+    "title": "방문 개요",
+    "start_page": 885,
+    "end_page": 887,
+    "id": "KRDS-SEC-074",
+    "source_page": 885,
+    "source_pdf_page": 885,
+    "numbered_candidate_count": 0,
+    "company_controls": [],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "방문",
+    "title": "방문",
+    "start_page": 888,
+    "end_page": 898,
+    "id": "KRDS-SEC-075",
+    "source_page": 888,
+    "source_pdf_page": 888,
+    "numbered_candidate_count": 9,
+    "company_controls": [
+      "UI-073"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "검색",
+    "title": "검색 개요",
+    "start_page": 899,
+    "end_page": 903,
+    "id": "KRDS-SEC-076",
+    "source_page": 899,
+    "source_pdf_page": 899,
+    "numbered_candidate_count": 0,
+    "company_controls": [],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "검색",
+    "title": "검색 기능 찾기",
+    "start_page": 904,
+    "end_page": 912,
+    "id": "KRDS-SEC-077",
+    "source_page": 904,
+    "source_pdf_page": 904,
+    "numbered_candidate_count": 7,
+    "company_controls": [
+      "UI-074"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "검색",
+    "title": "검색어 입력",
+    "start_page": 913,
+    "end_page": 928,
+    "id": "KRDS-SEC-078",
+    "source_page": 913,
+    "source_pdf_page": 913,
+    "numbered_candidate_count": 14,
+    "company_controls": [
+      "UI-075"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "검색",
+    "title": "검색 결과 확인",
+    "start_page": 929,
+    "end_page": 943,
+    "id": "KRDS-SEC-079",
+    "source_page": 929,
+    "source_pdf_page": 929,
+    "numbered_candidate_count": 10,
+    "company_controls": [
+      "UI-076"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "검색",
+    "title": "상세 검색",
+    "start_page": 944,
+    "end_page": 955,
+    "id": "KRDS-SEC-080",
+    "source_page": 944,
+    "source_pdf_page": 944,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-077",
+      "UI-120"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "검색",
+    "title": "검색 결과 이용",
+    "start_page": 956,
+    "end_page": 967,
+    "id": "KRDS-SEC-081",
+    "source_page": 956,
+    "source_pdf_page": 956,
+    "numbered_candidate_count": 8,
+    "company_controls": [
+      "UI-078"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "검색",
+    "title": "재검색",
+    "start_page": 968,
+    "end_page": 972,
+    "id": "KRDS-SEC-082",
+    "source_page": 968,
+    "source_pdf_page": 968,
+    "numbered_candidate_count": 3,
+    "company_controls": [
+      "UI-079"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "검색",
+    "title": "검색 종료",
+    "start_page": 973,
+    "end_page": 976,
+    "id": "KRDS-SEC-083",
+    "source_page": 973,
+    "source_pdf_page": 973,
+    "numbered_candidate_count": 1,
+    "company_controls": [
+      "UI-080"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "로그인",
+    "title": "로그인 개요",
+    "start_page": 977,
+    "end_page": 979,
+    "id": "KRDS-SEC-084",
+    "source_page": 977,
+    "source_pdf_page": 977,
+    "numbered_candidate_count": 0,
+    "company_controls": [],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "로그인",
+    "title": "로그인 기능 찾기",
+    "start_page": 980,
+    "end_page": 987,
+    "id": "KRDS-SEC-085",
+    "source_page": 980,
+    "source_pdf_page": 980,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-081"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "로그인",
+    "title": "로그인 안내",
+    "start_page": 988,
+    "end_page": 997,
+    "id": "KRDS-SEC-086",
+    "source_page": 988,
+    "source_pdf_page": 988,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-082"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "로그인",
+    "title": "로그인 방식 확인·선택",
+    "start_page": 998,
+    "end_page": 1013,
+    "id": "KRDS-SEC-087",
+    "source_page": 998,
+    "source_pdf_page": 998,
+    "numbered_candidate_count": 8,
+    "company_controls": [
+      "UI-083",
+      "UI-121",
+      "UI-128"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "로그인",
+    "title": "로그인 정보 입력",
+    "start_page": 1014,
+    "end_page": 1026,
+    "id": "KRDS-SEC-088",
+    "source_page": 1014,
+    "source_pdf_page": 1014,
+    "numbered_candidate_count": 8,
+    "company_controls": [
+      "UI-084",
+      "UI-122"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "로그인",
+    "title": "로그인 완료",
+    "start_page": 1027,
+    "end_page": 1033,
+    "id": "KRDS-SEC-089",
+    "source_page": 1027,
+    "source_pdf_page": 1027,
+    "numbered_candidate_count": 3,
+    "company_controls": [
+      "UI-085"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "로그인",
+    "title": "서비스 이용",
+    "start_page": 1034,
+    "end_page": 1042,
+    "id": "KRDS-SEC-090",
+    "source_page": 1034,
+    "source_pdf_page": 1034,
+    "numbered_candidate_count": 6,
+    "company_controls": [
+      "UI-086",
+      "UI-123"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "로그인",
+    "title": "로그아웃",
+    "start_page": 1043,
+    "end_page": 1051,
+    "id": "KRDS-SEC-091",
+    "source_page": 1043,
+    "source_pdf_page": 1043,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-087"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "신청",
+    "title": "신청 개요",
+    "start_page": 1052,
+    "end_page": 1054,
+    "id": "KRDS-SEC-092",
+    "source_page": 1052,
+    "source_pdf_page": 1052,
+    "numbered_candidate_count": 0,
+    "company_controls": [],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "신청",
+    "title": "신청 대상 탐색",
+    "start_page": 1055,
+    "end_page": 1068,
+    "id": "KRDS-SEC-093",
+    "source_page": 1055,
+    "source_pdf_page": 1055,
+    "numbered_candidate_count": 10,
+    "company_controls": [
+      "UI-088"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "신청",
+    "title": "서비스 정보 확인",
+    "start_page": 1069,
+    "end_page": 1087,
+    "id": "KRDS-SEC-094",
+    "source_page": 1069,
+    "source_pdf_page": 1069,
+    "numbered_candidate_count": 14,
+    "company_controls": [
+      "UI-089"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "신청",
+    "title": "유의 사항·자격 확인",
+    "start_page": 1088,
+    "end_page": 1096,
+    "id": "KRDS-SEC-095",
+    "source_page": 1088,
+    "source_pdf_page": 1088,
+    "numbered_candidate_count": 4,
+    "company_controls": [
+      "UI-090"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "신청",
+    "title": "신청서 작성",
+    "start_page": 1097,
+    "end_page": 1111,
+    "id": "KRDS-SEC-096",
+    "source_page": 1097,
+    "source_pdf_page": 1097,
+    "numbered_candidate_count": 12,
+    "company_controls": [
+      "UI-091"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "신청",
+    "title": "확인·확정",
+    "start_page": 1112,
+    "end_page": 1120,
+    "id": "KRDS-SEC-097",
+    "source_page": 1112,
+    "source_pdf_page": 1112,
+    "numbered_candidate_count": 4,
+    "company_controls": [
+      "UI-092",
+      "UI-124"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "신청",
+    "title": "완료",
+    "start_page": 1121,
+    "end_page": 1128,
+    "id": "KRDS-SEC-098",
+    "source_page": 1121,
+    "source_pdf_page": 1121,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-093"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "신청",
+    "title": "신청 결과 확인",
+    "start_page": 1129,
+    "end_page": 1142,
+    "id": "KRDS-SEC-099",
+    "source_page": 1129,
+    "source_pdf_page": 1129,
+    "numbered_candidate_count": 9,
+    "company_controls": [
+      "UI-094"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "정책 정보 확인",
+    "title": "정책 정보 확인 개요",
+    "start_page": 1143,
+    "end_page": 1145,
+    "id": "KRDS-SEC-100",
+    "source_page": 1143,
+    "source_pdf_page": 1143,
+    "numbered_candidate_count": 0,
+    "company_controls": [],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "정책 정보 확인",
+    "title": "정책 탐색",
+    "start_page": 1146,
+    "end_page": 1154,
+    "id": "KRDS-SEC-101",
+    "source_page": 1146,
+    "source_pdf_page": 1146,
+    "numbered_candidate_count": 5,
+    "company_controls": [
+      "UI-095"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "정책 정보 확인",
+    "title": "정보 확인",
+    "start_page": 1155,
+    "end_page": 1164,
+    "id": "KRDS-SEC-102",
+    "source_page": 1155,
+    "source_pdf_page": 1155,
+    "numbered_candidate_count": 8,
+    "company_controls": [
+      "UI-096"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  },
+  {
+    "chapter": "서비스 패턴",
+    "category": "정책 정보 확인",
+    "title": "정책 자료 탐색",
+    "start_page": 1165,
+    "end_page": 1173,
+    "id": "KRDS-SEC-103",
+    "source_page": 1165,
+    "source_pdf_page": 1165,
+    "numbered_candidate_count": 3,
+    "company_controls": [
+      "UI-097"
+    ],
+    "coverage_note": "소개·개요 또는 번호 없는 스타일/원칙/상호작용·예시의 개별 기준은 원문으로 보완해야 함. 섹션 매핑 자체는 전체 세부규칙 준수증거가 아님."
+  }
+]

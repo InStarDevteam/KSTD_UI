@@ -1,0 +1,806 @@
+[
+  {
+    "id": "KRDS-INT-P0262",
+    "section_id": "KRDS-SEC-021",
+    "source_section": "컴포넌트 / 탐색 / 건너뛰기 링크",
+    "source_page": 262,
+    "source_pdf_page": 262,
+    "interaction_topics": "목적지 섹션으로의 이동 / 건너뛰기 링크가 초점을 가진 상태에서 Enter 키를 누르면 목적지 섹션으로 / 건너뛰기 링크 영역을 Tap 하면 목적지 섹션으로 화면이 스크롤 된다. 만약 / Tap / 콘텐츠 탐색 / 목적지 섹션으로 스크롤 된 상태에서 Tab 키를 누르면 이동한 섹션 내부",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-020",
+      "UI-102"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0279",
+    "section_id": "KRDS-SEC-022",
+    "source_section": "컴포넌트 / 탐색 / 메인 메뉴",
+    "source_page": 279,
+    "source_pdf_page": 279,
+    "interaction_topics": "메뉴 영역 확장 및 축소 / 메뉴 링크를 Click 하였을 때 하위 수준 메뉴가 펼쳐진다. 활성화된 1수준 / 메뉴 링크가 초점을 가진 상태에서 Enter 키를 눌렀을 때 하위 수준 메뉴가 / 펼쳐진 드롭다운 메뉴가 모두 축소되며 펼쳐졌던 메뉴의 상위 수준에 속하는 / Esc / 메뉴 링크 탐색",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-021",
+      "UI-103"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0292",
+    "section_id": "KRDS-SEC-023",
+    "source_section": "컴포넌트 / 탐색 / 브레드크럼",
+    "source_page": 292,
+    "source_pdf_page": 292,
+    "interaction_topics": "탐색 / 관련 화면으로 이동",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-022"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0307",
+    "section_id": "KRDS-SEC-024",
+    "source_section": "컴포넌트 / 탐색 / 사이드 메뉴",
+    "source_page": 307,
+    "source_pdf_page": 307,
+    "interaction_topics": "메뉴 링크 탐색 / 메뉴 영역 확장 및 축소 / 꺾쇠 아이콘이 있는 메뉴 링크가 초점을 가진 상태에서 마우스 Click 이벤트가 / 않는다. 즉, 어떤 하위 메뉴가 확장되어 있는 상태에서 다른 하위 링크 목록이 / 꺾쇠 아이콘이 있는 메뉴 링크가 초점을 가진 상태에서 키보드 Enter 이벤트가 / 않는다. 즉, 어떤 하위 메뉴가 확장되어 있는 상태에서 다른 하위 링크 목록이",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-023"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0316",
+    "section_id": "KRDS-SEC-025",
+    "source_section": "컴포넌트 / 탐색 / 콘텐츠 내 탐색",
+    "source_page": 316,
+    "source_pdf_page": 316,
+    "interaction_topics": "목록 탐색 / 콘텐츠 섹션 이동",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-024"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0337",
+    "section_id": "KRDS-SEC-026",
+    "source_section": "컴포넌트 / 탐색 / 페이지네이션",
+    "source_page": 337,
+    "source_pdf_page": 337,
+    "interaction_topics": "숫자 링크 목록 / 기본 상태의 이전/다음 버튼, 숫자 링크를 Click 하면 해당 화면으로 / Click / 기본 상태의 이전/다음 버튼, 숫자 링크가 초점을 가진 상태에서 Enter 키를 / 화면 직접 이동 / 숫자 입력 필드에 숫자를 입력한 후 이동 버튼을 Click 하면 해당 화면으로",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-025"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0338",
+    "section_id": "KRDS-SEC-026",
+    "source_section": "컴포넌트 / 탐색 / 페이지네이션",
+    "source_page": 338,
+    "source_pdf_page": 338,
+    "interaction_topics": "목록 확장 / 더보기 버튼을 Click 하면 목록과 더보기 버튼 사이에 새로운 항목이 / Focus 이벤트가 발생한다. 표시된 항목 수 정보가 실제 내용에 맞추어 / 더보기 버튼이 초점을 가진 상태에서 Space 키를 누르면 목록과 더보기 / Focus 이벤트가 발생한다. 표시된 항목 수 정보가 실제 내용에 맞추어",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-025"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0359",
+    "section_id": "KRDS-SEC-028",
+    "source_section": "컴포넌트 / 레이아웃·표현 / 구조화 목록",
+    "source_page": 359,
+    "source_pdf_page": 359,
+    "interaction_topics": "탐색 / 기능 실행 또는 이동",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-027"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0378",
+    "section_id": "KRDS-SEC-030",
+    "source_section": "컴포넌트 / 레이아웃·표현 / 달력",
+    "source_page": 378,
+    "source_pdf_page": 378,
+    "interaction_topics": "날짜 링크 탐색 / 기능 실행 또는 이동",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-029"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0386",
+    "section_id": "KRDS-SEC-031",
+    "source_section": "컴포넌트 / 레이아웃·표현 / 디스클로저",
+    "source_page": 386,
+    "source_pdf_page": 386,
+    "interaction_topics": "디스클로저 탐색 / 디스클로저 확장 및 축소 / 디스클로저 컨트롤이 초점을 가진 상태에서 Enter 또는 Space 키를 눌러",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-030"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0398",
+    "section_id": "KRDS-SEC-032",
+    "source_section": "컴포넌트 / 레이아웃·표현 / 모달",
+    "source_page": 398,
+    "source_pdf_page": 398,
+    "interaction_topics": "모달 열기/닫기 / 내부 콘텐츠 탐색 / 모달 내부의 다음 상호작용 요소로 초점이 이동한다. 모달의 가장 마지막 상호작용 / 모달 내부의 이전 상호작용 요소로 초점이 이동한다. 모달의 가장 첫 번째",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-031",
+      "UI-104",
+      "UI-105"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0415",
+    "section_id": "KRDS-SEC-034",
+    "source_section": "컴포넌트 / 레이아웃·표현 / 아코디언",
+    "source_page": 415,
+    "source_pdf_page": 415,
+    "interaction_topics": "헤더 목록 탐색 / 패널 확장 또는 축소 / 사용자가 헤더 영역 전체 또는 아이콘을 Click 하면 아코디언의 확장 상태가 / Click",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-033"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0423",
+    "section_id": "KRDS-SEC-035",
+    "source_section": "컴포넌트 / 레이아웃·표현 / 이미지",
+    "source_page": 423,
+    "source_pdf_page": 423,
+    "interaction_topics": "",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-034"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0443",
+    "section_id": "KRDS-SEC-036",
+    "source_section": "컴포넌트 / 레이아웃·표현 / 캐러셀",
+    "source_page": 443,
+    "source_pdf_page": 443,
+    "interaction_topics": "슬라이드 탐색 / 페이지네이션 인디케이터의 경우 인디케이터 그룹에 초점이 있을 때 키보드 / 방향키 ←, →",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-035"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0444",
+    "section_id": "KRDS-SEC-036",
+    "source_section": "컴포넌트 / 레이아웃·표현 / 캐러셀",
+    "source_page": 444,
+    "source_pdf_page": 444,
+    "interaction_topics": "자동 재생 중지 및 재생 / 자동 재생 캐러셀의 경우 Tab 키를 눌러 캐러셀의 요소에 키보드 초점이 들어가면 / 자동 재생 캐러셀의 재생 컨트롤에 초점이 있을 때 Enter 키를 눌러 기능을 / 자동 재생 캐러셀의 경우 정지 버튼을 Click 하면 슬라이드가 정지되고, 재생 / Click",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-035"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0458",
+    "section_id": "KRDS-SEC-037",
+    "source_section": "컴포넌트 / 레이아웃·표현 / 탭",
+    "source_page": 458,
+    "source_pdf_page": 458,
+    "interaction_topics": "탭 탐색 / 탭 패널 전환",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-036"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0509",
+    "section_id": "KRDS-SEC-041",
+    "source_section": "컴포넌트 / 액션 / 링크",
+    "source_page": 509,
+    "source_pdf_page": 509,
+    "interaction_topics": "탐색 / 링크 실행",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-040"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0521",
+    "section_id": "KRDS-SEC-042",
+    "source_section": "컴포넌트 / 액션 / 버튼",
+    "source_page": 521,
+    "source_pdf_page": 521,
+    "interaction_topics": "탐색 / 실행",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-041"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0537",
+    "section_id": "KRDS-SEC-043",
+    "source_section": "컴포넌트 / 선택 / 라디오 버튼",
+    "source_page": 537,
+    "source_pdf_page": 537,
+    "interaction_topics": "탐색 / 방향키 ↑, ↓를 눌렀을 때 다음/이전 라디오 버튼 양식으로 초점이 이동하고 값이 / 방향키 ↑, ↓ / 실행 / 라디오 버튼 양식에 초점이 있는 상태에서 Space 키를 누르면 값이 선택되어야 / 방향키 ↑, ↓를 눌렀을 때 다음/이전 라디오 버튼 양식으로 초점이 이동하고 값이",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-042"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0550",
+    "section_id": "KRDS-SEC-044",
+    "source_section": "컴포넌트 / 선택 / 체크박스",
+    "source_page": 550,
+    "source_pdf_page": 550,
+    "interaction_topics": "옵션 탐색 / 옵션 선택 및 선택 해제 / 사용자는 체크박스 양식 또는 체크박스 레이블을 눌러 옵션을 선택하거나 선택",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-043",
+      "UI-107"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0557",
+    "section_id": "KRDS-SEC-045",
+    "source_section": "컴포넌트 / 선택 / 셀렉트",
+    "source_page": 557,
+    "source_pdf_page": 557,
+    "interaction_topics": "목록 확장 및 축소 / 탐색",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-044",
+      "UI-108"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0558",
+    "section_id": "KRDS-SEC-045",
+    "source_section": "컴포넌트 / 선택 / 셀렉트",
+    "source_page": 558,
+    "source_pdf_page": 558,
+    "interaction_topics": "옵션 선택 / 컨테이너에 초점이 있고 옵션 목록이 축소된 경우, 이전/다음 옵션으로 선택값이 / 방향키 ↑, ↓",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-044",
+      "UI-108"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0568",
+    "section_id": "KRDS-SEC-046",
+    "source_section": "컴포넌트 / 선택 / 태그",
+    "source_page": 568,
+    "source_pdf_page": 568,
+    "interaction_topics": "태그 탐색과 실행 / Click / 태그 선택 / Click / 태그가 초점을 가진 상태에서 Space 또는 Enter 키에서 Keyup 이벤트가",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-045"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0569",
+    "section_id": "KRDS-SEC-046",
+    "source_section": "컴포넌트 / 선택 / 태그",
+    "source_page": 569,
+    "source_pdf_page": 569,
+    "interaction_topics": "태그 삭제 / 태그가 초점을 가진 상태에서 Space 또는 Enter 키에서 Keyup 이벤트가 / 발생하면 해당 태그 조건이 목록에서 제거된다. 초점은 삭제된 태그의 이전 / 태그로 이동한다. 만약 초점을 이동할 태그가 목록에 남아 있지 않다면 태그",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-045"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0580",
+    "section_id": "KRDS-SEC-047",
+    "source_section": "컴포넌트 / 선택 / 토글 스위치",
+    "source_page": 580,
+    "source_pdf_page": 580,
+    "interaction_topics": "옵션 탐색 / 옵션 선택 및 선택 해제",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-046",
+      "UI-109"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0596",
+    "section_id": "KRDS-SEC-049",
+    "source_section": "컴포넌트 / 피드백 / 스피너",
+    "source_page": 596,
+    "source_pdf_page": 596,
+    "interaction_topics": "확정 스피너 / 불확정 스피너",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-048"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0609",
+    "section_id": "KRDS-SEC-050",
+    "source_section": "컴포넌트 / 도움 / 도움 패널",
+    "source_page": 609,
+    "source_pdf_page": 609,
+    "interaction_topics": "도움 패널 실행 / Click / 도움 패널 내부 콘텐츠 탐색",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-049"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0610",
+    "section_id": "KRDS-SEC-050",
+    "source_section": "컴포넌트 / 도움 / 도움 패널",
+    "source_page": 610,
+    "source_pdf_page": 610,
+    "interaction_topics": "도움 패널 비활성화 / Click",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-049"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0618",
+    "section_id": "KRDS-SEC-051",
+    "source_section": "컴포넌트 / 도움 / 따라하기 패널",
+    "source_page": 618,
+    "source_pdf_page": 618,
+    "interaction_topics": "패널 실행 / Click / 패널 내부 콘텐츠 탐색 / 패널 내부의 확장 가능한 영역을 펼치거나 접는다. 초점은 확장 가능한 영역을",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-050"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0619",
+    "section_id": "KRDS-SEC-051",
+    "source_section": "컴포넌트 / 도움 / 따라하기 패널",
+    "source_page": 619,
+    "source_pdf_page": 619,
+    "interaction_topics": "패널 비활성화 / 패널 닫기 버튼을 Click 하면 도움/따라하기 패널이 닫히고 패널 열기 버튼이",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-050"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0634",
+    "section_id": "KRDS-SEC-052",
+    "source_section": "컴포넌트 / 도움 / 맥락적 도움말",
+    "source_page": 634,
+    "source_pdf_page": 634,
+    "interaction_topics": "맥락적 도움말 실행 / 아이콘 버튼이 초점을 가진 상태에서 Enter 또는 Space 키를 누르면 도움말 / 도움말 내부 콘텐츠 탐색",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-051"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0635",
+    "section_id": "KRDS-SEC-052",
+    "source_section": "컴포넌트 / 도움 / 맥락적 도움말",
+    "source_page": 635,
+    "source_pdf_page": 635,
+    "interaction_topics": "맥락적 도움말 비활성화 / Esc / 아이콘 버튼이 초점을 가진 상태에서 Enter 또는 Space 키를 누르면 도움말",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-051"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0648",
+    "section_id": "KRDS-SEC-053",
+    "source_section": "컴포넌트 / 도움 / 코치마크",
+    "source_page": 648,
+    "source_pdf_page": 648,
+    "interaction_topics": "팝오버 내부 콘텐츠 탐색 / 코치마크 비활성화 / Click",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-052"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0662",
+    "section_id": "KRDS-SEC-054",
+    "source_section": "컴포넌트 / 도움 / 툴팁",
+    "source_page": 662,
+    "source_pdf_page": 662,
+    "interaction_topics": "팝오버 내부 콘텐츠 탐색 / 코치마크 비활성화 / 터치 인터페이스에서 활성화 버튼 또는 팝오버 영역 외의 화면을 누르면 팝오버가 / Click / Blur / 툴팁 팝오버가 표시된 상태에서 Esc 키를 누르면 팝오버가 닫히면서 키보드",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-053",
+      "UI-110"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0676",
+    "section_id": "KRDS-SEC-055",
+    "source_section": "컴포넌트 / 입력 / 날짜 입력 필드",
+    "source_page": 676,
+    "source_pdf_page": 676,
+    "interaction_topics": "데이터 입력 / 레이블 또는 입력 필드를 Click 하면 입력 필드에 커서가 활성화되면서 텍스트를 / Click",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-054"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0685",
+    "section_id": "KRDS-SEC-056",
+    "source_section": "컴포넌트 / 입력 / 텍스트 영역",
+    "source_page": 685,
+    "source_pdf_page": 685,
+    "interaction_topics": "레이블 또는 입력 영역을 Click 하면 입력 영역에 커서가 활성화되면서 텍스트를 / Click / 사용자가 많은 양의 텍스트를 작성하여 영역의 기본 높이를 초과하는 경우 영역에 / Scroll / 사용자가 많은 양의 텍스트를 작성하여 영역의 기본 높이를 초과하는 경우 영역에 / 방향키 ↑, ↓",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-055"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0696",
+    "section_id": "KRDS-SEC-057",
+    "source_section": "컴포넌트 / 입력 / 텍스트 입력 필드",
+    "source_page": 696,
+    "source_pdf_page": 696,
+    "interaction_topics": "데이터 입력 / 레이블 또는 입력 필드를 Click 하면 입력 필드에 커서가 활성화되면서 텍스트를 / Click",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-056"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0713",
+    "section_id": "KRDS-SEC-058",
+    "source_section": "컴포넌트 / 입력 / 파일 업로드",
+    "source_page": 713,
+    "source_pdf_page": 713,
+    "interaction_topics": "탐색 / 파일 선택기가 활성화되었을 때 키보드의 방향키 ↑, ↓을 눌러 파일을 탐색할 수 / 방향키 ↑, ↓ / 파일 업로드 / 파일 선택기가 활성화된 상태에서 파일을 선택하고 '열기' 버튼을 Click 하면 / Click",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-057",
+      "UI-111",
+      "UI-112",
+      "UI-113",
+      "UI-114"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0714",
+    "section_id": "KRDS-SEC-058",
+    "source_section": "컴포넌트 / 입력 / 파일 업로드",
+    "source_page": 714,
+    "source_pdf_page": 714,
+    "interaction_topics": "파일 삭제 / 삭제 버튼이 초점을 가진 상태에서 Space 또는 Enter 키를 누르면 파일이",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-057",
+      "UI-111",
+      "UI-112",
+      "UI-113",
+      "UI-114"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0726",
+    "section_id": "KRDS-SEC-059",
+    "source_section": "컴포넌트 / 설정 / 언어 변경",
+    "source_page": 726,
+    "source_pdf_page": 726,
+    "interaction_topics": "드롭다운 목록 확장 및 축소 / 컨테이너를 Click 했을 때, 옵션 목록이 확장되거나 축소된다.옵션 목록이 / 드롭다운 목록 탐색",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-058"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0735",
+    "section_id": "KRDS-SEC-060",
+    "source_section": "컴포넌트 / 설정 / 화면 크기 조정",
+    "source_page": 735,
+    "source_pdf_page": 735,
+    "interaction_topics": "목록 확장 및 축소 / 탐색",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-059"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0736",
+    "section_id": "KRDS-SEC-060",
+    "source_section": "컴포넌트 / 설정 / 화면 크기 조정",
+    "source_page": 736,
+    "source_pdf_page": 736,
+    "interaction_topics": "옵션 선택 / 컨테이너에 초점이 있고 옵션 목록이 축소된 경우, 이전/다음 옵션으로 / 방향키 ↑, ↓",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-059"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0796",
+    "section_id": "KRDS-SEC-065",
+    "source_section": "기본 패턴 / 패턴 / 동의",
+    "source_page": 796,
+    "source_pdf_page": 796,
+    "interaction_topics": "목록 탐색 / 목록 내 다음 인터페이스 요소로 키보드 초점이 이동하고 초점을 받은 / 목록 내 이전 인터페이스 요소로 키보드 초점이 이동하고 초점을 받은 / 동의 옵션 선택 / 일괄 선택 / 일괄 선택 체크박스를 Click 하여 값이 선택되면 모든 동의 옵션의 '동의함'",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-064"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0797",
+    "section_id": "KRDS-SEC-065",
+    "source_section": "기본 패턴 / 패턴 / 동의",
+    "source_page": 797,
+    "source_pdf_page": 797,
+    "interaction_topics": "개별 선택",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-064"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0811",
+    "section_id": "KRDS-SEC-067",
+    "source_section": "기본 패턴 / 패턴 / 사용자 피드백",
+    "source_page": 811,
+    "source_pdf_page": 811,
+    "interaction_topics": "평가 선택 / 감정 표현이나 별점 버튼을 Click 하였을 때, / 맞춤 영역이 사용되는 경우 사용자 피드백 컨테이너 높이가 확장되면서 / 맞춤 영역이 없는 경우 평가가 제출되면서 헤딩과 설명은 사라지고 그 / 감정 표현이나 별점 버튼이 초점을 가진 상태에서 Enter 또는 Space 키에 / 대해 Keyup 이벤트가 발생하였을 때,",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-066"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0812",
+    "section_id": "KRDS-SEC-067",
+    "source_section": "기본 패턴 / 패턴 / 사용자 피드백",
+    "source_page": 812,
+    "source_pdf_page": 812,
+    "interaction_topics": "최종 응답 제출 / 맞춤 영역이 존재하는 경우, 취소 또는 평가 완료 버튼을 Click 하면 평가 / Click / 맞춤 영역이 존재하는 경우, 취소 또는 평가 완료 버튼이 초점을 가진",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-066"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0850",
+    "section_id": "KRDS-SEC-070",
+    "source_section": "기본 패턴 / 패턴 / 입력폼",
+    "source_page": 850,
+    "source_pdf_page": 850,
+    "interaction_topics": "",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-069",
+      "UI-117",
+      "UI-118",
+      "UI-119"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0851",
+    "section_id": "KRDS-SEC-070",
+    "source_section": "기본 패턴 / 패턴 / 입력폼",
+    "source_page": 851,
+    "source_pdf_page": 851,
+    "interaction_topics": "클라이언트 측 검증 / 다른 사용자의 데이터와 중복될 수 없는 아이디, 보안을 위해 작성 규칙이 / 정해진 비밀번호 등 사용자가 텍스트 데이터를 입력하는 동안 실시간으로 / Keyup / 데이터의 적합성을 확인하여 수정해야 할 필요가 있는 경우, 사용자가 / 날짜와 같이 전체 값이 입력되기 전까지 적합성을 판단하기 어려운 경우,",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-069",
+      "UI-117",
+      "UI-118",
+      "UI-119"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0877",
+    "section_id": "KRDS-SEC-072",
+    "source_section": "기본 패턴 / 패턴 / 필터링·정렬",
+    "source_page": 877,
+    "source_pdf_page": 877,
+    "interaction_topics": "즉각 표시 / 일괄 표시 / 인라인 정렬 / 정렬 컨트롤 탐색 / 정렬 순서 변경 / 정렬 버튼이 초점을 가진 상태에서 실행했을 때 오름차순, 내림차순 정렬",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-071"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0926",
+    "section_id": "KRDS-SEC-078",
+    "source_section": "서비스 패턴 / 검색 / 검색어 입력",
+    "source_page": 926,
+    "source_pdf_page": 926,
+    "interaction_topics": "검색어 입력 필드 / 검색어 입력 필드가 키보드 초점을 가진 상태이고 아무런 값이 입력되지 / Focusin / 검색어 입력 필드가 키보드 초점을 가진 상태이고 Keyup 이벤트가 / 검색어 입력 필드가 키보드 초점을 가진 상태에서 Enter 키를 누르면 검색이 / 검색어 입력 필드가 키보드 초점을 가진 상태이면서 검색어 제안 목록이",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-075"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P0927",
+    "section_id": "KRDS-SEC-078",
+    "source_section": "서비스 패턴 / 검색 / 검색어 입력",
+    "source_page": 927,
+    "source_pdf_page": 927,
+    "interaction_topics": "실시간 검색어 입력 도움 / 검색어 제안 목록을 순회한다. 목록 가장 첫 번째 항목에서 방향키 ↑를 / 검색어 제안 목록에서 특정 항목을 Click 하면 선택된 항목으로 검색 동작이 / Click / 실시간 검색어 입력 도움창이 활성화된 상태에서 Esc 키를 누르면 창이 / Esc",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-075"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  },
+  {
+    "id": "KRDS-INT-P1025",
+    "section_id": "KRDS-SEC-088",
+    "source_section": "서비스 패턴 / 로그인 / 로그인 정보 입력",
+    "source_page": 1025,
+    "source_pdf_page": 1025,
+    "interaction_topics": "",
+    "source_kind": "번호 없는 상호작용 표·설명",
+    "coverage_requirement": "마우스·키보드·터치·보조기술의 원문 동작과 초점·열림/선택 상태를 각각 검사 사례로 분해",
+    "company_controls": [
+      "UI-084",
+      "UI-122"
+    ],
+    "status": "원문 재검토·시험사례 분해 필요",
+    "note": "페이지 색인이다. 독립 검사항목 개수나 적용 완료 수가 아니다."
+  }
+]

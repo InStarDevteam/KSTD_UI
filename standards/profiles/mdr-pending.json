@@ -1,0 +1,11 @@
+{
+  "id": "MDR-000",
+  "name": "UNCONFIRMED",
+  "status": "확인필요",
+  "full_name": null,
+  "publisher": null,
+  "version": null,
+  "applicable_languages": [],
+  "question_asked": true,
+  "claim": "MDR 적합성 또는 MISRA 준수 주장 없음"
+}

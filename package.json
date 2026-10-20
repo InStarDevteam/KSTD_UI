@@ -1,0 +1,22 @@
+{
+  "name": "flowcore-standards-sample",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/manage.mjs setup",
+    "dev": "node scripts/manage.mjs dev",
+    "verify": "node scripts/run-checks.mjs",
+    "test:standards": "node --test tests/standards/*.test.mjs",
+    "test:e2e": "node tests/e2e/browser.mjs",
+    "test:a11y": "node tests/e2e/browser.mjs --a11y",
+    "standards": "python3 scripts/build-standards.py",
+    "reports": "npm run standards && node scripts/generate-reports.mjs && node scripts/sync-public.mjs",
+    "evidence:check": "node scripts/evidence-check.mjs",
+    "publish:local": "node scripts/manage.mjs publish"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "axe-core": "4.14.0"
+  }
+}
