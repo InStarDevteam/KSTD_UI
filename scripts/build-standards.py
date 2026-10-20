@@ -125,6 +125,8 @@ def main():
         code_map.update(json.loads(path.read_text()))
     for base in original['rules']:
         rule = {k: v for k, v in base.items() if k not in status_fields}
+        rule['original_plan_note'] = base.get('notes', '')
+        rule['notes'] = '입력 v0.1 계획 주석은 original_plan_note에 보존. 최신 구현·시험·증빙은 연결 적용기록을 참조하며 전체 준수·인증을 주장하지 않음.'
         rid = rule['rule_id']
         if rid == 'MDR-000':
             rule.update(title='MDR 명칭 확인·세부 적용 확인필요', requirement='국방 메타데이터 관리시스템(Meta Data Registry) 명칭은 공식 용어정의와 사용자 제공 코드설계표준 목록으로 확인. 원본 코드표와 대상사업 적용범위 확보 후 속성명·물리명·도메인·유형·코드값을 대조해야 함.', source_id='SRC-043', source_version='목록 20260428 / 원본 CSV 미확보', applicability_reason='명칭은 확인했으나 OA-9422 원사이트400으로 원본코드표와 샘플 데이터 적용성이 미확정', planned_implementation='회사 업무요청 데이터사전과 국방 표준의 대응·길이·형식·코드값은 원문확보 후 별도 프로파일로 검토. 현재 임의 치환하지 않음')
@@ -189,7 +191,7 @@ def main():
         tests.append({'test_id': at['id'], 'rule_ids': at['related_ids'].split(','), 'type': '수동', 'title': at['scenario'],
                       'steps': at['steps'], 'expected': at['acceptance'], 'environment': at['environment'],
                       'status': '미실행', 'observed': '보조기술·당사자 환경에서 실제 수행하지 않음', 'evidence_ids': []})
-    meta = dict(original['meta'], version='0.2', status='실행 샘플 / 자동검사 일부실행 / 수동 검토 대기')
+    meta = dict(original['meta'], version='0.2', status='실행 샘플 / 자동검사 실제실행 / 수동 검토 대기', input_baseline_status=original['meta']['status'], limitations=['297개는 중복을 포함한 통합 관리행이며 단일 인증 분모가 아님', '725개는 KRDS 번호 추출후보이며 비번호·그림·예외 전수검토 미완료', 'MDR 명칭 확인 / 원본 국방코드표·사업 적용범위 확인필요', '실제 자동검사 범위는 evidence에 한정. AT·당사자 평가·검토자 판정 미실행', '외부 인증·전체 표준 준수 또는 운영 배포 완료 주장 없음'])
     write('standards/catalog.json', {'meta': meta, 'rules': rules})
     write('standards/application-records.json', records)
     write('standards/tests.json', tests)

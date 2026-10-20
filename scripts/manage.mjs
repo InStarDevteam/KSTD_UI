@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import net from 'node:net';
+import os from 'node:os';
 import { spawn, spawnSync } from 'node:child_process';
 import { randomBytes } from 'node:crypto';
 import path from 'node:path';
@@ -53,9 +54,20 @@ if (mode === 'setup') {
   }
 } else if (mode === 'publish') {
   run('npm', ['--prefix', 'apps/web', 'run', 'build']);
-  run(dotnet, ['publish', 'apps/api/Kstd.Api.csproj', '--configuration', 'Release', '--output', 'artifacts/api', '--no-restore']);
-  fs.mkdirSync('artifacts/api/wwwroot', { recursive: true });
-  fs.cpSync('apps/web/dist', 'artifacts/api/wwwroot', { recursive: true });
+  // SDK publish item transforms quote PublishDir with apostrophes. A temporary
+  // output avoids MSB3094 when this workspace path itself contains an apostrophe.
+  const staging = fs.mkdtempSync(path.join(os.tmpdir(), 'flowcore-publish-'));
+  try {
+    if (staging.includes("'")) throw new Error('임시 경로에 작은따옴표가 있습니다. TMPDIR/TEMP를 작은따옴표가 없는 경로로 지정하세요.');
+    const published = spawnSync(dotnet, ['publish', 'apps/api/Kstd.Api.csproj', '--configuration', 'Release', '--output', staging, '--no-restore'], { stdio: 'inherit', env: process.env });
+    if (published.status !== 0) throw new Error(`API Release publish 실패 (종료코드 ${published.status ?? 1})`);
+    fs.mkdirSync('artifacts/api', { recursive: true });
+    fs.cpSync(staging, 'artifacts/api', { recursive: true });
+    fs.mkdirSync('artifacts/api/wwwroot', { recursive: true });
+    fs.cpSync('apps/web/dist', 'artifacts/api/wwwroot', { recursive: true });
+  } finally {
+    fs.rmSync(staging, { recursive: true, force: true });
+  }
   console.log('동일출처 배포 파일 artifacts/api. 운영 HTTPS·DB경로·키저장소/권한/백신은 RUNBOOK 확인. 실제 공개 배포 미수행.');
 } else {
   throw new Error('지원 작업: setup, dev, publish');
