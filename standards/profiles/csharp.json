@@ -1,0 +1,1 @@
+{"language":"C#","framework":".NET10 LTS","nullable":"enable","public_members":"PascalCase","locals_parameters":"camelCase","io":"async + CancellationToken","database":"EF Core SQLite","table_prefix":"fc_","generated_code_exclusions":["Migrations","obj","bin"],"vulnerability_exclusions":[]}

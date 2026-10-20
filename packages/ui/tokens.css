@@ -1,0 +1,24 @@
+:root {
+  --font-sans:
+    "Pretendard GOV", "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic",
+    sans-serif;
+  --font-size: 17px;
+  --line-height: 1.6;
+  --ink: #162c24;
+  --muted: #52645c;
+  --green: #155e43;
+  --green-dark: #104b35;
+  --green-tint: #eaf3ed;
+  --paper: #f7f8f5;
+  --white: #fff;
+  --line: #d6dfd8;
+  --red: #a52935;
+  --red-tint: #fff1f1;
+  --amber: #76520c;
+  --amber-tint: #fff5d9;
+  --blue: #254b96;
+  --blue-tint: #edf2ff;
+  --radius: 14px;
+  --shadow: 0 6px 25px #18382a08;
+  --focus: #1b4ba5;
+}

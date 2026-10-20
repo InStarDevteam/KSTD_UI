@@ -1,0 +1,3272 @@
+[
+  {
+    "rule_id": "GOV-001",
+    "test_ids": [
+      "MAN-GOV-001"
+    ],
+    "code_refs": [
+      "scripts/build-standards.py#main",
+      "standards/source-register.json#SRC-001",
+      "standards/source-manifest.json",
+      "standards/catalog.json#source_version"
+    ]
+  },
+  {
+    "rule_id": "GOV-002",
+    "test_ids": [
+      "MAN-GOV-002"
+    ],
+    "code_refs": [
+      "scripts/build-standards.py#main",
+      "standards/catalog.json#reference_kind",
+      "standards/profiles/common.json#mandatory_levels_separate_from_source"
+    ]
+  },
+  {
+    "rule_id": "GOV-003",
+    "test_ids": [
+      "MAN-GOV-003"
+    ],
+    "code_refs": [
+      "standards/deviations.json",
+      "scripts/evidence-check.mjs#validateEvidence",
+      "tests/standards/ledger.test.mjs"
+    ]
+  },
+  {
+    "rule_id": "GOV-004",
+    "test_ids": [
+      "AUTO-LEDGER",
+      "MAN-GOV-004"
+    ],
+    "code_refs": [
+      "scripts/build-standards.py#code_for",
+      "scripts/build-standards.py#main",
+      "scripts/evidence-check.mjs#validateEvidence",
+      "standards/code-map-backend.json"
+    ]
+  },
+  {
+    "rule_id": "GOV-005",
+    "test_ids": [
+      "MAN-GOV-005"
+    ],
+    "code_refs": [
+      "scripts/evidence-lib.mjs#sourceSnapshot",
+      "scripts/evidence-lib.mjs#recordArtifact",
+      "docs/COMPANY_CODING_STANDARD.md"
+    ]
+  },
+  {
+    "rule_id": "GOV-006",
+    "test_ids": [
+      "MAN-GOV-006"
+    ],
+    "code_refs": [
+      "global.json#sdk",
+      "dotnet-tools.json#dotnet-ef",
+      "apps/api/packages.lock.json",
+      "scripts/backend-verify.mjs#tasks",
+      "scripts/manage.mjs#setup"
+    ]
+  },
+  {
+    "rule_id": "GOV-007",
+    "test_ids": [
+      "AUTO-LEDGER",
+      "MAN-GOV-007"
+    ],
+    "code_refs": [
+      "scripts/evidence-lib.mjs#recordArtifact",
+      "scripts/evidence-lib.mjs#runCommand",
+      "scripts/evidence-check.mjs#validateEvidence",
+      "scripts/build-standards.py#main"
+    ]
+  },
+  {
+    "rule_id": "GOV-008",
+    "test_ids": [
+      "AUTO-AUDIT",
+      "MAN-GOV-008"
+    ],
+    "code_refs": [
+      "scripts/supply-chain.mjs",
+      "scripts/backend-verify.mjs#tasks",
+      "docs/SECURITY_STANDARD.md"
+    ]
+  },
+  {
+    "rule_id": "COD-001",
+    "test_ids": [
+      "AUTO-FRONTEND",
+      "MAN-COD-001"
+    ],
+    "code_refs": [
+      "apps/web/tsconfig.json#compilerOptions",
+      "apps/web/eslint.config.js",
+      "apps/web/src/api.ts#parseSession",
+      "apps/web/src/api.ts#parseRequest"
+    ]
+  },
+  {
+    "rule_id": "COD-002",
+    "test_ids": [
+      "AUTO-FRONTEND",
+      "MAN-COD-002"
+    ],
+    "code_refs": [
+      "docs/COMPANY_CODING_STANDARD.md",
+      "standards/profiles/csharp.json#public_members",
+      "apps/api/RequestsController.cs#RequestsController",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "COD-003",
+    "test_ids": [
+      "AUTO-FRONTEND",
+      "MAN-COD-003"
+    ],
+    "code_refs": [
+      ".editorconfig",
+      "scripts/backend-verify.mjs#tasks",
+      "apps/web/package.json#scripts",
+      ".github/workflows/verify.yml#verify"
+    ]
+  },
+  {
+    "rule_id": "COD-004",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-COD-004"
+    ],
+    "code_refs": [
+      "apps/api/Models.cs#RequestDto",
+      "apps/api/Models.cs#UpdateRequestDto",
+      "apps/api/Infrastructure.cs#ApiErrors.Problem",
+      "apps/web/src/api.ts#parseRequest",
+      "docs/API_CONTRACT.md"
+    ]
+  },
+  {
+    "rule_id": "COD-005",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-COD-005"
+    ],
+    "code_refs": [
+      "apps/api/Program.cs#DbUpdateConcurrencyException",
+      "apps/api/Infrastructure.cs#ApiErrors.Problem",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Delete",
+      "apps/web/src/api.ts#ApiError"
+    ]
+  },
+  {
+    "rule_id": "COD-006",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-COD-006"
+    ],
+    "code_refs": [
+      "apps/web/src/api.ts#api",
+      "apps/web/src/api.ts#uploadFiles",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload",
+      "apps/api/RequestsController.cs#RequestsController.List"
+    ]
+  },
+  {
+    "rule_id": "COD-007",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-COD-007"
+    ],
+    "code_refs": [
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload",
+      "apps/api/RequestsController.cs#RequestsController.PersistCreated",
+      "apps/api/Program.cs#CreateAsyncScope",
+      "apps/web/src/App.tsx#useRemote",
+      "apps/web/src/api.ts#api"
+    ]
+  },
+  {
+    "rule_id": "COD-008",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-COD-008"
+    ],
+    "code_refs": [
+      "apps/api/BusinessRules.cs#BusinessRules.Validate",
+      "apps/api/BusinessRules.cs#BusinessRules.CanTransition",
+      "apps/api/RequestsController.cs#RequestsController.List",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload"
+    ]
+  },
+  {
+    "rule_id": "COD-009",
+    "test_ids": [
+      "AUTO-FRONTEND",
+      "MAN-COD-009"
+    ],
+    "code_refs": [
+      "apps/web/eslint.config.js",
+      "apps/web/src/api.ts#api",
+      "apps/web/src/api.ts#uploadFiles",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "COD-010",
+    "test_ids": [
+      "MAN-COD-010"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/api/RequestsController.cs#RequestsController",
+      "apps/api/BusinessRules.cs#BusinessRules",
+      "apps/api/Models.cs#AppDb"
+    ]
+  },
+  {
+    "rule_id": "COD-011",
+    "test_ids": [
+      "AUTO-FRONTEND",
+      "MAN-COD-011"
+    ],
+    "code_refs": [
+      "docs/COMPANY_CODING_STANDARD.md",
+      "standards/profiles/common.json#complexity_warning",
+      "apps/web/eslint.config.js",
+      "tests/backend/coverage.runsettings#ExcludeByFile"
+    ]
+  },
+  {
+    "rule_id": "COD-012",
+    "test_ids": [
+      "AUTO-FRONTEND",
+      "MAN-COD-012"
+    ],
+    "code_refs": [
+      "apps/api/Kstd.Api.csproj#TreatWarningsAsErrors",
+      "apps/web/tsconfig.json#noUnusedLocals",
+      "apps/web/eslint.config.js",
+      "tests/backend/coverage.runsettings#ExcludeByFile"
+    ]
+  },
+  {
+    "rule_id": "COD-013",
+    "test_ids": [
+      "MAN-COD-013"
+    ],
+    "code_refs": [
+      "apps/api/SeedData.cs#SeedData.RequirePassword",
+      "apps/api/SeedData.cs#SeedData.Initialize",
+      "scripts/manage.mjs#setup",
+      ".env.example",
+      ".gitignore"
+    ]
+  },
+  {
+    "rule_id": "COD-014",
+    "test_ids": [
+      "MAN-COD-014"
+    ],
+    "code_refs": [
+      "docs/API_CONTRACT.md",
+      "apps/api/Models.cs#RequestDto",
+      "apps/web/src/api.ts#entityId",
+      "apps/web/src/export.ts#safeSpreadsheetCell"
+    ]
+  },
+  {
+    "rule_id": "COD-015",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-COD-015"
+    ],
+    "code_refs": [
+      "apps/api/RequestsController.cs#RequestsController.PersistCreated",
+      "apps/api/RequestsController.cs#RequestsController.Create",
+      "apps/api/Models.cs#AppDb.OnModelCreating",
+      "apps/api/AttachmentsController.cs#AttachmentsController.SaveFiles",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "COD-016",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-COD-016"
+    ],
+    "code_refs": [
+      "apps/api/Models.cs#WorkRequest.CreatedAt",
+      "apps/api/RequestsController.cs#RequestsController.View",
+      "apps/api/Infrastructure.cs#SampleSessionOptions.Minutes",
+      "apps/web/src/ui.tsx#formatDate"
+    ]
+  },
+  {
+    "rule_id": "COD-017",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-COD-017"
+    ],
+    "code_refs": [
+      "apps/api/Kstd.Api.csproj#Nullable",
+      "apps/api/Kstd.Api.csproj#AnalysisLevel",
+      "scripts/backend-verify.mjs#tasks",
+      "standards/profiles/csharp.json"
+    ]
+  },
+  {
+    "rule_id": "COD-018",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-COD-018"
+    ],
+    "code_refs": [
+      "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs#BusinessRulesTests",
+      "tests/backend/integration.py#test",
+      "tests/backend/test-catalog.json",
+      "scripts/backend-verify.mjs#tasks"
+    ]
+  },
+  {
+    "rule_id": "SEC-001",
+    "test_ids": [
+      "MAN-SEC-001"
+    ],
+    "code_refs": [
+      "docs/ARCHITECTURE.md",
+      "docs/SECURITY_STANDARD.md",
+      "apps/api/RequestsController.cs#RequestsController.VisibleRequests",
+      "apps/api/Program.cs#AddAntiforgery"
+    ]
+  },
+  {
+    "rule_id": "SEC-002",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-SEC-002"
+    ],
+    "code_refs": [
+      "apps/api/RequestsController.cs#RequestsController.List",
+      "apps/api/Models.cs#AppDb",
+      "scripts/manage.mjs#run",
+      "scripts/backend.py#run"
+    ]
+  },
+  {
+    "rule_id": "SEC-003",
+    "test_ids": [
+      "MAN-SEC-003"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "scripts/generate-reports.mjs#esc"
+    ]
+  },
+  {
+    "rule_id": "SEC-004",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "SCREEN-LOGIN",
+      "MAN-SEC-004"
+    ],
+    "code_refs": [
+      "apps/api/Program.cs#AddAuthentication",
+      "apps/api/AuthController.cs#AuthController.Login",
+      "apps/api/AuthController.cs#AuthController.RejectLogin",
+      "apps/api/SeedData.cs#SeedData.NewUser"
+    ]
+  },
+  {
+    "rule_id": "SEC-005",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "SCREEN-DETAIL",
+      "MAN-SEC-005"
+    ],
+    "code_refs": [
+      "apps/api/RequestsController.cs#RequestsController.VisibleRequests",
+      "apps/api/RequestsController.cs#RequestsController.ChangeStatus",
+      "apps/api/RequestsController.cs#RequestsController.Update",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Download",
+      "apps/api/AttachmentsController.cs#AttachmentsController.CanEdit"
+    ]
+  },
+  {
+    "rule_id": "SEC-006",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-SEC-006"
+    ],
+    "code_refs": [
+      "apps/api/Program.cs#AddAntiforgery",
+      "apps/api/Program.cs#ValidateRequestAsync",
+      "apps/api/AuthController.cs#AuthController.Csrf",
+      "apps/web/src/api.ts#refreshCsrf"
+    ]
+  },
+  {
+    "rule_id": "SEC-007",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-SEC-007"
+    ],
+    "code_refs": [
+      "apps/api/Program.cs#AddCookie",
+      "apps/api/SessionCookieValidation.cs#SessionCookieValidation.ValidatePrincipal",
+      "apps/api/AuthController.cs#AuthController.IssueSession",
+      "apps/api/AuthController.cs#AuthController.Logout",
+      "apps/api/AuthController.cs#AuthController.Extend",
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "SEC-008",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "AUTO-SECRET",
+      "MAN-SEC-008"
+    ],
+    "code_refs": [
+      "apps/api/SeedData.cs#SeedData.RequirePassword",
+      "apps/api/Program.cs#AddDataProtection",
+      "scripts/manage.mjs#setup",
+      ".gitignore",
+      "scripts/security-scan.mjs"
+    ]
+  },
+  {
+    "rule_id": "SEC-009",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-SEC-009"
+    ],
+    "code_refs": [
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload",
+      "apps/api/AttachmentsController.cs#AttachmentsController.SaveFiles",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Download",
+      "apps/api/BusinessRules.cs#BusinessRules.DetectContent",
+      "apps/api/BusinessRules.cs#BusinessRules.SafeFileName"
+    ]
+  },
+  {
+    "rule_id": "SEC-010",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-SEC-010"
+    ],
+    "code_refs": [
+      "apps/api/Program.cs#ConfigureKestrel",
+      "apps/api/Program.cs#AddRateLimiter",
+      "apps/api/RequestsController.cs#RequestsController.List",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload",
+      "apps/api/AuthController.cs#AuthController.RejectLogin"
+    ]
+  },
+  {
+    "rule_id": "SEC-011",
+    "test_ids": [
+      "MAN-SEC-011"
+    ],
+    "code_refs": [
+      "apps/api/Program.cs#UseHsts",
+      "apps/api/Program.cs#UseHttpsRedirection",
+      "apps/api/Program.cs#Content-Security-Policy",
+      "apps/api/Program.cs#AddCookie",
+      "docs/SECURITY_STANDARD.md"
+    ]
+  },
+  {
+    "rule_id": "SEC-012",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-SEC-012"
+    ],
+    "code_refs": [
+      "apps/api/Infrastructure.cs#ApiErrors.Problem",
+      "apps/api/Infrastructure.cs#ApiErrors.Write",
+      "apps/api/Program.cs#LogError",
+      "apps/api/RequestsController.cs#RequestsController.ValidationFailure"
+    ]
+  },
+  {
+    "rule_id": "SEC-013",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-SEC-013"
+    ],
+    "code_refs": [
+      "apps/api/Models.cs#AuditEvent",
+      "apps/api/Infrastructure.cs#ApiErrors.Audit",
+      "apps/api/RequestsController.cs#RequestsController.AddHistory",
+      "apps/api/AuthController.cs#AuthController.RejectLogin",
+      "tests/backend/integration.py#audit"
+    ]
+  },
+  {
+    "rule_id": "SEC-014",
+    "test_ids": [
+      "AUTO-AUDIT",
+      "AUTO-SECRET",
+      "MAN-SEC-014"
+    ],
+    "code_refs": [
+      "scripts/supply-chain.mjs",
+      "scripts/backend-verify.mjs#tasks",
+      "scripts/backend-sbom.py",
+      "apps/api/packages.lock.json",
+      "evidence/backend/nuget-sbom.json"
+    ]
+  },
+  {
+    "rule_id": "SEC-015",
+    "test_ids": [
+      "AUTO-EXPORT",
+      "E2E-HELP",
+      "MAN-SEC-015"
+    ],
+    "code_refs": [
+      "apps/web/src/export.ts#safeSpreadsheetCell",
+      "apps/web/src/export.ts#csvCell",
+      "apps/web/src/export.ts#makeCsv",
+      "scripts/generate-reports.mjs#safe",
+      "apps/web/src/export.test.ts"
+    ]
+  },
+  {
+    "rule_id": "SEC-016",
+    "test_ids": [
+      "MAN-SEC-016"
+    ],
+    "code_refs": [
+      "apps/api/Models.cs#RequestDto",
+      "docs/SECURITY_STANDARD.md",
+      "docs/API_CONTRACT.md"
+    ]
+  },
+  {
+    "rule_id": "SEC-017",
+    "test_ids": [
+      "MAN-SEC-017"
+    ],
+    "code_refs": [
+      "apps/api/SeedData.cs#SeedData.Initialize",
+      "tests/backend/integration.py#start",
+      "scripts/backend.py#backup",
+      "apps/api/Program.cs#StorageOptions",
+      "apps/api/Infrastructure.cs#StorageOptions.PrepareDirectories",
+      "apps/api/Infrastructure.cs#StorageOptions.RestrictPersistedFiles"
+    ]
+  },
+  {
+    "rule_id": "SEC-018",
+    "test_ids": [
+      "MAN-SEC-018"
+    ],
+    "code_refs": [
+      "apps/api/Models.cs#RequestDto",
+      "apps/api/BusinessRules.cs#BusinessRules.Validate",
+      "apps/api/Program.cs#FormOptions",
+      "apps/web/src/api.ts#object",
+      "apps/web/src/api.ts#parseRequest"
+    ]
+  },
+  {
+    "rule_id": "MDR-000",
+    "test_ids": [
+      "MAN-MDR-000"
+    ],
+    "code_refs": [
+      "standards/profiles/mdr-pending.json",
+      "docs/SOURCE_GAPS.md"
+    ]
+  },
+  {
+    "rule_id": "UI-001",
+    "test_ids": [
+      "MAN-UI-001"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "UI-002",
+    "test_ids": [
+      "MAN-UI-002"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-003",
+    "test_ids": [
+      "SCREEN-DASHBOARD",
+      "SCREEN-GALLERY",
+      "MAN-UI-003"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#Modal",
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-004",
+    "test_ids": [
+      "MAN-UI-004"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Help"
+    ]
+  },
+  {
+    "rule_id": "UI-005",
+    "test_ids": [
+      "MAN-UI-005"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Help"
+    ]
+  },
+  {
+    "rule_id": "UI-006",
+    "test_ids": [
+      "MAN-UI-006"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-007",
+    "test_ids": [
+      "MAN-UI-007"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/ui.tsx#Success",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/ui.tsx#Loading"
+    ]
+  },
+  {
+    "rule_id": "UI-008",
+    "test_ids": [
+      "MAN-UI-008"
+    ],
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css",
+      "apps/web/src/ui.tsx#Badge"
+    ]
+  },
+  {
+    "rule_id": "UI-009",
+    "test_ids": [
+      "MAN-UI-009"
+    ],
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ]
+  },
+  {
+    "rule_id": "UI-010",
+    "test_ids": [
+      "SCREEN-GALLERY",
+      "MAN-UI-010"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#Modal",
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-011",
+    "test_ids": [
+      "MAN-UI-011"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-012",
+    "test_ids": [
+      "MAN-UI-012"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-013",
+    "test_ids": [
+      "MAN-UI-013"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "UI-014",
+    "test_ids": [
+      "MAN-UI-014"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-015",
+    "test_ids": [
+      "MAN-UI-015"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#Modal",
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-016",
+    "test_ids": [
+      "MAN-UI-016"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-017",
+    "test_ids": [
+      "MAN-UI-017"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-018",
+    "test_ids": [
+      "MAN-UI-018"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-019",
+    "test_ids": [
+      "MAN-UI-019"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Privacy",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-020",
+    "test_ids": [
+      "MAN-UI-020"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-021",
+    "test_ids": [
+      "MAN-UI-021"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-022",
+    "test_ids": [
+      "MAN-UI-022"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-023",
+    "test_ids": [
+      "MAN-UI-023"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-024",
+    "test_ids": [
+      "MAN-UI-024"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-025",
+    "test_ids": [
+      "MAN-UI-025"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-026",
+    "test_ids": [
+      "MAN-UI-026"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-027",
+    "test_ids": [
+      "MAN-UI-027"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#ReferenceList"
+    ]
+  },
+  {
+    "rule_id": "UI-028",
+    "test_ids": [
+      "MAN-UI-028"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ]
+  },
+  {
+    "rule_id": "UI-029",
+    "test_ids": [
+      "MAN-UI-029"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-030",
+    "test_ids": [
+      "MAN-UI-030"
+    ],
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-031",
+    "test_ids": [
+      "MAN-UI-031"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "UI-032",
+    "test_ids": [
+      "MAN-UI-032"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-033",
+    "test_ids": [
+      "MAN-UI-033"
+    ],
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-034",
+    "test_ids": [
+      "MAN-UI-034"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-035",
+    "test_ids": [
+      "MAN-UI-035"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-036",
+    "test_ids": [
+      "MAN-UI-036"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#TabsExample",
+      "apps/web/src/App.tsx#Help"
+    ]
+  },
+  {
+    "rule_id": "UI-037",
+    "test_ids": [
+      "MAN-UI-037"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestList"
+    ]
+  },
+  {
+    "rule_id": "UI-038",
+    "test_ids": [
+      "MAN-UI-038"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-039",
+    "test_ids": [
+      "MAN-UI-039"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#ReferenceList"
+    ]
+  },
+  {
+    "rule_id": "UI-040",
+    "test_ids": [
+      "MAN-UI-040"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "UI-041",
+    "test_ids": [
+      "MAN-UI-041"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-042",
+    "test_ids": [
+      "MAN-UI-042"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Preferences"
+    ]
+  },
+  {
+    "rule_id": "UI-043",
+    "test_ids": [
+      "MAN-UI-043"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#CheckboxGroupExample"
+    ]
+  },
+  {
+    "rule_id": "UI-044",
+    "test_ids": [
+      "MAN-UI-044"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "UI-045",
+    "test_ids": [
+      "MAN-UI-045"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList"
+    ]
+  },
+  {
+    "rule_id": "UI-046",
+    "test_ids": [
+      "MAN-UI-046"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#SwitchExample",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-047",
+    "test_ids": [
+      "MAN-UI-047"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-048",
+    "test_ids": [
+      "MAN-UI-048"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Loading",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-049",
+    "test_ids": [
+      "MAN-UI-049"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-050",
+    "test_ids": [
+      "MAN-UI-050"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Help"
+    ]
+  },
+  {
+    "rule_id": "UI-051",
+    "test_ids": [
+      "MAN-UI-051"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-052",
+    "test_ids": [
+      "MAN-UI-052"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-053",
+    "test_ids": [
+      "MAN-UI-053"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-054",
+    "test_ids": [
+      "MAN-UI-054"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-055",
+    "test_ids": [
+      "MAN-UI-055"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "UI-056",
+    "test_ids": [
+      "MAN-UI-056"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "UI-057",
+    "test_ids": [
+      "MAN-UI-057"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ]
+  },
+  {
+    "rule_id": "UI-058",
+    "test_ids": [
+      "MAN-UI-058"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-059",
+    "test_ids": [
+      "MAN-UI-059"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-060",
+    "test_ids": [
+      "MAN-UI-060"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-061",
+    "test_ids": [
+      "MAN-UI-061"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#Dashboard"
+    ]
+  },
+  {
+    "rule_id": "UI-062",
+    "test_ids": [
+      "MAN-UI-062"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ]
+  },
+  {
+    "rule_id": "UI-063",
+    "test_ids": [
+      "MAN-UI-063"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-064",
+    "test_ids": [
+      "MAN-UI-064"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-065",
+    "test_ids": [
+      "MAN-UI-065"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-066",
+    "test_ids": [
+      "MAN-UI-066"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/ui.tsx#Success",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/ui.tsx#Loading"
+    ]
+  },
+  {
+    "rule_id": "UI-067",
+    "test_ids": [
+      "SCREEN-DETAIL",
+      "MAN-UI-067"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/navigation.ts#safeRequestReturnPath"
+    ]
+  },
+  {
+    "rule_id": "UI-068",
+    "test_ids": [
+      "SCREEN-SERVER-ERROR",
+      "SCREEN-SERVER-VALIDATION",
+      "MAN-UI-068"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ]
+  },
+  {
+    "rule_id": "UI-069",
+    "test_ids": [
+      "MAN-UI-069"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-070",
+    "test_ids": [
+      "MAN-UI-070"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ]
+  },
+  {
+    "rule_id": "UI-071",
+    "test_ids": [
+      "MAN-UI-071"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-072",
+    "test_ids": [
+      "MAN-UI-072"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "UI-073",
+    "test_ids": [
+      "MAN-UI-073"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-074",
+    "test_ids": [
+      "MAN-UI-074"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-075",
+    "test_ids": [
+      "MAN-UI-075"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-076",
+    "test_ids": [
+      "SCREEN-LIST",
+      "MAN-UI-076"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-077",
+    "test_ids": [
+      "MAN-UI-077"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-078",
+    "test_ids": [
+      "SCREEN-LIST",
+      "SCREEN-EMPTY-RESULTS",
+      "MAN-UI-078"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-079",
+    "test_ids": [
+      "MAN-UI-079"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-080",
+    "test_ids": [
+      "MAN-UI-080"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-081",
+    "test_ids": [
+      "SCREEN-LOGIN",
+      "MAN-UI-081"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-082",
+    "test_ids": [
+      "SCREEN-LOGIN",
+      "MAN-UI-082"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-083",
+    "test_ids": [
+      "MAN-UI-083"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ]
+  },
+  {
+    "rule_id": "UI-084",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "SCREEN-LOGIN",
+      "MAN-UI-084"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ]
+  },
+  {
+    "rule_id": "UI-085",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "MAN-UI-085"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Dashboard"
+    ]
+  },
+  {
+    "rule_id": "UI-086",
+    "test_ids": [
+      "MAN-UI-086"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "UI-087",
+    "test_ids": [
+      "MAN-UI-087"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/api.ts#api"
+    ]
+  },
+  {
+    "rule_id": "UI-088",
+    "test_ids": [
+      "MAN-UI-088"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-089",
+    "test_ids": [
+      "MAN-UI-089"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-090",
+    "test_ids": [
+      "MAN-UI-090"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-091",
+    "test_ids": [
+      "MAN-UI-091"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-092",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "MAN-UI-092"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-093",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "MAN-UI-093"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-094",
+    "test_ids": [
+      "MAN-UI-094"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "UI-095",
+    "test_ids": [
+      "MAN-UI-095"
+    ],
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Privacy"
+    ]
+  },
+  {
+    "rule_id": "UI-096",
+    "test_ids": [
+      "MAN-UI-096"
+    ],
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Privacy"
+    ]
+  },
+  {
+    "rule_id": "UI-097",
+    "test_ids": [
+      "MAN-UI-097"
+    ],
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Privacy"
+    ]
+  },
+  {
+    "rule_id": "UI-098",
+    "test_ids": [
+      "E2E-ERROR",
+      "MAN-UI-098"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "packages/ui/tokens.css"
+    ]
+  },
+  {
+    "rule_id": "UI-099",
+    "test_ids": [
+      "MAN-UI-099"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-100",
+    "test_ids": [
+      "MAN-UI-100"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-101",
+    "test_ids": [
+      "MAN-UI-101"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "UI-102",
+    "test_ids": [
+      "MAN-UI-102"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-103",
+    "test_ids": [
+      "MAN-UI-103"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-104",
+    "test_ids": [
+      "MAN-UI-104"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "UI-105",
+    "test_ids": [
+      "MAN-UI-105"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "UI-106",
+    "test_ids": [
+      "MAN-UI-106"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestList"
+    ]
+  },
+  {
+    "rule_id": "UI-107",
+    "test_ids": [
+      "MAN-UI-107"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#CheckboxGroupExample"
+    ]
+  },
+  {
+    "rule_id": "UI-108",
+    "test_ids": [
+      "MAN-UI-108"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "UI-109",
+    "test_ids": [
+      "MAN-UI-109"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#SwitchExample",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-110",
+    "test_ids": [
+      "MAN-UI-110"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-111",
+    "test_ids": [
+      "MAN-UI-111"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ]
+  },
+  {
+    "rule_id": "UI-112",
+    "test_ids": [
+      "MAN-UI-112"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ]
+  },
+  {
+    "rule_id": "UI-113",
+    "test_ids": [
+      "MAN-UI-113"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ]
+  },
+  {
+    "rule_id": "UI-114",
+    "test_ids": [
+      "MAN-UI-114"
+    ],
+    "code_refs": [
+      "apps/web/src/api.ts#uploadFiles",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "UI-115",
+    "test_ids": [
+      "MAN-UI-115"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#Dashboard"
+    ]
+  },
+  {
+    "rule_id": "UI-116",
+    "test_ids": [
+      "MAN-UI-116"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-117",
+    "test_ids": [
+      "MAN-UI-117"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "UI-118",
+    "test_ids": [
+      "MAN-UI-118"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ]
+  },
+  {
+    "rule_id": "UI-119",
+    "test_ids": [
+      "MAN-UI-119"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "UI-120",
+    "test_ids": [
+      "MAN-UI-120"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "UI-121",
+    "test_ids": [
+      "MAN-UI-121"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ]
+  },
+  {
+    "rule_id": "UI-122",
+    "test_ids": [
+      "MAN-UI-122"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/api.ts#api",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ]
+  },
+  {
+    "rule_id": "UI-123",
+    "test_ids": [
+      "MAN-UI-123"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "UI-124",
+    "test_ids": [
+      "MAN-UI-124"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "UI-125",
+    "test_ids": [
+      "MAN-UI-125"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Privacy",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-126",
+    "test_ids": [
+      "MAN-UI-126"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "UI-127",
+    "test_ids": [
+      "AUTO-EXPORT",
+      "E2E-HELP",
+      "MAN-UI-127"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Privacy",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "UI-128",
+    "test_ids": [
+      "MAN-UI-128"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ]
+  },
+  {
+    "rule_id": "KWA-001",
+    "test_ids": [
+      "MAN-KWA-001"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/ui.tsx#Badge"
+    ]
+  },
+  {
+    "rule_id": "KWA-002",
+    "test_ids": [
+      "MAN-KWA-002"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "KWA-003",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-KWA-003"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "KWA-004",
+    "test_ids": [
+      "MAN-KWA-004"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "KWA-005",
+    "test_ids": [
+      "MAN-KWA-005"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/ui.tsx#Badge"
+    ]
+  },
+  {
+    "rule_id": "KWA-006",
+    "test_ids": [
+      "MAN-KWA-006"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "KWA-007",
+    "test_ids": [
+      "MAN-KWA-007"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "KWA-008",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-KWA-008"
+    ],
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "KWA-009",
+    "test_ids": [
+      "MAN-KWA-009"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "KWA-010",
+    "test_ids": [
+      "E2E-KEYBOARD",
+      "MAN-KWA-010"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "KWA-011",
+    "test_ids": [
+      "E2E-KEYBOARD",
+      "SCREEN-MODAL",
+      "MAN-KWA-011"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "KWA-012",
+    "test_ids": [
+      "MAN-KWA-012"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "KWA-013",
+    "test_ids": [
+      "MAN-KWA-013"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "KWA-014",
+    "test_ids": [
+      "MAN-KWA-014"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "KWA-015",
+    "test_ids": [
+      "MAN-KWA-015"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Loading",
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "KWA-016",
+    "test_ids": [
+      "MAN-KWA-016"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "KWA-017",
+    "test_ids": [
+      "E2E-KEYBOARD",
+      "MAN-KWA-017"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "KWA-018",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-KWA-018"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#routeInfo",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "KWA-019",
+    "test_ids": [
+      "MAN-KWA-019"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "KWA-020",
+    "test_ids": [
+      "MAN-KWA-020"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "KWA-021",
+    "test_ids": [
+      "MAN-KWA-021"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "KWA-022",
+    "test_ids": [
+      "MAN-KWA-022"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "KWA-023",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-KWA-023"
+    ],
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Gallery"
+    ]
+  },
+  {
+    "rule_id": "KWA-024",
+    "test_ids": [
+      "MAN-KWA-024"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "KWA-025",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-KWA-025"
+    ],
+    "code_refs": [
+      "apps/web/index.html"
+    ]
+  },
+  {
+    "rule_id": "KWA-026",
+    "test_ids": [
+      "MAN-KWA-026"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "KWA-027",
+    "test_ids": [
+      "MAN-KWA-027"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Help"
+    ]
+  },
+  {
+    "rule_id": "KWA-028",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "E2E-ERROR",
+      "SCREEN-FORM-ERROR",
+      "SCREEN-SERVER-VALIDATION",
+      "MAN-KWA-028"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ]
+  },
+  {
+    "rule_id": "KWA-029",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "E2E-AXE",
+      "SCREEN-FORM",
+      "MAN-KWA-029"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "KWA-030",
+    "test_ids": [
+      "SCREEN-LOGIN",
+      "MAN-KWA-030"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ]
+  },
+  {
+    "rule_id": "KWA-031",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "SCREEN-COMPLETE",
+      "MAN-KWA-031"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "KWA-032",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-KWA-032"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "KWA-033",
+    "test_ids": [
+      "SCREEN-GALLERY",
+      "MAN-KWA-033"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "WCA-001",
+    "test_ids": [
+      "MAN-WCA-001"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/ui.tsx#Badge"
+    ]
+  },
+  {
+    "rule_id": "WCA-002",
+    "test_ids": [
+      "MAN-WCA-002"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "WCA-003",
+    "test_ids": [
+      "MAN-WCA-003"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "WCA-004",
+    "test_ids": [
+      "MAN-WCA-004"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "WCA-005",
+    "test_ids": [
+      "MAN-WCA-005"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "WCA-006",
+    "test_ids": [
+      "MAN-WCA-006"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "WCA-007",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-WCA-007"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "WCA-008",
+    "test_ids": [
+      "MAN-WCA-008"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-009",
+    "test_ids": [
+      "MAN-WCA-009"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/ui.tsx#Badge"
+    ]
+  },
+  {
+    "rule_id": "WCA-010",
+    "test_ids": [
+      "E2E-REFLOW",
+      "MAN-WCA-010"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-011",
+    "test_ids": [
+      "MAN-WCA-011"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ]
+  },
+  {
+    "rule_id": "WCA-012",
+    "test_ids": [
+      "MAN-WCA-012"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "WCA-013",
+    "test_ids": [
+      "MAN-WCA-013"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "WCA-014",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-WCA-014"
+    ],
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-015",
+    "test_ids": [
+      "E2E-REFLOW",
+      "MAN-WCA-015"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ]
+  },
+  {
+    "rule_id": "WCA-016",
+    "test_ids": [
+      "MAN-WCA-016"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#Login"
+    ]
+  },
+  {
+    "rule_id": "WCA-017",
+    "test_ids": [
+      "E2E-REFLOW",
+      "SCREEN-MOBILE",
+      "MAN-WCA-017"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ]
+  },
+  {
+    "rule_id": "WCA-018",
+    "test_ids": [
+      "MAN-WCA-018"
+    ],
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-019",
+    "test_ids": [
+      "E2E-REFLOW",
+      "SCREEN-TEXT-SPACING",
+      "MAN-WCA-019"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ]
+  },
+  {
+    "rule_id": "WCA-020",
+    "test_ids": [
+      "MAN-WCA-020"
+    ],
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Help"
+    ]
+  },
+  {
+    "rule_id": "WCA-021",
+    "test_ids": [
+      "E2E-KEYBOARD",
+      "MAN-WCA-021"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "WCA-022",
+    "test_ids": [
+      "E2E-KEYBOARD",
+      "SCREEN-MODAL",
+      "MAN-WCA-022"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/App.tsx#App"
+    ]
+  },
+  {
+    "rule_id": "WCA-023",
+    "test_ids": [
+      "MAN-WCA-023"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "WCA-024",
+    "test_ids": [
+      "MAN-WCA-024"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "WCA-025",
+    "test_ids": [
+      "MAN-WCA-025"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Loading",
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-026",
+    "test_ids": [
+      "MAN-WCA-026"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-027",
+    "test_ids": [
+      "E2E-KEYBOARD",
+      "MAN-WCA-027"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-028",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-WCA-028"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#routeInfo",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "WCA-029",
+    "test_ids": [
+      "E2E-KEYBOARD",
+      "SCREEN-MODAL",
+      "MAN-WCA-029"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-030",
+    "test_ids": [
+      "MAN-WCA-030"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "WCA-031",
+    "test_ids": [
+      "MAN-WCA-031"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#RequestList"
+    ]
+  },
+  {
+    "rule_id": "WCA-032",
+    "test_ids": [
+      "MAN-WCA-032"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#routeInfo",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "WCA-033",
+    "test_ids": [
+      "E2E-KEYBOARD",
+      "MAN-WCA-033"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-034",
+    "test_ids": [
+      "MAN-WCA-034"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-035",
+    "test_ids": [
+      "MAN-WCA-035"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "WCA-036",
+    "test_ids": [
+      "MAN-WCA-036"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "WCA-037",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-WCA-037"
+    ],
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Gallery"
+    ]
+  },
+  {
+    "rule_id": "WCA-038",
+    "test_ids": [
+      "MAN-WCA-038"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "WCA-039",
+    "test_ids": [
+      "MAN-WCA-039"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "WCA-040",
+    "test_ids": [
+      "MAN-WCA-040"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-041",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-WCA-041"
+    ],
+    "code_refs": [
+      "apps/web/index.html"
+    ]
+  },
+  {
+    "rule_id": "WCA-042",
+    "test_ids": [
+      "MAN-WCA-042"
+    ],
+    "code_refs": [
+      "apps/web/index.html",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Gallery",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "WCA-043",
+    "test_ids": [
+      "MAN-WCA-043"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "WCA-044",
+    "test_ids": [
+      "MAN-WCA-044"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "WCA-045",
+    "test_ids": [
+      "MAN-WCA-045"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-046",
+    "test_ids": [
+      "MAN-WCA-046"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "WCA-047",
+    "test_ids": [
+      "MAN-WCA-047"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Help"
+    ]
+  },
+  {
+    "rule_id": "WCA-048",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "E2E-ERROR",
+      "SCREEN-FORM-ERROR",
+      "SCREEN-SERVER-VALIDATION",
+      "MAN-WCA-048"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ]
+  },
+  {
+    "rule_id": "WCA-049",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "E2E-AXE",
+      "SCREEN-FORM",
+      "MAN-WCA-049"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ]
+  },
+  {
+    "rule_id": "WCA-050",
+    "test_ids": [
+      "E2E-ERROR",
+      "SCREEN-FORM-ERROR",
+      "SCREEN-SERVER-VALIDATION",
+      "MAN-WCA-050"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ]
+  },
+  {
+    "rule_id": "WCA-051",
+    "test_ids": [
+      "MAN-WCA-051"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal"
+    ]
+  },
+  {
+    "rule_id": "WCA-052",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "SCREEN-FORM",
+      "MAN-WCA-052"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "WCA-053",
+    "test_ids": [
+      "SCREEN-LOGIN",
+      "MAN-WCA-053"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ]
+  },
+  {
+    "rule_id": "WCA-054",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-WCA-054"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "WCA-055",
+    "test_ids": [
+      "E2E-ERROR",
+      "SCREEN-COMPLETE",
+      "SCREEN-SERVER-ERROR",
+      "SCREEN-EMPTY-RESULTS",
+      "MAN-WCA-055"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Success",
+      "apps/web/src/ui.tsx#Loading",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#RequestList"
+    ]
+  },
+  {
+    "rule_id": "INC-001",
+    "test_ids": [
+      "MAN-INC-001"
+    ],
+    "code_refs": []
+  },
+  {
+    "rule_id": "INC-002",
+    "test_ids": [
+      "E2E-REFLOW",
+      "MAN-INC-002"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ]
+  },
+  {
+    "rule_id": "INC-003",
+    "test_ids": [
+      "MAN-INC-003"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ]
+  },
+  {
+    "rule_id": "INC-004",
+    "test_ids": [
+      "MAN-INC-004"
+    ],
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "INC-005",
+    "test_ids": [
+      "MAN-INC-005"
+    ],
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/ui.tsx#Success"
+    ]
+  },
+  {
+    "rule_id": "INC-006",
+    "test_ids": [
+      "MAN-INC-006"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#api",
+      "apps/web/src/api.ts#uploadFiles"
+    ]
+  },
+  {
+    "rule_id": "INC-007",
+    "test_ids": [
+      "MAN-INC-007"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/styles.css"
+    ]
+  },
+  {
+    "rule_id": "INC-008",
+    "test_ids": [
+      "MAN-INC-008"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#RequestWizard"
+    ]
+  },
+  {
+    "rule_id": "INC-009",
+    "test_ids": [
+      "SCREEN-DASHBOARD",
+      "MAN-INC-009"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#RequestTable"
+    ]
+  },
+  {
+    "rule_id": "INC-010",
+    "test_ids": [
+      "MAN-INC-010"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Help"
+    ]
+  },
+  {
+    "rule_id": "INC-011",
+    "test_ids": [
+      "MAN-INC-011"
+    ],
+    "code_refs": [
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/App.tsx#Privacy"
+    ]
+  },
+  {
+    "rule_id": "INC-012",
+    "test_ids": [
+      "E2E-HELP",
+      "SCREEN-HELP",
+      "MAN-INC-012"
+    ],
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Help"
+    ]
+  },
+  {
+    "rule_id": "QA-001",
+    "test_ids": [
+      "AUTO-FRONTEND",
+      "AUTO-SECRET",
+      "MAN-QA-001"
+    ],
+    "code_refs": [
+      "scripts/run-checks.mjs#checks",
+      "scripts/backend-verify.mjs#tasks",
+      "apps/web/package.json#verify",
+      ".github/workflows/verify.yml#verify"
+    ]
+  },
+  {
+    "rule_id": "QA-002",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-QA-002"
+    ],
+    "code_refs": [
+      "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs#BE_UNIT_001_StateTransitions",
+      "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs#BE_UNIT_003_LengthBoundaries",
+      "tests/backend/integration.py#creation",
+      "tests/backend/integration.py#concurrent_submission"
+    ]
+  },
+  {
+    "rule_id": "QA-003",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-QA-003"
+    ],
+    "code_refs": [
+      "tests/backend/integration.py#Client",
+      "tests/backend/integration.py#BE-INT-008",
+      "tests/backend/integration.py#BE-INT-009",
+      "tests/backend/integration.py#BE-INT-018",
+      "apps/api/RequestsController.cs#RequestsController.VisibleRequests"
+    ]
+  },
+  {
+    "rule_id": "QA-004",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-QA-004"
+    ],
+    "code_refs": [
+      "tests/backend/integration.py#Client.upload",
+      "tests/backend/integration.py#BE-INT-013",
+      "tests/backend/integration.py#BE-INT-019",
+      "tests/backend/integration.py#delete_file",
+      "apps/api/AttachmentsController.cs#AttachmentsController.SaveFiles"
+    ]
+  },
+  {
+    "rule_id": "QA-005",
+    "test_ids": [
+      "E2E-WORKFLOW",
+      "MAN-QA-005"
+    ],
+    "code_refs": [
+      "tests/e2e/browser.mjs#E2E-WORKFLOW",
+      "tests/e2e/browser.mjs#login",
+      "tests/backend/integration.py#BE-INT-031",
+      "apps/api/RequestsController.cs#RequestsController.ChangeStatus"
+    ]
+  },
+  {
+    "rule_id": "QA-006",
+    "test_ids": [
+      "E2E-AXE",
+      "MAN-QA-006"
+    ],
+    "code_refs": [
+      "tests/e2e/browser.mjs#axe",
+      "tests/e2e/browser.mjs#E2E-AXE",
+      "tests/e2e/browser.mjs#axeStates"
+    ]
+  },
+  {
+    "rule_id": "QA-007",
+    "test_ids": [
+      "MAN-QA-007"
+    ],
+    "code_refs": [
+      "scripts/build-standards.py#main",
+      "standards/accessibility-scenarios.json",
+      "standards/tests.json#MAN-QA-007",
+      "docs/ACCESSIBILITY_STANDARD.md"
+    ]
+  },
+  {
+    "rule_id": "QA-008",
+    "test_ids": [
+      "MAN-QA-008"
+    ],
+    "code_refs": [
+      "docs/ARCHITECTURE.md",
+      "docs/ACCESSIBILITY_STANDARD.md",
+      "tests/e2e/browser.mjs#axeStates",
+      "scripts/evidence-lib.mjs#recordArtifact"
+    ]
+  },
+  {
+    "rule_id": "QA-009",
+    "test_ids": [
+      "E2E-REFLOW",
+      "SCREEN-MOBILE",
+      "MAN-QA-009"
+    ],
+    "code_refs": [
+      "tests/e2e/browser.mjs#E2E-REFLOW",
+      "tests/e2e/browser.mjs#setViewportSize",
+      "docs/ACCESSIBILITY_STANDARD.md"
+    ]
+  },
+  {
+    "rule_id": "QA-010",
+    "test_ids": [
+      "MAN-QA-010"
+    ],
+    "code_refs": [
+      "apps/web/src/api.ts#api",
+      "apps/web/src/api.ts#uploadFiles",
+      "tests/e2e/browser.mjs#E2E-ERROR",
+      "tests/backend/integration.py#test"
+    ]
+  },
+  {
+    "rule_id": "QA-011",
+    "test_ids": [
+      "MAN-QA-011"
+    ],
+    "code_refs": [
+      "tests/backend/coverage.runsettings#ExcludeByFile",
+      "scripts/backend-verify.mjs#tasks",
+      "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs",
+      "docs/BACKEND_OPERATIONS.md"
+    ]
+  },
+  {
+    "rule_id": "QA-012",
+    "test_ids": [
+      "MAN-QA-012"
+    ],
+    "code_refs": [
+      "scripts/run-checks.mjs#checks",
+      "scripts/backend-verify.mjs#tasks",
+      "scripts/evidence-lib.mjs#runCommand",
+      "scripts/evidence-check.mjs#validateEvidence",
+      "tests/e2e/browser.mjs#E2E-AXE"
+    ]
+  },
+  {
+    "rule_id": "OPS-001",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-OPS-001"
+    ],
+    "code_refs": [
+      "scripts/manage.mjs#setup",
+      "apps/api/SeedData.cs#SeedData.Initialize",
+      "apps/api/SeedData.cs#SeedData.RequirePassword",
+      "tests/backend/integration.py#env",
+      ".env.example"
+    ]
+  },
+  {
+    "rule_id": "OPS-002",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-OPS-002"
+    ],
+    "code_refs": [
+      "apps/api/Program.cs#MigrateAsync",
+      "apps/api/Migrations/AppDbModelSnapshot.cs#AppDbModelSnapshot.BuildModel",
+      "scripts/backend.py#migrate",
+      "docs/BACKEND_OPERATIONS.md"
+    ]
+  },
+  {
+    "rule_id": "OPS-003",
+    "test_ids": [
+      "MAN-OPS-003"
+    ],
+    "code_refs": [
+      "scripts/backend.py#backup",
+      "scripts/backend.py#restore-db",
+      "tests/backend/integration.py#backup_restore",
+      "docs/BACKEND_OPERATIONS.md"
+    ]
+  },
+  {
+    "rule_id": "OPS-004",
+    "test_ids": [
+      "AUTO-BACKEND",
+      "MAN-OPS-004"
+    ],
+    "code_refs": [
+      "apps/api/Program.cs#CanConnectAsync",
+      "apps/api/Infrastructure.cs#ApiErrors.Problem",
+      "apps/api/Program.cs#LogError",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Delete"
+    ]
+  },
+  {
+    "rule_id": "OPS-005",
+    "test_ids": [
+      "AUTO-AUDIT",
+      "MAN-OPS-005"
+    ],
+    "code_refs": [
+      "global.json#sdk",
+      "scripts/backend-sbom.py",
+      "scripts/supply-chain.mjs",
+      "docs/BACKEND_OPERATIONS.md"
+    ]
+  },
+  {
+    "rule_id": "OPS-006",
+    "test_ids": [
+      "MAN-OPS-006"
+    ],
+    "code_refs": [
+      "scripts/manage.mjs#dev",
+      "scripts/manage.mjs#publish",
+      "docs/RUNBOOK.md",
+      ".github/workflows/verify.yml#verify"
+    ]
+  },
+  {
+    "rule_id": "DOC-001",
+    "test_ids": [
+      "AUTO-LEDGER",
+      "AUTO-EXPORT",
+      "E2E-HELP",
+      "SCREEN-HELP",
+      "MAN-DOC-001"
+    ],
+    "code_refs": [
+      "scripts/build-standards.py#main",
+      "scripts/generate-reports.mjs",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "DOC-002",
+    "test_ids": [
+      "AUTO-LEDGER",
+      "MAN-DOC-002"
+    ],
+    "code_refs": [
+      "scripts/evidence-lib.mjs#recordArtifact",
+      "scripts/evidence-lib.mjs#sourceSnapshot",
+      "scripts/evidence-check.mjs#validateEvidence"
+    ]
+  },
+  {
+    "rule_id": "DOC-003",
+    "test_ids": [
+      "AUTO-LEDGER",
+      "MAN-DOC-003"
+    ],
+    "code_refs": [
+      "scripts/evidence-check.mjs#validateEvidence",
+      "tests/standards/ledger.test.mjs",
+      "scripts/generate-reports.mjs#formulaAt",
+      "apps/web/src/StandardsBrowser.tsx#verification"
+    ]
+  },
+  {
+    "rule_id": "DOC-004",
+    "test_ids": [
+      "AUTO-LEDGER",
+      "MAN-DOC-004"
+    ],
+    "code_refs": [
+      "scripts/evidence-check.mjs#validateEvidence",
+      "standards/deviations.json",
+      "scripts/build-standards.py#main"
+    ]
+  },
+  {
+    "rule_id": "DOC-005",
+    "test_ids": [
+      "MAN-DOC-005"
+    ],
+    "code_refs": [
+      "scripts/generate-reports.mjs",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ]
+  },
+  {
+    "rule_id": "DOC-006",
+    "test_ids": [
+      "E2E-HELP",
+      "SCREEN-HELP",
+      "MAN-DOC-006"
+    ],
+    "code_refs": [
+      "CHANGE_SUMMARY.md",
+      "docs/ADR/0001-local-stack-and-evidence.md",
+      "standards/profiles/common.json",
+      "scripts/build-standards.py#main"
+    ]
+  }
+]

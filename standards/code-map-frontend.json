@@ -1,0 +1,1843 @@
+{
+  "UI-001": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "일반 사용자 본인 요청과 관리자 처리 과업을 S01~S08 화면 및 단계형 등록에 연결했다. 실제 사용자 참여 평가는 별도 미실행이다."
+  },
+  "UI-002": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "17px 기본 글자, 확대 선택, 반응형, 키보드·모션감소·오류복구를 구현했다. 실제 장애 당사자, 화면낭독기, 모바일 보조기술 전수 평가는 수행하지 않았다."
+  },
+  "UI-006": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "17px 기본 글자, 확대 선택, 반응형, 키보드·모션감소·오류복구를 구현했다. 실제 장애 당사자, 화면낭독기, 모바일 보조기술 전수 평가는 수행하지 않았다."
+  },
+  "UI-003": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#Modal",
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "공통 상태·버튼·대화상자와 색상·글꼴·간격·모서리·초점 토큰을 재사용한다."
+  },
+  "UI-010": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#Modal",
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "공통 상태·버튼·대화상자와 색상·글꼴·간격·모서리·초점 토큰을 재사용한다."
+  },
+  "UI-015": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#Modal",
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "공통 상태·버튼·대화상자와 색상·글꼴·간격·모서리·초점 토큰을 재사용한다."
+  },
+  "UI-004": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Help"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 입력을 제목·유형·내용·선택 첨부로 제한하고 단계별 안내, 한국어 동작 이름, 검토 후 저장을 제공한다."
+  },
+  "UI-005": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Help"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 입력을 제목·유형·내용·선택 첨부로 제한하고 단계별 안내, 한국어 동작 이름, 검토 후 저장을 제공한다."
+  },
+  "UI-007": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/ui.tsx#Success",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/ui.tsx#Loading"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "서버 저장 성공 후에만 완료 화면을 표시하며 로딩·저장 오류·업로드 진행·취소와 상태를 텍스트 및 role=status/alert로 전달한다."
+  },
+  "UI-066": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/ui.tsx#Success",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/ui.tsx#Loading"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "서버 저장 성공 후에만 완료 화면을 표시하며 로딩·저장 오류·업로드 진행·취소와 상태를 텍스트 및 role=status/alert로 전달한다."
+  },
+  "UI-008": {
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css",
+      "apps/web/src/ui.tsx#Badge"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "의미별 색상과 상태 배지를 토큰으로 관리하고 텍스트·아이콘을 함께 표시한다. 자동검사 결과와 수동 대비 범위는 검증 기록으로 구분한다."
+  },
+  "UI-009": {
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "시스템 한글 글꼴을 사용하며 기본 본문17px/행간1.6, 주요 본문·레이블 최소16px를 적용한다. 20px 글자 설정과 기본값 복원을 제공한다."
+  },
+  "UI-011": {
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "248px 데스크톱 탐색, 중간 폭 재배치, 700px 이하 접기 메뉴, 단열 모바일 폼과 가로 스크롤 표를 구현한다."
+  },
+  "UI-012": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "Lucide 아이콘과 가시적인 한국어 이름을 병행한다. 아이콘 전용 버튼은 aria-label을 제공하며 복사 버튼 접근명에 보이는 항목 복사 문구를 포함한다."
+  },
+  "UI-013": {
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "카드 그림자와 모달 층위를 정의하고 dialog backdrop으로 배경과 분리한다. 그림자가 없어도 테두리와 제목으로 정보를 구분한다."
+  },
+  "UI-014": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "별도의 선명한 화면 모드를 제공하지 않는다. 기본 화면 접근성·시스템 forced-colors 대응만 구현했으며, KRDS 역할별 강화 대비15:1/7:1/4.5:1 테마는 구현·실측하지 않았다."
+  },
+  "UI-099": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "별도의 선명한 화면 모드를 제공하지 않는다. 기본 화면 접근성·시스템 forced-colors 대응만 구현했으며, KRDS 역할별 강화 대비15:1/7:1/4.5:1 테마는 구현·실측하지 않았다."
+  },
+  "UI-100": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "별도의 선명한 화면 모드를 제공하지 않는다. 기본 화면 접근성·시스템 forced-colors 대응만 구현했으며, KRDS 역할별 강화 대비15:1/7:1/4.5:1 테마는 구현·실측하지 않았다."
+  },
+  "UI-016": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "해당없음",
+    "implementation_summary": "가상 회사 브랜드 FlowCore만 표시하며 정부 배너·운영기관 로고는 사용하지 않는다. 실제 공공 서비스 전환 시 권한과 자산 규칙을 재검토한다."
+  },
+  "UI-017": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "해당없음",
+    "implementation_summary": "가상 회사 브랜드 FlowCore만 표시하며 정부 배너·운영기관 로고는 사용하지 않는다. 실제 공공 서비스 전환 시 권한과 자산 규칙을 재검토한다."
+  },
+  "UI-126": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "해당없음",
+    "implementation_summary": "가상 회사 브랜드 FlowCore만 표시하며 정부 배너·운영기관 로고는 사용하지 않는다. 실제 공공 서비스 전환 시 권한과 자산 규칙을 재검토한다."
+  },
+  "UI-018": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "고정된 서비스 이름과 주요·자료 탐색 메뉴를 공통 App shell에 배치하고 현재 항목 aria-current 및 시각 상태를 제공한다."
+  },
+  "UI-021": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "고정된 서비스 이름과 주요·자료 탐색 메뉴를 공통 App shell에 배치하고 현재 항목 aria-current 및 시각 상태를 제공한다."
+  },
+  "UI-019": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Privacy",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "푸터의 개인정보 처리방침을 굵은 텍스트로 구분하고 실제 샘플 데이터 처리 안내와 접근성 도움말 페이지에 연결한다."
+  },
+  "UI-125": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Privacy",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "푸터의 개인정보 처리방침을 굵은 텍스트로 구분하고 실제 샘플 데이터 처리 안내와 접근성 도움말 페이지에 연결한다."
+  },
+  "UI-127": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Privacy",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "푸터의 개인정보 처리방침을 굵은 텍스트로 구분하고 실제 샘플 데이터 처리 안내와 접근성 도움말 페이지에 연결한다."
+  },
+  "UI-020": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "문서 첫 링크에 본문 바로가기를 제공하고 #main-content로 이동한다. 화면 전환 후 제목에 프로그램 초점을 옮긴다."
+  },
+  "UI-102": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "문서 첫 링크에 본문 바로가기를 제공하고 #main-content로 이동한다. 화면 전환 후 제목에 프로그램 초점을 옮긴다."
+  },
+  "UI-022": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "헤더에 nav/ol로 상위 서비스·요청 목록·현재 화면의 semantic breadcrumb를 제공한다. 현재 위치에는 aria-current=page를 적용하고 상위 경로는 실제 링크로 제공한다."
+  },
+  "UI-023": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "주요·자료의 사이드 탐색과 현재 항목을 표시한다. 별도의 관리자 다단계 하위 메뉴는 아직 없다."
+  },
+  "UI-024": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "도움말 분류 페이지 링크와 각 표준의 details 확장을 제공한다. 장문 정책의 목차/앵커 탐색은 구현하지 않았다."
+  },
+  "UI-025": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청과 표준 목록의 현재/전체 페이지, 이전·다음 버튼, 경계 비활성과 결과 수를 표시한다. 요청 페이지 조건은 URL로 유지한다."
+  },
+  "UI-026": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "모바일 메뉴 버튼과 동일한 주 탐색을 제공한다. 고정 하단 탭바는 구현하지 않았다."
+  },
+  "UI-027": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#ReferenceList"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청은 caption 및 th가 있는 table, 처리 이력은 ol, 첨부·증빙은 ul, 규칙 속성은 dl로 구조화한다."
+  },
+  "UI-039": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#ReferenceList"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청은 caption 및 th가 있는 table, 처리 이력은 ol, 첨부·증빙은 ul, 규칙 속성은 dl로 구조화한다."
+  },
+  "UI-028": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "세션 만료 전 경고와 오류 알림을 제공한다. 별도의 긴급 운영공지 발행 기능은 구현하지 않았다."
+  },
+  "UI-029": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "달력이나 업무 날짜 직접 입력 필드는 샘플에 도입하지 않았다. 날짜 기능 도입 시 직접입력·형식 안내와 달력 키보드 조작을 재평가한다."
+  },
+  "UI-054": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "달력이나 업무 날짜 직접 입력 필드는 샘플에 도입하지 않았다. 날짜 기능 도입 시 직접입력·형식 안내와 달력 키보드 조작을 재평가한다."
+  },
+  "UI-030": {
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "각 표준에 HTML details/summary를 사용하여 출처·구현·시험·증빙을 키보드로 펼치고 닫을 수 있다. 펼침 상태는 브라우저의 네이티브 접근성 의미로 전달한다."
+  },
+  "UI-033": {
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "각 표준에 HTML details/summary를 사용하여 출처·구현·시험·증빙을 키보드로 펼치고 닫을 수 있다. 펼침 상태는 브라우저의 네이티브 접근성 의미로 전달한다."
+  },
+  "UI-031": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "네이티브 dialog.showModal과 고유 제목 ID, 닫기 버튼, Escape, 명시적 Tab/Shift+Tab 내부 순환 및 닫은 뒤 원래 초점 복귀를 구현한다."
+  },
+  "UI-104": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "네이티브 dialog.showModal과 고유 제목 ID, 닫기 버튼, Escape, 명시적 Tab/Shift+Tab 내부 순환 및 닫은 뒤 원래 초점 복귀를 구현한다."
+  },
+  "UI-105": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "네이티브 dialog.showModal과 고유 제목 ID, 닫기 버튼, Escape, 명시적 Tab/Shift+Tab 내부 순환 및 닫은 뒤 원래 초점 복귀를 구현한다."
+  },
+  "UI-032": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "접수·처리 중·완료·반려를 이름과 색/아이콘으로 표시한다. 표준의 적용·구현·검증 상태는 각각 분리하여 표시한다."
+  },
+  "UI-034": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "장식용 CSS 도형은 aria-hidden으로 제외하고 의미 있는 아이콘은 가시적 텍스트 또는 버튼 접근명으로 설명한다. 별도 래스터 이미지 콘텐츠는 도입하지 않았다."
+  },
+  "UI-035": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "자동 회전 캐러셀은 도입하지 않았다. 추가할 경우 정지·키보드·화면낭독기 상태 안내를 재평가한다."
+  },
+  "UI-036": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#TabsExample",
+      "apps/web/src/App.tsx#Help"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "갤러리에 tablist/tab/tabpanel 관계와 aria-selected, aria-controls, roving tabindex를 구현했다. 좌우 방향키 순환·Home/End·활성 패널 이동을 제공한다. 도움말 분류는 별도의 일반 페이지 탐색 링크다."
+  },
+  "UI-037": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestList"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 table에 caption, thead, th scope=col을 제공한다. 정렬은 명시적인 폼 제출로 실행하고 URL 및 화면에 기준을 표시한다. 좁은 화면에는 이름이 있는 스크롤 영역을 제공한다."
+  },
+  "UI-106": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestList"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 table에 caption, thead, th scope=col을 제공한다. 정렬은 명시적인 폼 제출로 실행하고 URL 및 화면에 기준을 표시한다. 좁은 화면에는 이름이 있는 스크롤 영역을 제공한다."
+  },
+  "UI-038": {
+    "code_refs": [],
+    "implementation_status": "해당없음",
+    "implementation_summary": "네이티브 앱 스플래시 스크린은 웹 샘플 범위 밖이다. 네이티브 앱 도입 시 재평가한다."
+  },
+  "UI-040": {
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "링크는 실제 href 목적지를 제공하고 명확한 화면·자료 이름을 표시한다. 수정키 클릭은 브라우저 기본 새 탭 동작을 유지한다."
+  },
+  "UI-041": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "등록·저장·취소·복사·다운로드 동작 이름을 명확히 표시하며 버튼 disabled/처리 중과 키보드 초점을 제공한다."
+  },
+  "UI-042": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Preferences"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 유형과 화면 설정을 native radio, fieldset/legend, 그룹 name, label 연결로 제공한다."
+  },
+  "UI-043": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#CheckboxGroupExample"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "갤러리에 native checkbox로 복수선택·모두 선택·일부 선택의 실제 indeterminate 속성·비활성 상태를 구현한다. 체크/중간상태를 색만으로 표현하지 않으며 그룹 legend와 label을 연결한다."
+  },
+  "UI-107": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#CheckboxGroupExample"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "갤러리에 native checkbox로 복수선택·모두 선택·일부 선택의 실제 indeterminate 속성·비활성 상태를 구현한다. 체크/중간상태를 색만으로 표현하지 않으며 그룹 legend와 label을 연결한다."
+  },
+  "UI-044": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "native select와 label을 연결하고 요청 검색은 검색 버튼으로 명시 제출한다. 표준 필터의 즉시 갱신은 페이지 이동 없이 결과 수를 알린다."
+  },
+  "UI-108": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "native select와 label을 연결하고 요청 검색은 검색 버튼으로 명시 제출한다. 표준 필터의 즉시 갱신은 페이지 이동 없이 결과 수를 알린다."
+  },
+  "UI-045": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "적용한 검색어와 상태를 개별 해제 버튼이 있는 필터 태그로 표시한다. 태그를 해제하면 다른 조건은 유지하고 페이지를1로 돌리며 결과 수를 알린다."
+  },
+  "UI-046": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#SwitchExample",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "갤러리의 native checkbox role=switch로 이름과 켜짐/꺼짐·비활성 상태를 제공한다. Space 조작과 명시적 aria-checked 및 가시적인 초점·손잡이 위치·상태 텍스트를 함께 제공한다."
+  },
+  "UI-109": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#SwitchExample",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "갤러리의 native checkbox role=switch로 이름과 켜짐/꺼짐·비활성 상태를 제공한다. Space 조작과 명시적 aria-checked 및 가시적인 초점·손잡이 위치·상태 텍스트를 함께 제공한다."
+  },
+  "UI-047": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "기본정보·내용/첨부·검토·완료를 ol 단계 표시와 aria-current=step으로 전달한다. 단계 변경 후 제목에 초점을 이동한다."
+  },
+  "UI-048": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Loading",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "role=status의 처리 중 텍스트와 스피너를 제공하고 reduced-motion 및 사용자 모션 감소에서는 회전을 중지한다."
+  },
+  "UI-049": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "고정된 도움말 탐색, 단계별 설명, aria-describedby 입력조건, 관리자 문의·업무요청 경로를 제공한다."
+  },
+  "UI-051": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "고정된 도움말 탐색, 단계별 설명, aria-describedby 입력조건, 관리자 문의·업무요청 경로를 제공한다."
+  },
+  "UI-063": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "고정된 도움말 탐색, 단계별 설명, aria-describedby 입력조건, 관리자 문의·업무요청 경로를 제공한다."
+  },
+  "UI-050": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Help"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "등록·처리의 단계별 한국어 가이드를 제공한다. 선택적으로 실행하는 인터랙티브 따라하기 패널은 구현하지 않았다."
+  },
+  "UI-052": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "코치마크·툴팁을 도입하지 않았다. 필수 정보는 모두 항상 보이는 도움말과 입력 설명에 제공한다. 해당 위젯을 추가할 경우 키보드/포인터 검증이 필요하다."
+  },
+  "UI-053": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "코치마크·툴팁을 도입하지 않았다. 필수 정보는 모두 항상 보이는 도움말과 입력 설명에 제공한다. 해당 위젯을 추가할 경우 키보드/포인터 검증이 필요하다."
+  },
+  "UI-055": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "각 입력에 지속적인 label/legend, 필수/선택, 길이·형식 예시와 aria-describedby 연결을 제공한다. 오류 필드는 aria-invalid 및 오류 ID를 연결한다."
+  },
+  "UI-056": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "각 입력에 지속적인 label/legend, 필수/선택, 길이·형식 예시와 aria-describedby 연결을 제공한다. 오류 필드는 aria-invalid 및 오류 ID를 연결한다."
+  },
+  "UI-117": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "각 입력에 지속적인 label/legend, 필수/선택, 길이·형식 예시와 aria-describedby 연결을 제공한다. 오류 필드는 aria-invalid 및 오류 ID를 연결한다."
+  },
+  "UI-057": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "파일 선택 버튼으로 TXT/PDF/PNG·파일당5MB·최대3개를 사전 안내한다. 선택만으로 제출하지 않고 검토/업로드 버튼을 요구한다. 프런트 안내와 별도로 서버 실제형식 검증을 이용한다."
+  },
+  "UI-070": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "파일 선택 버튼으로 TXT/PDF/PNG·파일당5MB·최대3개를 사전 안내한다. 선택만으로 제출하지 않고 검토/업로드 버튼을 요구한다. 프런트 안내와 별도로 서버 실제형식 검증을 이용한다."
+  },
+  "UI-111": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "파일 선택 버튼으로 TXT/PDF/PNG·파일당5MB·최대3개를 사전 안내한다. 선택만으로 제출하지 않고 검토/업로드 버튼을 요구한다. 프런트 안내와 별도로 서버 실제형식 검증을 이용한다."
+  },
+  "UI-112": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "파일 선택 버튼으로 TXT/PDF/PNG·파일당5MB·최대3개를 사전 안내한다. 선택만으로 제출하지 않고 검토/업로드 버튼을 요구한다. 프런트 안내와 별도로 서버 실제형식 검증을 이용한다."
+  },
+  "UI-113": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#validateFiles",
+      "apps/web/src/api.ts#uploadFiles"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "파일 선택 버튼으로 TXT/PDF/PNG·파일당5MB·최대3개를 사전 안내한다. 선택만으로 제출하지 않고 검토/업로드 버튼을 요구한다. 프런트 안내와 별도로 서버 실제형식 검증을 이용한다."
+  },
+  "UI-058": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "서비스 언어는 한국어 단일 언어이며 언어 변경 기능을 도입하지 않았다. 다국어 전환을 추가하면 언어 이름·lang·탐색 상태를 재평가한다."
+  },
+  "UI-101": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "서비스 언어는 한국어 단일 언어이며 언어 변경 기능을 도입하지 않았다. 다국어 전환을 추가하면 언어 이름·lang·탐색 상태를 재평가한다."
+  },
+  "UI-059": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "유연한 레이아웃과 20px 글자 설정, 320px 모바일 배치, 스크롤 표를 제공한다. 전체 상태의 실제200%/400% 확대·리플로우 수동검사는 미실행이다."
+  },
+  "UI-060": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "음성·영상 콘텐츠를 사용하지 않는다. 미디어 도입 시 자막·대본·음성해설 등 해당 기준을 활성화하고 별도 검사해야 한다."
+  },
+  "UI-061": {
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#Dashboard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "sr-only를 시각적 클리핑 방식으로 구현하여 표 caption, 통계 텍스트, 검색 이름을 보조기술에 남긴다. display:none으로 의미 정보를 숨기지 않는다."
+  },
+  "UI-115": {
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#Dashboard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "sr-only를 시각적 클리핑 방식으로 구현하여 표 caption, 통계 텍스트, 검색 이름을 보조기술에 남긴다. display:none으로 의미 정보를 숨기지 않는다."
+  },
+  "UI-062": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "계정 이메일·비밀번호만 입력하고 autocomplete=username/current-password를 제공한다. 붙여넣기·비밀번호 관리자를 차단하지 않으며 기억·계산 CAPTCHA를 요구하지 않는다."
+  },
+  "UI-084": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "계정 이메일·비밀번호만 입력하고 autocomplete=username/current-password를 제공한다. 붙여넣기·비밀번호 관리자를 차단하지 않으며 기억·계산 CAPTCHA를 요구하지 않는다."
+  },
+  "UI-121": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "계정 이메일·비밀번호만 입력하고 autocomplete=username/current-password를 제공한다. 붙여넣기·비밀번호 관리자를 차단하지 않으며 기억·계산 CAPTCHA를 요구하지 않는다."
+  },
+  "UI-064": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "개인정보 동의나 선택 동의 수집 기능은 도입하지 않았다. 실제 운영 요구가 확정되면 필수·선택 분리와 목적 안내를 구현해야 한다."
+  },
+  "UI-065": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명시된 검색 입력과 상태·정렬·분류 필터, 초기화, URL 조건 유지, 총 건수, 빈 결과, 페이지, 결과 상태 알림과 상세 이동을 제공한다."
+  },
+  "UI-071": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명시된 검색 입력과 상태·정렬·분류 필터, 초기화, URL 조건 유지, 총 건수, 빈 결과, 페이지, 결과 상태 알림과 상세 이동을 제공한다."
+  },
+  "UI-074": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명시된 검색 입력과 상태·정렬·분류 필터, 초기화, URL 조건 유지, 총 건수, 빈 결과, 페이지, 결과 상태 알림과 상세 이동을 제공한다."
+  },
+  "UI-075": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명시된 검색 입력과 상태·정렬·분류 필터, 초기화, URL 조건 유지, 총 건수, 빈 결과, 페이지, 결과 상태 알림과 상세 이동을 제공한다."
+  },
+  "UI-076": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명시된 검색 입력과 상태·정렬·분류 필터, 초기화, URL 조건 유지, 총 건수, 빈 결과, 페이지, 결과 상태 알림과 상세 이동을 제공한다."
+  },
+  "UI-077": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명시된 검색 입력과 상태·정렬·분류 필터, 초기화, URL 조건 유지, 총 건수, 빈 결과, 페이지, 결과 상태 알림과 상세 이동을 제공한다."
+  },
+  "UI-078": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명시된 검색 입력과 상태·정렬·분류 필터, 초기화, URL 조건 유지, 총 건수, 빈 결과, 페이지, 결과 상태 알림과 상세 이동을 제공한다."
+  },
+  "UI-079": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명시된 검색 입력과 상태·정렬·분류 필터, 초기화, URL 조건 유지, 총 건수, 빈 결과, 페이지, 결과 상태 알림과 상세 이동을 제공한다."
+  },
+  "UI-080": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명시된 검색 입력과 상태·정렬·분류 필터, 초기화, URL 조건 유지, 총 건수, 빈 결과, 페이지, 결과 상태 알림과 상세 이동을 제공한다."
+  },
+  "UI-067": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/navigation.ts#safeRequestReturnPath"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 목록의 검색·상태·정렬·페이지 URL을 상세 returnTo에 전달하고 목록 복귀 링크로 복원한다. returnTo는 /requests 로컬 목록 경로만 허용하여 외부 URL·다른 경로를 차단한다."
+  },
+  "UI-068": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "클라이언트와 서버 ProblemDetails errors의 제목·유형·내용·파일 오류를 필드별로 연결한다. 오류 단계로 돌아가 입력값을 유지하고 오류요약에 초점을 옮기며 필드 링크·aria-invalid·설명과 수정방법을 제공한다. 실제 보조기술 음성 검증은 별도 미실행이다."
+  },
+  "UI-118": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "클라이언트와 서버 ProblemDetails errors의 제목·유형·내용·파일 오류를 필드별로 연결한다. 오류 단계로 돌아가 입력값을 유지하고 오류요약에 초점을 옮기며 필드 링크·aria-invalid·설명과 수정방법을 제공한다. 실제 보조기술 음성 검증은 별도 미실행이다."
+  },
+  "UI-069": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "필수·선택·그룹을 표시하는 단계형 입력, 단계 이동 시 제목/내용/첨부 보존, 제출 전 검토와 이전 단계 수정, 중복 제출 차단 및 오류 후 입력 보존을 구현한다."
+  },
+  "UI-091": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "필수·선택·그룹을 표시하는 단계형 입력, 단계 이동 시 제목/내용/첨부 보존, 제출 전 검토와 이전 단계 수정, 중복 제출 차단 및 오류 후 입력 보존을 구현한다."
+  },
+  "UI-092": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "필수·선택·그룹을 표시하는 단계형 입력, 단계 이동 시 제목/내용/첨부 보존, 제출 전 검토와 이전 단계 수정, 중복 제출 차단 및 오류 후 입력 보존을 구현한다."
+  },
+  "UI-116": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "필수·선택·그룹을 표시하는 단계형 입력, 단계 이동 시 제목/내용/첨부 보존, 제출 전 검토와 이전 단계 수정, 중복 제출 차단 및 오류 후 입력 보존을 구현한다."
+  },
+  "UI-119": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "필수·선택·그룹을 표시하는 단계형 입력, 단계 이동 시 제목/내용/첨부 보존, 제출 전 검토와 이전 단계 수정, 중복 제출 차단 및 오류 후 입력 보존을 구현한다."
+  },
+  "UI-072": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 저장 전 검토 화면, 작성 취소 확인과 계속 작성, 상태 변경 사유 폼과 취소·저장 선택을 제공한다."
+  },
+  "UI-124": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 저장 전 검토 화면, 작성 취소 확인과 계속 작성, 상태 변경 사유 폼과 취소·저장 선택을 제공한다."
+  },
+  "UI-073": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "회사 샘플임을 표시하고 로그인 계정·권한 범위, 요청 절차·유형·필수자료·민감정보 금지·첨부 제한을 실행 전에 안내한다."
+  },
+  "UI-081": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "회사 샘플임을 표시하고 로그인 계정·권한 범위, 요청 절차·유형·필수자료·민감정보 금지·첨부 제한을 실행 전에 안내한다."
+  },
+  "UI-082": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "회사 샘플임을 표시하고 로그인 계정·권한 범위, 요청 절차·유형·필수자료·민감정보 금지·첨부 제한을 실행 전에 안내한다."
+  },
+  "UI-088": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "회사 샘플임을 표시하고 로그인 계정·권한 범위, 요청 절차·유형·필수자료·민감정보 금지·첨부 제한을 실행 전에 안내한다."
+  },
+  "UI-089": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "회사 샘플임을 표시하고 로그인 계정·권한 범위, 요청 절차·유형·필수자료·민감정보 금지·첨부 제한을 실행 전에 안내한다."
+  },
+  "UI-090": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "회사 샘플임을 표시하고 로그인 계정·권한 범위, 요청 절차·유형·필수자료·민감정보 금지·첨부 제한을 실행 전에 안내한다."
+  },
+  "UI-083": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "실제 연동된 이메일/비밀번호 방식만 한 가지 제공한다. 다중 인증방식의 목록 배치는 기능이 추가되면 검토한다."
+  },
+  "UI-128": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "실제 연동된 이메일/비밀번호 방식만 한 가지 제공한다. 다중 인증방식의 목록 배치는 기능이 추가되면 검토한다."
+  },
+  "UI-085": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#Dashboard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "실제 서버 로그인 응답을 검증한 뒤 사용자 이름·역할·업무 현황을 표시한다. 인증 성공 후 새 CSRF 토큰을 발급받는다."
+  },
+  "UI-086": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "서버 expiresAt를 기준으로 남은 시간을 계산하고 기본60초 전 dialog 경고, 남은초, 연장/로그아웃을 제공한다. 연장 응답으로 타이머를 갱신하며 서버는 연장횟수를 제한하지 않는다."
+  },
+  "UI-123": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "서버 expiresAt를 기준으로 남은 시간을 계산하고 기본60초 전 dialog 경고, 남은초, 연장/로그아웃을 제공한다. 연장 응답으로 타이머를 갱신하며 서버는 연장횟수를 제한하지 않는다."
+  },
+  "UI-087": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/api.ts#api"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "서버 logout 성공 후 인증 상태와 요청 작성 메모리를 지우고 초기 화면과 완료 안내를 표시한다."
+  },
+  "UI-093": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "서버 저장 및 첨부 업로드 성공 후 완료 단계와 등록한 요청/목록 이동을 제공한다. 첨부 실패는 본문 저장과 구분하여 재시도한다."
+  },
+  "UI-094": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "상세에 제목·본문·작성자·한국시간 날짜·상태·인가된 첨부 다운로드·처리 이력을 표시한다."
+  },
+  "UI-095": {
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Privacy"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "표준 분류·검색·필터와 출처·판본·원문페이지·코드·시험·증빙을 제공하고 Excel/PPTX/HTML, 필터 결과JSON/CSV/Markdown을 내보낸다. 원문 전체 정책의 정확성 검토는 별도 미완료다."
+  },
+  "UI-096": {
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Privacy"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "표준 분류·검색·필터와 출처·판본·원문페이지·코드·시험·증빙을 제공하고 Excel/PPTX/HTML, 필터 결과JSON/CSV/Markdown을 내보낸다. 원문 전체 정책의 정확성 검토는 별도 미완료다."
+  },
+  "UI-097": {
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Privacy"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "표준 분류·검색·필터와 출처·판본·원문페이지·코드·시험·증빙을 제공하고 Excel/PPTX/HTML, 필터 결과JSON/CSV/Markdown을 내보낸다. 원문 전체 정책의 정확성 검토는 별도 미완료다."
+  },
+  "UI-098": {
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "packages/ui/tokens.css"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "일반 텍스트 대비를 고려한 기본 팔레트와 시각 경계를 적용하고 axe에서 발견한 저대비를 수정했다. 모든 상태의 대비 수동 전수 실측은 남아 있다."
+  },
+  "UI-103": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "메뉴는 일반 링크 및 모바일 메뉴 버튼으로 열리며 마우스오버만으로 열리는 탐색을 사용하지 않는다."
+  },
+  "UI-110": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "필수 입력 조건과 도움말은 항상 보이는 본문 및 aria-describedby에 배치하며 툴팁에 독점하지 않는다."
+  },
+  "UI-114": {
+    "code_refs": [
+      "apps/web/src/api.ts#uploadFiles",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "업로드 진행률 progress/role=status, 실패 alert, 취소·재시도와 파일 선택 목록을 제공한다. 선택된 파일 변경과 진행률의 실제 화면낭독기 음성 검증은 미실행이다."
+  },
+  "UI-120": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "검색/표준 필터 변경 후 role=status 결과 수를 갱신하고 적용 조건·초기화·빈 결과를 제공한다."
+  },
+  "UI-122": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/api.ts#api",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "로그인 오류는 서버 ProblemDetails의 안전한 설명으로 표시한다. 비밀번호·인증토큰·내부 스택을 UI에 표시하지 않는다."
+  },
+  "KWA-001": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/ui.tsx#Badge"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "장식 도형은 aria-hidden으로 제외하고 기능 아이콘은 이름 있는 버튼/링크 또는 가시적인 텍스트와 함께 제공한다."
+  },
+  "WCA-001": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/ui.tsx#Badge"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "장식 도형은 aria-hidden으로 제외하고 기능 아이콘은 이름 있는 버튼/링크 또는 가시적인 텍스트와 함께 제공한다."
+  },
+  "KWA-002": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "해당 미디어를 도입하지 않았다. 조건부 적용을 유지하며 영상·음성 추가 시 자막·대본·음성해설을 구현하고 실제 검사해야 한다."
+  },
+  "WCA-002": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "해당 미디어를 도입하지 않았다. 조건부 적용을 유지하며 영상·음성 추가 시 자막·대본·음성해설을 구현하고 실제 검사해야 한다."
+  },
+  "WCA-003": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "해당 미디어를 도입하지 않았다. 조건부 적용을 유지하며 영상·음성 추가 시 자막·대본·음성해설을 구현하고 실제 검사해야 한다."
+  },
+  "WCA-004": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "해당 미디어를 도입하지 않았다. 조건부 적용을 유지하며 영상·음성 추가 시 자막·대본·음성해설을 구현하고 실제 검사해야 한다."
+  },
+  "WCA-005": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "해당 미디어를 도입하지 않았다. 조건부 적용을 유지하며 영상·음성 추가 시 자막·대본·음성해설을 구현하고 실제 검사해야 한다."
+  },
+  "WCA-006": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "해당 미디어를 도입하지 않았다. 조건부 적용을 유지하며 영상·음성 추가 시 자막·대본·음성해설을 구현하고 실제 검사해야 한다."
+  },
+  "KWA-003": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "caption/theader/scope 관계가 있는 table과 fieldset/legend·label·목록·정의목록의 HTML 의미구조를 사용한다."
+  },
+  "WCA-007": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "caption/theader/scope 관계가 있는 table과 fieldset/legend·label·목록·정의목록의 HTML 의미구조를 사용한다."
+  },
+  "KWA-004": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "탐색→페이지제목→내용→푸터와 단계/오류/입력/작업의 논리적인 DOM 순서를 유지한다. 반응형은 이 순서를 재배열하지 않는다."
+  },
+  "WCA-008": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "탐색→페이지제목→내용→푸터와 단계/오류/입력/작업의 논리적인 DOM 순서를 유지한다. 반응형은 이 순서를 재배열하지 않는다."
+  },
+  "KWA-005": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/ui.tsx#Badge"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "버튼 이름·필드명·수정방법을 한국어로 제공하고 위치·모양·색상만을 유일한 지시로 사용하지 않는다."
+  },
+  "WCA-009": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/ui.tsx#Badge"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "버튼 이름·필드명·수정방법을 한국어로 제공하고 위치·모양·색상만을 유일한 지시로 사용하지 않는다."
+  },
+  "KWA-006": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "상태 이름·체크 아이콘·오류문구·필수 텍스트를 함께 표시하여 색상을 제거해도 의미가 남는다."
+  },
+  "WCA-012": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "상태 이름·체크 아이콘·오류문구·필수 텍스트를 함께 표시하여 색상을 제거해도 의미가 남는다."
+  },
+  "KWA-007": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "음성·음악 자동재생 요소를 사용하지 않는다. 알림은 시각적 텍스트/프로그램 상태로 제공한다."
+  },
+  "WCA-013": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "음성·음악 자동재생 요소를 사용하지 않는다. 알림은 시각적 텍스트/프로그램 상태로 제공한다."
+  },
+  "KWA-008": {
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "기본 색상 토큰·입력/조작 경계를 정의하고 axe에서 탐지된 대비 오류를 수정했다. 모든 상태의 텍스트·비텍스트 역할별 수동 전수 대비 판정은 남아 있다."
+  },
+  "WCA-014": {
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "기본 색상 토큰·입력/조작 경계를 정의하고 axe에서 탐지된 대비 오류를 수정했다. 모든 상태의 텍스트·비텍스트 역할별 수동 전수 대비 판정은 남아 있다."
+  },
+  "WCA-018": {
+    "code_refs": [
+      "packages/ui/tokens.css",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "기본 색상 토큰·입력/조작 경계를 정의하고 axe에서 탐지된 대비 오류를 수정했다. 모든 상태의 텍스트·비텍스트 역할별 수동 전수 대비 판정은 남아 있다."
+  },
+  "KWA-009": {
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "카드·테이블·필드·세부정보를 여백·테두리·헤딩으로 분리한다. 강제색 환경에도 테두리로 구분을 유지한다."
+  },
+  "KWA-010": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "주요 조작을 native 링크/버튼/입력/select/details/dialog로 제공한다. 전체 역할·상태·업무과정의 키보드 수동 전수검사는 남아 있다."
+  },
+  "WCA-021": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "주요 조작을 native 링크/버튼/입력/select/details/dialog로 제공한다. 전체 역할·상태·업무과정의 키보드 수동 전수검사는 남아 있다."
+  },
+  "KWA-011": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "가시적인 3px 초점, 화면/단계 이동 제목 초점, dialog 내부 Tab순환과 원위치 복귀, scroll-margin을 구현한다. 본문을 가리는 고정 푸터는 사용하지 않는다."
+  },
+  "WCA-029": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "가시적인 3px 초점, 화면/단계 이동 제목 초점, dialog 내부 Tab순환과 원위치 복귀, scroll-margin을 구현한다. 본문을 가리는 고정 푸터는 사용하지 않는다."
+  },
+  "WCA-033": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "가시적인 3px 초점, 화면/단계 이동 제목 초점, dialog 내부 Tab순환과 원위치 복귀, scroll-margin을 구현한다. 본문을 가리는 고정 푸터는 사용하지 않는다."
+  },
+  "WCA-034": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "가시적인 3px 초점, 화면/단계 이동 제목 초점, dialog 내부 Tab순환과 원위치 복귀, scroll-margin을 구현한다. 본문을 가리는 고정 푸터는 사용하지 않는다."
+  },
+  "KWA-012": {
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "주요 버튼 최소44×46px, 입력/select48px, 아이콘 버튼44×44px, 파일 선택/라디오 라벨의 큰 조작영역을 제공한다. WCAG24px와 사내44px 목표는 별도다."
+  },
+  "WCA-040": {
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "주요 버튼 최소44×46px, 입력/select48px, 아이콘 버튼44×44px, 파일 선택/라디오 라벨의 큰 조작영역을 제공한다. WCAG24px와 사내44px 목표는 별도다."
+  },
+  "KWA-013": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "단일 문자 단축키를 도입하지 않는다. 추가 시 해제·재지정·초점한정 조건을 검토한다."
+  },
+  "WCA-023": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "단일 문자 단축키를 도입하지 않는다. 추가 시 해제·재지정·초점한정 조건을 검토한다."
+  },
+  "KWA-014": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "기본20분 세션을 서버 만료시각 기준으로 추적하며60초 전 경고와 간단한 연장을 제공한다. 연장횟수 제한은 없고 경고 닫기와 로그아웃을 지원한다."
+  },
+  "WCA-024": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "기본20분 세션을 서버 만료시각 기준으로 추적하며60초 전 경고와 간단한 연장을 제공한다. 연장횟수 제한은 없고 경고 닫기와 로그아웃을 지원한다."
+  },
+  "KWA-015": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Loading",
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "캐러셀·자동갱신 업무 콘텐츠를 사용하지 않는다. 로딩 회전은 시스템 reduced-motion 또는 사용자 움직임 줄이기로 정지할 수 있다."
+  },
+  "WCA-025": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Loading",
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "캐러셀·자동갱신 업무 콘텐츠를 사용하지 않는다. 로딩 회전은 시스템 reduced-motion 또는 사용자 움직임 줄이기로 정지할 수 있다."
+  },
+  "KWA-016": {
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "섬광·점멸 효과를 사용하지 않는다. 유일한 회전 로딩은 모션감소 설정으로 중지한다."
+  },
+  "WCA-026": {
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "섬광·점멸 효과를 사용하지 않는다. 유일한 회전 로딩은 모션감소 설정으로 중지한다."
+  },
+  "KWA-017": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "첫 Tab의 본문 바로가기 링크와 main 목적지를 제공한다."
+  },
+  "WCA-027": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "첫 Tab의 본문 바로가기 링크와 main 목적지를 제공한다."
+  },
+  "KWA-018": {
+    "code_refs": [
+      "apps/web/src/App.tsx#routeInfo",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "페이지별 document.title과 한 개 h1, 섹션 h2/h3 계층 및 목적이 드러나는 입력 레이블을 제공한다."
+  },
+  "WCA-028": {
+    "code_refs": [
+      "apps/web/src/App.tsx#routeInfo",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "페이지별 document.title과 한 개 h1, 섹션 h2/h3 계층 및 목적이 드러나는 입력 레이블을 제공한다."
+  },
+  "WCA-032": {
+    "code_refs": [
+      "apps/web/src/App.tsx#routeInfo",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "페이지별 document.title과 한 개 h1, 섹션 h2/h3 계층 및 목적이 드러나는 입력 레이블을 제공한다."
+  },
+  "KWA-019": {
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 제목·파일명·보고서 형식을 링크 이름으로 제공하며 실제 목적지를 href로 유지한다."
+  },
+  "WCA-030": {
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 제목·파일명·보고서 형식을 링크 이름으로 제공하며 실제 목적지를 href로 유지한다."
+  },
+  "KWA-020": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "고정 페이지 번호가 필요한 전자출판 콘텐츠를 샘플에 도입하지 않았다. 출판 콘텐츠 추가 시 위치 기준을 재검토한다."
+  },
+  "KWA-021": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "복잡 제스처나 끌기를 요구하지 않는다. 첨부는 native 파일 선택과 클릭/키보드 버튼으로 수행한다."
+  },
+  "WCA-035": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "복잡 제스처나 끌기를 요구하지 않는다. 첨부는 native 파일 선택과 클릭/키보드 버튼으로 수행한다."
+  },
+  "WCA-039": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "복잡 제스처나 끌기를 요구하지 않는다. 첨부는 native 파일 선택과 클릭/키보드 버튼으로 수행한다."
+  },
+  "KWA-022": {
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "동작은 기본 click/submit으로 실행하여 pointer-down 즉시 실행을 사용하지 않는다. 중요한 동작은 검토·취소를 제공한다."
+  },
+  "WCA-036": {
+    "code_refs": [
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "동작은 기본 click/submit으로 실행하여 pointer-down 즉시 실행을 사용하지 않는다. 중요한 동작은 검토·취소를 제공한다."
+  },
+  "KWA-023": {
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Gallery"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "가시적 버튼·링크 이름을 접근명에 포함한다. 항목 복사는 규칙ID와 가시적 항목 복사 문구를 함께 aria-label에 포함한다."
+  },
+  "WCA-037": {
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Gallery"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "가시적 버튼·링크 이름을 접근명에 포함한다. 항목 복사는 규칙ID와 가시적 항목 복사 문구를 함께 aria-label에 포함한다."
+  },
+  "KWA-024": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "장치 움직임·모션 센서로 작동하는 기능은 도입하지 않았다. 추가 시 대체 조작 및 해제수단을 검토한다."
+  },
+  "WCA-038": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "장치 움직임·모션 센서로 작동하는 기능은 도입하지 않았다. 추가 시 대체 조작 및 해제수단을 검토한다."
+  },
+  "KWA-025": {
+    "code_refs": [
+      "apps/web/index.html"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "루트 HTML에 lang=ko를 명시하고 UI 기본 언어를 한국어로 제공한다."
+  },
+  "WCA-041": {
+    "code_refs": [
+      "apps/web/index.html"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "루트 HTML에 lang=ko를 명시하고 UI 기본 언어를 한국어로 제공한다."
+  },
+  "KWA-026": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "초점만으로 작업을 실행하거나 새 창을 열지 않는다. 검색은 명시 제출, 표준 필터는 같은 화면 결과만 갱신하며 파일 선택은 자동 제출하지 않는다."
+  },
+  "WCA-043": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "초점만으로 작업을 실행하거나 새 창을 열지 않는다. 검색은 명시 제출, 표준 필터는 같은 화면 결과만 갱신하며 파일 선택은 자동 제출하지 않는다."
+  },
+  "WCA-044": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestList",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "초점만으로 작업을 실행하거나 새 창을 열지 않는다. 검색은 명시 제출, 표준 필터는 같은 화면 결과만 갱신하며 파일 선택은 자동 제출하지 않는다."
+  },
+  "KWA-027": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Help"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "공통 사이드 메뉴·푸터에 도움말을 같은 순서로 제공하고 입력 옆에 일관된 도움 설명을 제공한다."
+  },
+  "WCA-047": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Help"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "공통 사이드 메뉴·푸터에 도움말을 같은 순서로 제공하고 입력 옆에 일관된 도움 설명을 제공한다."
+  },
+  "KWA-028": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "클라이언트와 서버 ProblemDetails errors의 제목·유형·내용·파일 오류를 필드별로 연결한다. 오류 단계로 돌아가 입력값을 유지하고 오류요약에 초점을 옮기며 필드 링크·aria-invalid·설명과 수정방법을 제공한다. 실제 보조기술 음성 검증은 별도 미실행이다."
+  },
+  "WCA-048": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "클라이언트와 서버 ProblemDetails errors의 제목·유형·내용·파일 오류를 필드별로 연결한다. 오류 단계로 돌아가 입력값을 유지하고 오류요약에 초점을 옮기며 필드 링크·aria-invalid·설명과 수정방법을 제공한다. 실제 보조기술 음성 검증은 별도 미실행이다."
+  },
+  "WCA-050": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#ApiError",
+      "apps/web/src/api.ts#parseFieldErrors",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "클라이언트와 서버 ProblemDetails errors의 제목·유형·내용·파일 오류를 필드별로 연결한다. 오류 단계로 돌아가 입력값을 유지하고 오류요약에 초점을 옮기며 필드 링크·aria-invalid·설명과 수정방법을 제공한다. 실제 보조기술 음성 검증은 별도 미실행이다."
+  },
+  "KWA-029": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "label/htmlFor·fieldset/legend와 필수/선택·입력 예·길이/형식 제한을 지속적으로 제공한다."
+  },
+  "WCA-049": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#Login",
+      "apps/web/src/App.tsx#RequestDetail"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "label/htmlFor·fieldset/legend와 필수/선택·입력 예·길이/형식 제한을 지속적으로 제공한다."
+  },
+  "KWA-030": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "비밀번호 붙여넣기/관리자·자동완성을 허용하고 인지기억·수학풀이 등의 인증시험을 추가하지 않는다."
+  },
+  "WCA-053": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "비밀번호 붙여넣기/관리자·자동완성을 허용하고 인지기억·수학풀이 등의 인증시험을 추가하지 않는다."
+  },
+  "KWA-031": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "단계 간 이동 및 오류 후 React 메모리 draft로 입력과 선택파일을 보존한다. 로그인 이메일 등 이미 있는 계정 정보 재입력을 업무 폼에서 요구하지 않는다."
+  },
+  "WCA-052": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "단계 간 이동 및 오류 후 React 메모리 draft로 입력과 선택파일을 보존한다. 로그인 이메일 등 이미 있는 계정 정보 재입력을 업무 폼에서 요구하지 않는다."
+  },
+  "KWA-032": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "React JSX 및 semantic HTML로 구조를 제공하고 dialog 제목은 useId로 중복을 방지한다. 모든 문서상태 HTML 마크업 전수 유효성 검사는 미실행이다."
+  },
+  "KWA-033": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "네이티브 컨트롤·접근명·aria-current/invalid/describedby·role=status/alert를 구현했다. 실제 NVDA/VoiceOver/TalkBack 사용 맥락과 음성 출력은 검증하지 않았다."
+  },
+  "WCA-054": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "네이티브 컨트롤·접근명·aria-current/invalid/describedby·role=status/alert를 구현했다. 실제 NVDA/VoiceOver/TalkBack 사용 맥락과 음성 출력은 검증하지 않았다."
+  },
+  "WCA-010": {
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "화면 방향 고정 API나 회전 제약을 사용하지 않고 가로·세로 폭에 따라 반응형 레이아웃이 동작한다."
+  },
+  "WCA-011": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Login"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "로그인 계정·비밀번호 입력에 autocomplete=username/current-password 및 email/password 타입을 명시한다. 추가 개인 프로필 필드는 수집하지 않는다."
+  },
+  "WCA-015": {
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "상대 글자 단위, 최소/유동 폭, 줄바꿈,320px 단열 배치와 표 대안을 구현했다. 200%/400%와 사용자 문자간격의 전체상태 수동 전수평가는 남아 있다."
+  },
+  "WCA-017": {
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "상대 글자 단위, 최소/유동 폭, 줄바꿈,320px 단열 배치와 표 대안을 구현했다. 200%/400%와 사용자 문자간격의 전체상태 수동 전수평가는 남아 있다."
+  },
+  "WCA-019": {
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "상대 글자 단위, 최소/유동 폭, 줄바꿈,320px 단열 배치와 표 대안을 구현했다. 200%/400%와 사용자 문자간격의 전체상태 수동 전수평가는 남아 있다."
+  },
+  "WCA-016": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#Login"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "서비스 이름·제목·설명·차트 수치를 실제 텍스트로 표시한다. 본문을 이미지로 렌더링하지 않는다."
+  },
+  "WCA-020": {
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Help"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "호버/초점에만 나타나는 필수 콘텐츠를 사용하지 않는다. 추가정보는 명시적 details 클릭/키보드로 유지·해제한다."
+  },
+  "WCA-022": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Modal",
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "모달의 Tab/ShiftTab을 내부로 순환시키되 Escape와 닫기/취소를 제공하고 원래 초점으로 복귀한다. 일반 화면에 초점트랩을 사용하지 않는다."
+  },
+  "WCA-031": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#RequestList"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "공통 탐색, 대시보드 상태별 링크, 요청 검색·정렬, 도움말·자료 검색 경로를 제공한다."
+  },
+  "WCA-042": {
+    "code_refs": [
+      "apps/web/index.html",
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Gallery",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "루트 한국어와 별도로 브랜드/서비스명·영문 문구·갤러리 분류의 영어 영역에 lang=en을 명시한다. 기술명·코드·식별자는 기술 표기 예외와 구분한다. 실제 화면낭독기 발음 평가는 별도 미실행이다."
+  },
+  "WCA-045": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "App shell에서 탐색 순서와 현재 화면을 일관되게 유지하고 같은 동작의 버튼·링크 이름을 재사용한다."
+  },
+  "WCA-046": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#AppLink",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "App shell에서 탐색 순서와 현재 화면을 일관되게 유지하고 같은 동작의 버튼·링크 이름을 재사용한다."
+  },
+  "WCA-051": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/ui.tsx#Modal"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 제출 전 검토/정정, 취소 시 계속작성 선택, 관리자 상태변경 사유와 취소·확정을 제공한다."
+  },
+  "WCA-055": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Success",
+      "apps/web/src/ui.tsx#Loading",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#RequestList"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "검색결과·로딩·저장·복사 상태는 role=status, 오류는 alert로 전달한다. 파일 선택 상태·업로드 진행의 실제 보조기술 낭독 전수검사는 남아 있다."
+  },
+  "INC-001": {
+    "code_refs": [],
+    "implementation_status": "계획",
+    "implementation_summary": "실제 장애 당사자 참여 평가는 수행하지 않았다. 대표 과업·보조기술·환경을 갖춘 참여평가가 필요하다."
+  },
+  "INC-002": {
+    "code_refs": [
+      "apps/web/src/styles.css",
+      "apps/web/src/App.tsx#Preferences"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "forced-colors 및 prefers-reduced-motion 대응과 사용자 글자크기/모션 설정을 제공한다. 브라우저 확대를 금지하지 않는다."
+  },
+  "INC-003": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/ui.tsx#ErrorBox"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "짧은 한국어 안내·구체적인 행동명·수정방법을 제공한다. 고령자/인지·학습 어려움 당사자와의 용어 이해도 검증은 미실행이다."
+  },
+  "INC-004": {
+    "code_refs": [
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "주요 조작은44px 이상, 입력48px, 메뉴49px의 목표를 적용한다. 모바일48px 권장 목표의 모든 조작부 전수 실측은 별도 남아 있다."
+  },
+  "INC-005": {
+    "code_refs": [
+      "apps/web/src/ui.tsx#Badge",
+      "apps/web/src/ui.tsx#ErrorBox",
+      "apps/web/src/ui.tsx#Success"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "상태를 색상과 함께 한국어 텍스트·아이콘·role 상태 알림으로 표현한다."
+  },
+  "INC-006": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/web/src/api.ts#api",
+      "apps/web/src/api.ts#uploadFiles"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "오류 후 메모리 draft, 요청 취소·타임아웃, 저장 본문과 업로드 실패 분리, 재시도 시 같은 Idempotency-Key를 제공한다. 브라우저 종료 후 민감 작성내용 자동복원은 제공하지 않는다."
+  },
+  "INC-007": {
+    "code_refs": [
+      "apps/web/src/App.tsx#App",
+      "apps/web/src/App.tsx#Help",
+      "apps/web/src/styles.css"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "별도 접근성 대체 사이트 없이 같은 업무 UI에 의미구조·키보드·설정·오류복구를 적용했다. 전체 보조기술 과업 평가는 남아 있다."
+  },
+  "INC-008": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "첨부 형식·크기·개수 안내와 native 파일 선택, 인가 다운로드, 본문 텍스트 대안을 제공한다. 사용자가 업로드한 PDF 등 첨부 내용 자체 접근성 검증은 제공하지 않는다."
+  },
+  "INC-009": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Dashboard",
+      "apps/web/src/App.tsx#RequestTable"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "상태별 통계를 실제 텍스트 수치·이름으로 제공하고 동등한 sr-only 설명을 제공한다. 이미지 전용 그래프는 사용하지 않는다."
+  },
+  "INC-010": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Help"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "음성통화 의존 없이 업무요청에 문제를 기록하도록 안내한다. 외부 문의메일 전송·지원 채널 연동은 구현하지 않았음을 밝힌다."
+  },
+  "INC-011": {
+    "code_refs": [
+      "apps/web/src/App.tsx#Preferences",
+      "apps/web/src/App.tsx#Privacy"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "장애 유형을 수집하지 않고 글자·모션 선호값만 localStorage에 저장한다. 기본값 복원을 제공한다."
+  },
+  "INC-012": {
+    "code_refs": [
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "apps/web/src/App.tsx#Help"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "적용성/구현/자동/수동/증빙을 구분 공개한다. 미실행·증빙없는 항목은 통과로 표시하지 않으며 출처·코드·시험·자료 다운로드 및 문의방법을 제공한다."
+  }
+}

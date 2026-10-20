@@ -1,0 +1,637 @@
+{
+  "GOV-001": {
+    "code_refs": [
+      "scripts/build-standards.py#main",
+      "standards/source-register.json#SRC-001",
+      "standards/source-manifest.json",
+      "standards/catalog.json#source_version"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "출처 등록부에 발행기관·판본·URL·수집일·원본파일과 SHA256을 보존하고 카탈로그의 절/쪽 필드에 연결한다. 원문 등급과 현행 법령의 전수 확인은 별도 미완료다."
+  },
+  "GOV-002": {
+    "code_refs": [
+      "scripts/build-standards.py#main",
+      "standards/catalog.json#reference_kind",
+      "standards/profiles/common.json#mandatory_levels_separate_from_source"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "카탈로그에서 reference_kind, source_requirement_level, company_level, applicability를 분리하고 조건부/해당없음의 사유와 재평가 조건을 적용 기록으로 유지한다. 법적 적용 의무의 최종 판단은 미실행이다."
+  },
+  "GOV-003": {
+    "code_refs": [
+      "standards/deviations.json",
+      "scripts/evidence-check.mjs#validateEvidence",
+      "tests/standards/ledger.test.mjs"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "편차 필수필드와 만료기한을 자동검사하고 승인 편차의 PASS를 차단한다. 실제 위험·대체통제 검토와 회사 승인 프로세스는 미실행이며 승인된 편차도 현재 없다."
+  },
+  "GOV-004": {
+    "code_refs": [
+      "scripts/build-standards.py#code_for",
+      "scripts/build-standards.py#main",
+      "scripts/evidence-check.mjs#validateEvidence",
+      "standards/code-map-backend.json"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "각 규칙에 구현 경로·논리시험·실행증빙 ID를 연결하고 원장 생성과 ID/경로/hash/commit 검사로 추적한다. 개별 조항의 전수 충족이나 사람의 검토를 코드 존재로 추정하지 않는다."
+  },
+  "GOV-005": {
+    "code_refs": [
+      "scripts/evidence-lib.mjs#sourceSnapshot",
+      "scripts/evidence-lib.mjs#recordArtifact",
+      "docs/COMPANY_CODING_STANDARD.md"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "구현 변경과 증빙의 commit·소스 hash를 기록하고 변경요약을 제공한다. 위험도별 PR 템플릿, 지정 검토자 승인 및 실제 독립 리뷰 기록은 미구현/미실행이다."
+  },
+  "GOV-006": {
+    "code_refs": [
+      "global.json#sdk",
+      "dotnet-tools.json#dotnet-ef",
+      "apps/api/packages.lock.json",
+      "scripts/backend-verify.mjs#tasks",
+      "scripts/manage.mjs#setup"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "SDK·NuGet·EF 도구·npm 의존성을 잠그고 locked restore와 빌드를 실제 실행한다. 완전히 깨끗한 별도 환경에서의 전체 실행 재현과 외부 CI 실행은 아직 확인하지 않았다."
+  },
+  "GOV-007": {
+    "code_refs": [
+      "scripts/evidence-lib.mjs#recordArtifact",
+      "scripts/evidence-lib.mjs#runCommand",
+      "scripts/evidence-check.mjs#validateEvidence",
+      "scripts/build-standards.py#main"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "명령 종료코드·시각·commit·도구/환경·원시파일 SHA256을 증빙에 기록하고 자동 결과와 미실행 수동 결과를 분리한다. 검토자와 화면낭독기 결과를 자동 생성하지 않는다."
+  },
+  "GOV-008": {
+    "code_refs": [
+      "scripts/supply-chain.mjs",
+      "scripts/backend-verify.mjs#tasks",
+      "docs/SECURITY_STANDARD.md"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "npm/NuGet 실제 취약점 조회와 실패 종료 및 결과 보존을 제공한다. 심각도별 대응기한, 담당자·승인자, 취약점 이슈의 릴리스까지 후속 추적 절차는 확정되지 않았다."
+  },
+  "COD-001": {
+    "code_refs": [
+      "apps/web/tsconfig.json#compilerOptions",
+      "apps/web/eslint.config.js",
+      "apps/web/src/api.ts#parseSession",
+      "apps/web/src/api.ts#parseRequest"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "TypeScript strict/noUncheckedIndexedAccess와 타입 기반 ESLint를 사용하고 서버 경계 응답을 unknown에서 명시적으로 검증한다. C#은 별도 nullable 프로파일로 관리한다."
+  },
+  "COD-002": {
+    "code_refs": [
+      "docs/COMPANY_CODING_STANDARD.md",
+      "standards/profiles/csharp.json#public_members",
+      "apps/api/RequestsController.cs#RequestsController",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "언어별 명명 기준을 문서화하고 C# 공개 타입/멤버 PascalCase 및 지역/인자 camelCase, React 컴포넌트 PascalCase의 실제 구조를 적용한다. 모든 식별자의 기계적 명명 검사는 별도 범위다."
+  },
+  "COD-003": {
+    "code_refs": [
+      ".editorconfig",
+      "scripts/backend-verify.mjs#tasks",
+      "apps/web/package.json#scripts",
+      ".github/workflows/verify.yml#verify"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "EditorConfig의 UTF-8/LF/들여쓰기와 프런트 formatter, dotnet format 검사를 실행 스크립트에 고정한다. 외부 CI 실행 사실과 설정 제공은 구별한다."
+  },
+  "COD-004": {
+    "code_refs": [
+      "apps/api/Models.cs#RequestDto",
+      "apps/api/Models.cs#UpdateRequestDto",
+      "apps/api/Infrastructure.cs#ApiErrors.Problem",
+      "apps/web/src/api.ts#parseRequest",
+      "docs/API_CONTRACT.md"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "C# 허용 DTO, System.Text.Json 바인딩, 서버 검증 및 ProblemDetails와 프런트 unknown 파서를 구현하고 HTTP 계약 시험을 실행한다. API 계약은 Markdown이며 계획의 자동 OpenAPI 스키마/엔드포인트는 미구현이다."
+  },
+  "COD-005": {
+    "code_refs": [
+      "apps/api/Program.cs#DbUpdateConcurrencyException",
+      "apps/api/Infrastructure.cs#ApiErrors.Problem",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Delete",
+      "apps/web/src/api.ts#ApiError"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "중앙 미들웨어에서 취소·동시성·검증·서버 오류를 분리하고 안정된 코드/traceId와 일반화한 메시지를 반환한다. 첨부 정리 실패는 경고 로그로 남기고 시스템 예외는 서버 로그에서 관찰한다."
+  },
+  "COD-006": {
+    "code_refs": [
+      "apps/web/src/api.ts#api",
+      "apps/web/src/api.ts#uploadFiles",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload",
+      "apps/api/RequestsController.cs#RequestsController.List"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "HTTP 경계의 AbortSignal과 20초 fetch/60초 업로드 제한, DB·파일 async I/O의 CancellationToken 전달을 구현한다. 전체 서버 요청의 명시적 시간 예산과 중단·디스크지연 주입 전수 시험은 미구현/미실행이다."
+  },
+  "COD-007": {
+    "code_refs": [
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload",
+      "apps/api/RequestsController.cs#RequestsController.PersistCreated",
+      "apps/api/Program.cs#CreateAsyncScope",
+      "apps/web/src/App.tsx#useRemote",
+      "apps/web/src/api.ts#api"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "업로드 MemoryStream, EF 트랜잭션과 시작 시 서비스 scope를 using/await using으로 해제하고 UI fetch AbortController 및 타이머/이벤트 정리를 구현한다."
+  },
+  "COD-008": {
+    "code_refs": [
+      "apps/api/BusinessRules.cs#BusinessRules.Validate",
+      "apps/api/BusinessRules.cs#BusinessRules.CanTransition",
+      "apps/api/RequestsController.cs#RequestsController.List",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "제목/본문 길이와 분류 허용값, 상태전이·사유·버전, 페이지/검색 범위와 파일 개수/크기/형식을 서버에서 강제한다. 프런트 검증은 안내용으로 별도 수행한다."
+  },
+  "COD-009": {
+    "code_refs": [
+      "apps/web/eslint.config.js",
+      "apps/web/src/api.ts#api",
+      "apps/web/src/api.ts#uploadFiles",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "no-floating-promises/no-misused-promises를 오류로 설정하고 API/업로드 실패는 예외 및 명시적 UI 오류 상태로 전달한다. 제품 함수의 async 제출은 내부 try/catch에서 관찰한다."
+  },
+  "COD-010": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestWizard",
+      "apps/api/RequestsController.cs#RequestsController",
+      "apps/api/BusinessRules.cs#BusinessRules",
+      "apps/api/Models.cs#AppDb"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "React 표시/상호작용, API 애플리케이션 흐름, 프레임워크 독립 BusinessRules, EF AppDb로 책임을 나눈다. 소규모 샘플에 불필요한 저장소 추상화나 마이크로서비스는 추가하지 않았다."
+  },
+  "COD-011": {
+    "code_refs": [
+      "docs/COMPANY_CODING_STANDARD.md",
+      "standards/profiles/common.json#complexity_warning",
+      "apps/web/eslint.config.js",
+      "tests/backend/coverage.runsettings#ExcludeByFile"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "회사 경고 목표 순환복잡도10/중첩3과 생성코드 제외를 문서화했다. 현재 ESLint 설정에는 complexity/max-depth 규칙이 없고 C# 동일 산식 도구 및 초과항목의 승인된 편차도 없다."
+  },
+  "COD-012": {
+    "code_refs": [
+      "apps/api/Kstd.Api.csproj#TreatWarningsAsErrors",
+      "apps/web/tsconfig.json#noUnusedLocals",
+      "apps/web/eslint.config.js",
+      "tests/backend/coverage.runsettings#ExcludeByFile"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "C# 경고를 오류로 처리하고 최신 분석기를 활성화한다. TS noUnusedLocals/noUnusedParameters와 ESLint/format으로 불필요 코드를 검사한다. 생성 migration/obj는 커버리지에서 별도 제외한다."
+  },
+  "COD-013": {
+    "code_refs": [
+      "apps/api/SeedData.cs#SeedData.RequirePassword",
+      "apps/api/SeedData.cs#SeedData.Initialize",
+      "scripts/manage.mjs#setup",
+      ".env.example",
+      ".gitignore"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "암호는 환경변수로만 주입하고 개발 env 예제와 실제 무작위 생성 파일을 분리한다. 샘플 seed에는 최소 길이와 Development 제한을 적용하며 저장소에서 env/data를 제외한다."
+  },
+  "COD-014": {
+    "code_refs": [
+      "docs/API_CONTRACT.md",
+      "apps/api/Models.cs#RequestDto",
+      "apps/web/src/api.ts#entityId",
+      "apps/web/src/export.ts#safeSpreadsheetCell"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "API의 입력·응답·오류·길이·권한·첨부·세션 제약을 계약 문서에 명시하고 일부 경계 함수에 목적 주석을 둔다. 모든 공개 C#/TS 함수의 XML/JSDoc 계약은 아직 작성하지 않았다."
+  },
+  "COD-015": {
+    "code_refs": [
+      "apps/api/RequestsController.cs#RequestsController.PersistCreated",
+      "apps/api/RequestsController.cs#RequestsController.Create",
+      "apps/api/Models.cs#AppDb.OnModelCreating",
+      "apps/api/AttachmentsController.cs#AttachmentsController.SaveFiles",
+      "apps/web/src/App.tsx#RequestWizard"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청/이력/감사 기록은 EF 트랜잭션으로 저장하고 작성자+UUID 고유제약, 낙관적 version 및 파일 저장 실패 정리를 제공한다. 파일시스템과 DB의 프로세스 충돌까지 단일 원자성은 보장하지 않으며 운영 정리 절차가 필요하다."
+  },
+  "COD-016": {
+    "code_refs": [
+      "apps/api/Models.cs#WorkRequest.CreatedAt",
+      "apps/api/RequestsController.cs#RequestsController.View",
+      "apps/api/Infrastructure.cs#SampleSessionOptions.Minutes",
+      "apps/web/src/ui.tsx#formatDate"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "DateTime.UtcNow로 저장하고 API에서 UTC Kind/Z를 명시한다. 프런트 Intl.DateTimeFormat의 Asia/Seoul을 사용한다. 금액 모델은 현재 없어 decimal 준수 실적을 주장하지 않는다."
+  },
+  "COD-017": {
+    "code_refs": [
+      "apps/api/Kstd.Api.csproj#Nullable",
+      "apps/api/Kstd.Api.csproj#AnalysisLevel",
+      "scripts/backend-verify.mjs#tasks",
+      "standards/profiles/csharp.json"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "net10.0, Nullable enable, 최신 분석기, 경고 오류처리 및 dotnet format을 고정한다. 실제 build/format의 실행 결과는 별도 증빙에 연결한다."
+  },
+  "COD-018": {
+    "code_refs": [
+      "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs#BusinessRulesTests",
+      "tests/backend/integration.py#test",
+      "tests/backend/test-catalog.json",
+      "scripts/backend-verify.mjs#tasks"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "상태전이/길이/형식 경계 단위시험과 실제 인증·객체/역할 거부·CSRF·동시성·첨부·재시작·만료·백업복구 HTTP 통합시험을 제공한다. 수치 달성을 위한 전체 커버리지 추정은 하지 않는다."
+  },
+  "SEC-001": {
+    "code_refs": [
+      "docs/ARCHITECTURE.md",
+      "docs/SECURITY_STANDARD.md",
+      "apps/api/RequestsController.cs#RequestsController.VisibleRequests",
+      "apps/api/Program.cs#AddAntiforgery"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "아키텍처 문서에서 브라우저/쿠키/API/DB/첨부/빌드/내보내기 경계와 주요 위협을 식별하고 구현 통제를 설명한다. 위협별 통제 ID 매핑과 정식 데이터 흐름도/위험 승인표는 미완성이다."
+  },
+  "SEC-002": {
+    "code_refs": [
+      "apps/api/RequestsController.cs#RequestsController.List",
+      "apps/api/Models.cs#AppDb",
+      "scripts/manage.mjs#run",
+      "scripts/backend.py#run"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "사용자 검색/객체 ID는 EF LINQ로 매개변수화하며 사용자 문자열을 SQL/명령문에 결합하지 않는다. 빌드/운영 도구의 외부 명령도 spawn 인자 배열로 실행한다."
+  },
+  "SEC-003": {
+    "code_refs": [
+      "apps/web/src/App.tsx#RequestDetail",
+      "apps/web/src/App.tsx#RequestTable",
+      "apps/web/src/StandardsBrowser.tsx#StandardsBrowser",
+      "scripts/generate-reports.mjs#esc"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 제목/내용은 React 텍스트 노드로 렌더하고 사용자 HTML 삽입 기능을 제공하지 않는다. 정적 HTML 보고서도 데이터의 특수문자를 esc로 이스케이프한다. 저장형/반사형 공격 전수 보안평가는 별도 미실행이다."
+  },
+  "SEC-004": {
+    "code_refs": [
+      "apps/api/Program.cs#AddAuthentication",
+      "apps/api/AuthController.cs#AuthController.Login",
+      "apps/api/AuthController.cs#AuthController.RejectLogin",
+      "apps/api/SeedData.cs#SeedData.NewUser"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "ASP.NET Core Cookie Authentication과 Identity PasswordHasher를 사용한다. 로그인 서버 검증, 실패 잠금, hash 저장을 구현하며 자체 암호 알고리즘을 만들지 않는다."
+  },
+  "SEC-005": {
+    "code_refs": [
+      "apps/api/RequestsController.cs#RequestsController.VisibleRequests",
+      "apps/api/RequestsController.cs#RequestsController.ChangeStatus",
+      "apps/api/RequestsController.cs#RequestsController.Update",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Download",
+      "apps/api/AttachmentsController.cs#AttachmentsController.CanEdit"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "비공개 컨트롤러에 Authorize, 관리자 상태처리에 Roles=admin, 조회·수정·첨부별 소유권을 서버에서 강제한다. 다른 사용자 개체에는404를 반환하고 UI 버튼 노출과 독립적으로 거부한다."
+  },
+  "SEC-006": {
+    "code_refs": [
+      "apps/api/Program.cs#AddAntiforgery",
+      "apps/api/Program.cs#ValidateRequestAsync",
+      "apps/api/AuthController.cs#AuthController.Csrf",
+      "apps/web/src/api.ts#refreshCsrf"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "JSON/multipart를 포함한 모든 비조회 요청에 프레임워크 Antiforgery 토큰 검증과 Strict SameSite cookie를 적용한다. 계획의 별도 Origin/Referer allowlist 검증은 미구현이며 업무상 GET은 조회만 제공한다(감사 기록 제외)."
+  },
+  "SEC-007": {
+    "code_refs": [
+      "apps/api/Program.cs#AddCookie",
+      "apps/api/SessionCookieValidation.cs#SessionCookieValidation.ValidatePrincipal",
+      "apps/api/AuthController.cs#AuthController.IssueSession",
+      "apps/api/AuthController.cs#AuthController.Logout",
+      "apps/api/AuthController.cs#AuthController.Extend",
+      "apps/web/src/App.tsx#App"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "프레임워크 쿠키의 HttpOnly/Strict/운영Secure, 고정 만료와60초 경고/제한 없는 연장, DB SessionVersion 매요청 검증을 구현한다. 로그아웃은 동일계정 모든 세션의 버전을 원자 증가시켜 복제한 이전 티켓도 즉시 거부한다. 운영 HTTPS/실제브라우저 조합 검증과 Windows ACL은 별도 미실행이다."
+  },
+  "SEC-008": {
+    "code_refs": [
+      "apps/api/SeedData.cs#SeedData.RequirePassword",
+      "apps/api/Program.cs#AddDataProtection",
+      "scripts/manage.mjs#setup",
+      ".gitignore",
+      "scripts/security-scan.mjs"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "실제 개발 암호는 환경변수/.env로만 주입하며 예제·번들·저장소와 분리한다. DataProtection 인증키의 디스크 암호화/운영 secret store 및 키 회전 정책은 미구현이다. 제한적인 3종 비밀서명 소스검사도 제공하며 전면 비밀탐지/SAST의 대체는 아니다."
+  },
+  "SEC-009": {
+    "code_refs": [
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload",
+      "apps/api/AttachmentsController.cs#AttachmentsController.SaveFiles",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Download",
+      "apps/api/BusinessRules.cs#BusinessRules.DetectContent",
+      "apps/api/BusinessRules.cs#BusinessRules.SafeFileName"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "5MiB/3개 상한, txt UTF-8 및 PDF/PNG signature, 안전한 표시명·랜덤 저장명·웹루트 외 저장·다운로드별 인가를 구현한다. signature는 완전한 파서/무해성 보장이 아니며 악성코드 엔진·격리·CDR는 미구현이다."
+  },
+  "SEC-010": {
+    "code_refs": [
+      "apps/api/Program.cs#ConfigureKestrel",
+      "apps/api/Program.cs#AddRateLimiter",
+      "apps/api/RequestsController.cs#RequestsController.List",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Upload",
+      "apps/api/AuthController.cs#AuthController.RejectLogin"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "본문16MiB, 파일5MiB/3개, 페이지100개/검색100자, DB timeout10초, 로그인 IP별20회/분 제한과5회 계정 잠금을 둔다. 전 API의 동시성/빈도 제한과 운영 부하·자원 고갈 시험은 미구현/미실행이다."
+  },
+  "SEC-011": {
+    "code_refs": [
+      "apps/api/Program.cs#UseHsts",
+      "apps/api/Program.cs#UseHttpsRedirection",
+      "apps/api/Program.cs#Content-Security-Policy",
+      "apps/api/Program.cs#AddCookie",
+      "docs/SECURITY_STANDARD.md"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "운영 HTTPS redirect/HSTS/Secure cookie 및 API·웹별 CSP/nosniff/frame 차단을 설정한다. wildcard CORS나 cross-origin credential 허용은 제공하지 않는다. 인증서·신뢰 프록시·운영 TLS 실환경 검증은 미실행이다."
+  },
+  "SEC-012": {
+    "code_refs": [
+      "apps/api/Infrastructure.cs#ApiErrors.Problem",
+      "apps/api/Infrastructure.cs#ApiErrors.Write",
+      "apps/api/Program.cs#LogError",
+      "apps/api/RequestsController.cs#RequestsController.ValidationFailure"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "서버 오류는 일반화한 한국어 ProblemDetails와 code/traceId만 반환하고 스택·내부 경로는 서버 로그로 제한한다. DTO/인가/동시성/파일 오류도 같은 오류 계약을 사용한다."
+  },
+  "SEC-013": {
+    "code_refs": [
+      "apps/api/Models.cs#AuditEvent",
+      "apps/api/Infrastructure.cs#ApiErrors.Audit",
+      "apps/api/RequestsController.cs#RequestsController.AddHistory",
+      "apps/api/AuthController.cs#AuthController.RejectLogin",
+      "tests/backend/integration.py#audit"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "요청 생성/수정/상태·첨부·로그인/로그아웃/연장을 감사 테이블에 행위자·대상·성공여부·UTC시각·traceId로 저장한다. 감사 필드에 암호/토큰을 넣지 않고 HTTP 통합시험에서 비밀 미포함을 검사한다."
+  },
+  "SEC-014": {
+    "code_refs": [
+      "scripts/supply-chain.mjs",
+      "scripts/backend-verify.mjs#tasks",
+      "scripts/backend-sbom.py",
+      "apps/api/packages.lock.json",
+      "evidence/backend/nuget-sbom.json"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "npm/NuGet lock, 실제 audit, NuGet nuspec 라이선스 메타데이터와 프로젝트별 SBOM/의존성 목록을 생성한다. 라이선스 호환성의 법적 검토, 실제 사용 경로 취약점 판정과 승인/대응기한 운영은 별도 미완료다."
+  },
+  "SEC-015": {
+    "code_refs": [
+      "apps/web/src/export.ts#safeSpreadsheetCell",
+      "apps/web/src/export.ts#csvCell",
+      "apps/web/src/export.ts#makeCsv",
+      "scripts/generate-reports.mjs#safe",
+      "apps/web/src/export.test.ts"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "Help CSV는 BOM/인용/개행과 공백 뒤 위험 수식 문자를 방어하고 단위시험을 제공한다. 보고서 생성 safe 함수의 선행공백/LF 경계는 보완 중이며 XLSX 실제 문자열 셀과 모든 내보내기의 동일 정책 대조가 필요하다."
+  },
+  "SEC-016": {
+    "code_refs": [
+      "apps/api/Models.cs#RequestDto",
+      "docs/SECURITY_STANDARD.md",
+      "docs/API_CONTRACT.md"
+    ],
+    "implementation_status": "계획",
+    "implementation_summary": "서버 DTO에는 외부 URL 가져오기/리다이렉트 기능이 없으며 현재 SSRF 유발 기능을 제공하지 않는다. 해당 기능이 도입되면 허용대상·DNS/IP·리다이렉트·응답크기 통제를 별도 구현/시험해야 한다(조건부 유지)."
+  },
+  "SEC-017": {
+    "code_refs": [
+      "apps/api/SeedData.cs#SeedData.Initialize",
+      "tests/backend/integration.py#start",
+      "scripts/backend.py#backup",
+      "apps/api/Program.cs#StorageOptions",
+      "apps/api/Infrastructure.cs#StorageOptions.PrepareDirectories",
+      "apps/api/Infrastructure.cs#StorageOptions.RestrictPersistedFiles"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "가상 사용자/요청만 seed하며 임시 시험 DB·환경변수 암호·Production seed 차단과 DB/첨부/키 백업을 제공한다. Unix 데이터/업로드/키 디렉터리0700, DB/첨부/백업파일0600을 적용한다. 운영 백업암호화·보존/승인 정책과 Windows ACL 검증은 미완료다."
+  },
+  "SEC-018": {
+    "code_refs": [
+      "apps/api/Models.cs#RequestDto",
+      "apps/api/BusinessRules.cs#BusinessRules.Validate",
+      "apps/api/Program.cs#FormOptions",
+      "apps/web/src/api.ts#object",
+      "apps/web/src/api.ts#parseRequest"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "서버는 지정 DTO와 제한된 폼/본문 크기로 JSON을 바인딩하고 길이·허용값을 재검증한다. 프런트는 unknown 검증 후 사용하며 eval/임의 타입 역직렬화나 HTML 실행 기능은 사용하지 않는다."
+  },
+  "QA-001": {
+    "code_refs": [
+      "scripts/run-checks.mjs#checks",
+      "scripts/backend-verify.mjs#tasks",
+      "apps/web/package.json#verify",
+      ".github/workflows/verify.yml#verify"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "잠금 복원, C# build/analyzers/format/xUnit 및 프런트 format/lint/type/build/unit를 실제 실행하는 통합 verify 명령을 제공한다. 완전히 새 OS와 외부 CI의 재현 실행 여부는 따로 구분한다."
+  },
+  "QA-002": {
+    "code_refs": [
+      "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs#BE_UNIT_001_StateTransitions",
+      "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs#BE_UNIT_003_LengthBoundaries",
+      "tests/backend/integration.py#creation",
+      "tests/backend/integration.py#concurrent_submission"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "허용/거부 상태전이, 필수값·최대길이·파일 signature 경계, UTC 출력, 오래된 version409와 DB 고유제약을 실제 단위/HTTP 시험으로 검사한다."
+  },
+  "QA-003": {
+    "code_refs": [
+      "tests/backend/integration.py#Client",
+      "tests/backend/integration.py#BE-INT-008",
+      "tests/backend/integration.py#BE-INT-009",
+      "tests/backend/integration.py#BE-INT-018",
+      "apps/api/RequestsController.cs#RequestsController.VisibleRequests"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "일반 사용자 A/B와 관리자 인증을 분리해 타 요청404, 타 첨부404, 일반 사용자의 관리자 API403과 mass assignment 방지를 실제 서버에 검사한다."
+  },
+  "QA-004": {
+    "code_refs": [
+      "tests/backend/integration.py#Client.upload",
+      "tests/backend/integration.py#BE-INT-013",
+      "tests/backend/integration.py#BE-INT-019",
+      "tests/backend/integration.py#delete_file",
+      "apps/api/AttachmentsController.cs#AttachmentsController.SaveFiles"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "위장 확장자/실행파일/5MiB 초과/3개 초과/경로명 제거/다운로드 인가/삭제 후404와 실제 바이트를 검사한다. 업로드 도중 네트워크 중단·디스크 쓰기 실패·DB 실패 주입 후 잔여파일 복구 시험은 미실행이다."
+  },
+  "QA-005": {
+    "code_refs": [
+      "tests/e2e/browser.mjs#E2E-WORKFLOW",
+      "tests/e2e/browser.mjs#login",
+      "tests/backend/integration.py#BE-INT-031",
+      "apps/api/RequestsController.cs#RequestsController.ChangeStatus"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "실제 브라우저 로그인→단계형 등록/입력 보존→첨부 바이트 다운로드→관리자 처리중/완료→이력을 자동화하고 별도 HTTP 시험에서 서버 재시작 후 DB/첨부/인증키 영속성을 확인한다. 사람이 수행한 전체 키보드·AT 업무 평가는 미실행이다."
+  },
+  "QA-006": {
+    "code_refs": [
+      "tests/e2e/browser.mjs#axe",
+      "tests/e2e/browser.mjs#E2E-AXE",
+      "tests/e2e/browser.mjs#axeStates"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "axe를 로그인/현황/오류/검토/완료/상세/관리모달/도움말/갤러리 등 E2E의 실제 상태에서 실행하고 원시 violations/incomplete를 남긴다. 모든 확장영역·역할·테마·오류 조합을 전수 자동 검사하는 행렬은 미완성이다."
+  },
+  "QA-007": {
+    "code_refs": [
+      "scripts/build-standards.py#main",
+      "standards/accessibility-scenarios.json",
+      "standards/tests.json#MAN-QA-007",
+      "docs/ACCESSIBILITY_STANDARD.md"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "보조기술/장애유형 대표 과업과 각 규칙 MAN 시험을 독립 관리하고 환경·검사자·관찰·판정을 빈값/미실행으로 유지한다. NVDA/모바일 AT/당사자 참여 실제 수행은 아직 없다."
+  },
+  "QA-008": {
+    "code_refs": [
+      "docs/ARCHITECTURE.md",
+      "docs/ACCESSIBILITY_STANDARD.md",
+      "tests/e2e/browser.mjs#axeStates",
+      "scripts/evidence-lib.mjs#recordArtifact"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "S01~S08/역할·주요 상태와 Chromium 자동검사의 한계를 아키텍처·접근성 문서 및 증빙에 공개한다. 모든 URL·역할·상태·반응형 변형을 개별 조항까지 열거한 공식 준수 주장 범위 manifest와 전수 수동 검토는 미완료다."
+  },
+  "QA-009": {
+    "code_refs": [
+      "tests/e2e/browser.mjs#E2E-REFLOW",
+      "tests/e2e/browser.mjs#setViewportSize",
+      "docs/ACCESSIBILITY_STANDARD.md"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "Chromium 1440/320 CSS px와 주요 화면의 DOM overflow/문자간격 변형을 자동 검사한다. Firefox/Safari/실기기·실제200% 문자/400% 브라우저 확대·모든 지원 조합 검사는 미실행이다."
+  },
+  "QA-010": {
+    "code_refs": [
+      "apps/web/src/api.ts#api",
+      "apps/web/src/api.ts#uploadFiles",
+      "tests/e2e/browser.mjs#E2E-ERROR",
+      "tests/backend/integration.py#test"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "fetch/업로드 시간제한·취소 API,503 오류 주입과 재시도 복구·빈 결과를 구현/검사한다. 기준 장비·동시사용자·데이터량에 따른 성능 측정과 실제 지연/중단/업로드 복구의 전체 시험은 미실행이다."
+  },
+  "QA-011": {
+    "code_refs": [
+      "tests/backend/coverage.runsettings#ExcludeByFile",
+      "scripts/backend-verify.mjs#tasks",
+      "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs",
+      "docs/BACKEND_OPERATIONS.md"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "Coverlet의 실제 xUnit 계측 결과와 migration/obj/generated 제외 설정을 보존한다. BusinessRules 표본 결과를 전체 권한/서버 커버리지로 합산하지 않으며 별도 HTTP 서버의 line/branch 계측과80/70 목표 달성은 미확인이다."
+  },
+  "QA-012": {
+    "code_refs": [
+      "scripts/run-checks.mjs#checks",
+      "scripts/backend-verify.mjs#tasks",
+      "scripts/evidence-lib.mjs#runCommand",
+      "scripts/evidence-check.mjs#validateEvidence",
+      "tests/e2e/browser.mjs#E2E-AXE"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "검사 실패를 실제 nonzero로 전달하고 로그/소스 hash를 보존하며 수정 후 영향을 받는 검사를 다시 실행하는 로컬 게이트를 제공한다. 접근성 자동결과나 CI 설정을 전체 준수·원격 실행 실적으로 환산하지 않는다."
+  },
+  "OPS-001": {
+    "code_refs": [
+      "scripts/manage.mjs#setup",
+      "apps/api/SeedData.cs#SeedData.Initialize",
+      "apps/api/SeedData.cs#SeedData.RequirePassword",
+      "tests/backend/integration.py#env",
+      ".env.example"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "개발 .env의 무작위 암호 주입과 시험 전용 env/임시 DB를 분리하며 Production의 샘플 seed를 항상 거부한다. 운영 secret store·키암호화·실제 배포 검증은 별도 인수 항목이다."
+  },
+  "OPS-002": {
+    "code_refs": [
+      "apps/api/Program.cs#MigrateAsync",
+      "apps/api/Migrations/AppDbModelSnapshot.cs#AppDbModelSnapshot.BuildModel",
+      "scripts/backend.py#migrate",
+      "docs/BACKEND_OPERATIONS.md"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "EF InitialSchema/멱등키 migration 및 model snapshot을 버전관리하고 시작 시 MigrateAsync, 별도 migrate/reset과 백업 복원 경로를 제공한다. 기존 운영 DB의 장애 주입·수동 rollback 전수 시험은 별도 미실행이다."
+  },
+  "OPS-003": {
+    "code_refs": [
+      "scripts/backend.py#backup",
+      "scripts/backend.py#restore-db",
+      "tests/backend/integration.py#backup_restore",
+      "docs/BACKEND_OPERATIONS.md"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "API 중지 조건에서 SQLite backup API와 첨부/인증키 tar 보존,0600 백업, 안전한 archive 검증 및 명시 대상 확인 복구를 제공하고 실제 DB·첨부 바이트·키 복원 시험을 실행한다. 운영 암호화·원격 보존/승인 정책은 샘플 범위 밖 잔여다."
+  },
+  "OPS-004": {
+    "code_refs": [
+      "apps/api/Program.cs#CanConnectAsync",
+      "apps/api/Infrastructure.cs#ApiErrors.Problem",
+      "apps/api/Program.cs#LogError",
+      "apps/api/AttachmentsController.cs#AttachmentsController.Delete"
+    ],
+    "implementation_status": "구현",
+    "implementation_summary": "DB CanConnect 기반 /api/health, 공통 traceId 오류응답과 구조화 서버 예외/첨부 정리 경고 로그를 제공한다. 외부 모니터링·로그 보존/권한·알림 운영은 별도 미연동이다."
+  },
+  "OPS-005": {
+    "code_refs": [
+      "global.json#sdk",
+      "scripts/backend-sbom.py",
+      "scripts/supply-chain.mjs",
+      "docs/BACKEND_OPERATIONS.md"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "공식 .NET 지원 상태 확인과 버전 고정, NuGet/npm 취약점 검색·라이선스 메타데이터 목록을 제공한다. 정기 검토 일정/담당자·라이선스 변경 승인과 운영 패치 적용 절차는 미확정이다."
+  },
+  "OPS-006": {
+    "code_refs": [
+      "scripts/manage.mjs#dev",
+      "scripts/manage.mjs#publish",
+      "docs/RUNBOOK.md",
+      ".github/workflows/verify.yml#verify"
+    ],
+    "implementation_status": "진행",
+    "implementation_summary": "개발 실행/중지·설정·백업복구·로컬 publish 절차와 운영 전 잔여를 문서화하고 CI 설정을 제공한다. 새 운영 환경 인수·원격 CI 실행·TLS 배포 성공은 아직 수행하지 않았다."
+  }
+}

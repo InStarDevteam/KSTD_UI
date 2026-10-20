@@ -1,0 +1,1 @@
+{"language":"TypeScript","strict":true,"boundary_input":"unknown + 검증","components_types":"PascalCase","variables_functions":"camelCase","promise_rules":["no-floating-promises","no-misused-promises"],"generated_or_third_party_exclusions":["node_modules","dist"],"vulnerability_exclusions":[]}

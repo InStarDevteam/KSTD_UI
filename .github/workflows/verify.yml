@@ -1,0 +1,23 @@
+name: sample-quality
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.402'
+      - run: npm ci
+      - run: npm --prefix apps/web ci
+      - run: dotnet tool restore
+      - run: python3 scripts/build-standards.py
+      - run: npm run verify
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: actual-local-checks
+          path: evidence/

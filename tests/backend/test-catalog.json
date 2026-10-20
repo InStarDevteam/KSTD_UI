@@ -1,0 +1,416 @@
+{
+  "tests": [
+    {
+      "test_id": "BE-INT-001",
+      "title": "비인증 요청과 개인정보 조회 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-002",
+      "title": "로그인 CSRF 토큰 누락 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-003",
+      "title": "실제 사용자 로그인",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-004",
+      "title": "실제 관리자 로그인",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-005",
+      "title": "다른 사용자 로그인",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-006",
+      "title": "입력 DTO 길이·허용값 검증",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-007",
+      "title": "요청 영속 등록·mass assignment 방지·UTC",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-008",
+      "title": "다른 사용자의 요청 객체 조회 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-009",
+      "title": "일반 사용자의 관리자 처리 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-010",
+      "title": "저장 요청 CSRF 토큰 누락 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-011",
+      "title": "작성자 수정 및 동시성 버전 증가",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-012",
+      "title": "오래된 버전 수정 거부",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-013",
+      "title": "확장자 위장 첨부 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-014",
+      "title": "실행 파일 첨부 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-015",
+      "title": "첨부 5MB 초과 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-016",
+      "title": "실제 첨부 저장·파일명 경로 제거",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-017",
+      "title": "본인 첨부 실제 바이트 다운로드",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-018",
+      "title": "다른 사용자 첨부 다운로드 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-019",
+      "title": "첨부 총3개 제한",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-020",
+      "title": "허용 PDF·PNG signature 첨부",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-021",
+      "title": "SQL 입력을 검색 문자열로 처리",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-022",
+      "title": "검색·필터·정렬·페이지 개수",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-023",
+      "title": "잘못된 페이지 조건 거부",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-024",
+      "title": "미허용 상태전이 거부",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-025",
+      "title": "관리자 상태전이 실행",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-026",
+      "title": "처리 중 작성자 수정 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-027",
+      "title": "처리 이력 작성자·사유·상태 보존",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-028",
+      "title": "세션 최소10회 연장·경고시간 계약",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-029",
+      "title": "개발 cookie 정책 및 보안 헤더",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-030",
+      "title": "API 보안 응답 헤더",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-031",
+      "title": "서버 재시작 후 DB·첨부·인증키 영속",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-032",
+      "title": "로그아웃 후 인증 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-033",
+      "title": "계정 반복 로그인 실패 잠금",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-034",
+      "title": "DB 감사 이벤트와 비밀 제외",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-035",
+      "title": "실제 서버 세션 만료 후 재인증 강제",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-036",
+      "title": "운영환경 샘플seed 실행 거부",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-037",
+      "title": "알 수 없는 API 경로는 SPA 대신404",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-038",
+      "title": "Idempotency-Key 중복제출 저장 방지",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-039",
+      "title": "작성자 첨부 삭제와 다운로드 차단",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-040",
+      "title": "실제 DB·첨부·인증키 백업/복구",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-041",
+      "title": "로그인IP별 요청 속도 제한",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-042",
+      "title": "동시 동일키 제출 DB고유제약",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-043",
+      "title": "로그아웃 후 복제티켓·동일계정 모든세션 즉시폐기",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-INT-044",
+      "title": "실제 로컬 DB·첨부·키 저장소 최소파일권한",
+      "kind": "automatic",
+      "source": "tests/backend/integration.py",
+      "command": "python3 tests/backend/integration.py",
+      "evidence_path": "evidence/backend/integration-results.json"
+    },
+    {
+      "test_id": "BE-UNIT-001",
+      "title": "허용 상태전이10경계",
+      "kind": "automatic",
+      "source": "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs",
+      "command": "dotnet test tests/backend/Kstd.Api.Tests/Kstd.Api.Tests.csproj",
+      "evidence_path": "evidence/backend/unit/backend-unit.trx"
+    },
+    {
+      "test_id": "BE-UNIT-002",
+      "title": "DTO검증6경계",
+      "kind": "automatic",
+      "source": "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs",
+      "command": "dotnet test tests/backend/Kstd.Api.Tests/Kstd.Api.Tests.csproj",
+      "evidence_path": "evidence/backend/unit/backend-unit.trx"
+    },
+    {
+      "test_id": "BE-UNIT-003",
+      "title": "최대 길이 경계",
+      "kind": "automatic",
+      "source": "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs",
+      "command": "dotnet test tests/backend/Kstd.Api.Tests/Kstd.Api.Tests.csproj",
+      "evidence_path": "evidence/backend/unit/backend-unit.trx"
+    },
+    {
+      "test_id": "BE-UNIT-004",
+      "title": "파일형식6경계",
+      "kind": "automatic",
+      "source": "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs",
+      "command": "dotnet test tests/backend/Kstd.Api.Tests/Kstd.Api.Tests.csproj",
+      "evidence_path": "evidence/backend/unit/backend-unit.trx"
+    },
+    {
+      "test_id": "BE-UNIT-005",
+      "title": "PNG/잘못된UTF8",
+      "kind": "automatic",
+      "source": "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs",
+      "command": "dotnet test tests/backend/Kstd.Api.Tests/Kstd.Api.Tests.csproj",
+      "evidence_path": "evidence/backend/unit/backend-unit.trx"
+    },
+    {
+      "test_id": "BE-UNIT-006",
+      "title": "파일명경로제거5경계",
+      "kind": "automatic",
+      "source": "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs",
+      "command": "dotnet test tests/backend/Kstd.Api.Tests/Kstd.Api.Tests.csproj",
+      "evidence_path": "evidence/backend/unit/backend-unit.trx"
+    },
+    {
+      "test_id": "BE-UNIT-007",
+      "title": "프레임워크비밀번호해시",
+      "kind": "automatic",
+      "source": "tests/backend/Kstd.Api.Tests/BusinessRulesTests.cs",
+      "command": "dotnet test tests/backend/Kstd.Api.Tests/Kstd.Api.Tests.csproj",
+      "evidence_path": "evidence/backend/unit/backend-unit.trx"
+    }
+  ],
+  "notes": [
+    "xUnit 7개 메서드의 Theory 변형을 포함해 실제 실행은30건이다.",
+    "HTTP통합은44건이며 별도프로세스 실제서버를 사용한다. Unix 파일 권한 검사는 실제 Mac/Linux에 한정한다."
+  ]
+}

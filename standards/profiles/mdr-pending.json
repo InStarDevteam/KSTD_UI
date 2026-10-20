@@ -1,11 +1,17 @@
 {
   "id": "MDR-000",
-  "name": "UNCONFIRMED",
+  "name": "국방 메타데이터 관리시스템 (Meta Data Registry)",
   "status": "확인필요",
-  "full_name": null,
-  "publisher": null,
-  "version": null,
+  "full_name": "국방 메타데이터 관리시스템(MDR: Meta Data Registry)",
+  "publisher": "국방부 / 합동상호운용성기술센터 국방정보화표준팀",
+  "version": "공식 목록: 국방데이터 코드설계표준_20260428. 원본 CSV 미확보",
   "applicable_languages": [],
   "question_asked": true,
-  "claim": "MDR 적합성 또는 MISRA 준수 주장 없음"
+  "identification_status": "정식 명칭 확인",
+  "application_status": "원본 코드표·표준용어/도메인·대상사업 적용범위 확인필요",
+  "user_url": "https://opendata.mnd.go.kr/openinf/sheetview2.jsp?infId=OA-9422",
+  "official_catalog_url": "https://www.data.go.kr/data/15083221/fileData.do?recommendDataYn=Y",
+  "definition_url": "https://law.go.kr/LSW/flDownload.do?bylClsCd=200201&flSeq=141017277",
+  "access_result": "원사이트 HTTP400, 공식 공공데이터포털 목록은 확인",
+  "claim": "명칭만 식별함. 국방 표준코드 적용·MDR 등록·준수 또는 MISRA 준수 주장 없음"
 }
