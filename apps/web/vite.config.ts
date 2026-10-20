@@ -9,7 +9,6 @@ export default defineConfig({
     fs: { allow: ["../.."] },
     proxy: {
       "/api": { target: "http://127.0.0.1:8001", changeOrigin: false },
-      "/reports": { target: "http://127.0.0.1:8001", changeOrigin: false },
     },
   },
   build: { sourcemap: true },
