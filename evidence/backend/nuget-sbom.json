@@ -1,0 +1,1991 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-20T06:18:24.095536+00:00",
+    "properties": [
+      {
+        "name": "kstd:limitations",
+        "value": "Package inventory includes private build tools and test dependencies; required does not imply every library is deployed. License metadata is evidence, not a legal compatibility judgment."
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Design",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Design@10.0.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Direct"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Sqlite",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Sqlite@10.0.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Direct"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Humanizer.Core",
+      "version": "2.14.1",
+      "purl": "pkg:nuget/Humanizer.Core@2.14.1",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Build.Framework",
+      "version": "18.0.2",
+      "purl": "pkg:nuget/Microsoft.Build.Framework@18.0.2",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.CodeAnalysis.Analyzers",
+      "version": "3.11.0",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.Analyzers@3.11.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.CodeAnalysis.Common",
+      "version": "5.0.0",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.Common@5.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.CodeAnalysis.CSharp",
+      "version": "5.0.0",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.CSharp@5.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.CodeAnalysis.CSharp.Workspaces",
+      "version": "5.0.0",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.CSharp.Workspaces@5.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.CodeAnalysis.Workspaces.Common",
+      "version": "5.0.0",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.Workspaces.Common@5.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.CodeAnalysis.Workspaces.MSBuild",
+      "version": "5.0.0",
+      "purl": "pkg:nuget/Microsoft.CodeAnalysis.Workspaces.MSBuild@5.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Data.Sqlite.Core",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Data.Sqlite.Core@10.0.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore@10.0.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Abstractions",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Abstractions@10.0.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Analyzers",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Analyzers@10.0.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Relational",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@10.0.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Sqlite.Core@10.0.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.DependencyModel",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyModel@10.0.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.VisualStudio.SolutionPersistence",
+      "version": "1.0.52",
+      "purl": "pkg:nuget/Microsoft.VisualStudio.SolutionPersistence@1.0.52",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Mono.TextTemplating",
+      "version": "3.0.0",
+      "purl": "pkg:nuget/Mono.TextTemplating@3.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.4",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.4",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "SQLitePCLRaw.bundle_e_sqlite3",
+      "version": "2.1.13",
+      "purl": "pkg:nuget/SQLitePCLRaw.bundle_e_sqlite3@2.1.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "SQLitePCLRaw.core",
+      "version": "2.1.13",
+      "purl": "pkg:nuget/SQLitePCLRaw.core@2.1.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "SQLitePCLRaw.lib.e_sqlite3",
+      "version": "2.1.13",
+      "purl": "pkg:nuget/SQLitePCLRaw.lib.e_sqlite3@2.1.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "SQLitePCLRaw.provider.e_sqlite3",
+      "version": "2.1.13",
+      "purl": "pkg:nuget/SQLitePCLRaw.provider.e_sqlite3@2.1.13",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.CodeDom",
+      "version": "6.0.0",
+      "purl": "pkg:nuget/System.CodeDom@6.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.Composition",
+      "version": "9.0.0",
+      "purl": "pkg:nuget/System.Composition@9.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.Composition.AttributedModel",
+      "version": "9.0.0",
+      "purl": "pkg:nuget/System.Composition.AttributedModel@9.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.Composition.Convention",
+      "version": "9.0.0",
+      "purl": "pkg:nuget/System.Composition.Convention@9.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.Composition.Hosting",
+      "version": "9.0.0",
+      "purl": "pkg:nuget/System.Composition.Hosting@9.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.Composition.Runtime",
+      "version": "9.0.0",
+      "purl": "pkg:nuget/System.Composition.Runtime@9.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "System.Composition.TypedParts",
+      "version": "9.0.0",
+      "purl": "pkg:nuget/System.Composition.TypedParts@9.0.0",
+      "scope": "required",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "apps/api"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "coverlet.collector",
+      "version": "6.0.4",
+      "purl": "pkg:nuget/coverlet.collector@6.0.4",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Direct"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.NET.Test.Sdk",
+      "version": "17.14.1",
+      "purl": "pkg:nuget/Microsoft.NET.Test.Sdk@17.14.1",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Direct"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xunit",
+      "version": "2.9.3",
+      "purl": "pkg:nuget/xunit@2.9.3",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Direct"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xunit.runner.visualstudio",
+      "version": "3.1.4",
+      "purl": "pkg:nuget/xunit.runner.visualstudio@3.1.4",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Direct"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.CodeCoverage",
+      "version": "17.14.1",
+      "purl": "pkg:nuget/Microsoft.CodeCoverage@17.14.1",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Data.Sqlite.Core",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Data.Sqlite.Core@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Abstractions",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Abstractions@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Analyzers",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Analyzers@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Relational",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Sqlite",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Sqlite@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Sqlite.Core@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.Caching.Abstractions",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.Caching.Abstractions@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.Caching.Memory",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.Caching.Memory@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.DependencyInjection",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.DependencyModel",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyModel@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.Logging",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.Options",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.Options@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "10.0.13",
+      "purl": "pkg:nuget/Microsoft.Extensions.Primitives@10.0.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.TestPlatform.ObjectModel",
+      "version": "17.14.1",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.ObjectModel@17.14.1",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Microsoft.TestPlatform.TestHost",
+      "version": "17.14.1",
+      "purl": "pkg:nuget/Microsoft.TestPlatform.TestHost@17.14.1",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.3",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.3",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "SQLitePCLRaw.bundle_e_sqlite3",
+      "version": "2.1.13",
+      "purl": "pkg:nuget/SQLitePCLRaw.bundle_e_sqlite3@2.1.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "SQLitePCLRaw.core",
+      "version": "2.1.13",
+      "purl": "pkg:nuget/SQLitePCLRaw.core@2.1.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "SQLitePCLRaw.lib.e_sqlite3",
+      "version": "2.1.13",
+      "purl": "pkg:nuget/SQLitePCLRaw.lib.e_sqlite3@2.1.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "SQLitePCLRaw.provider.e_sqlite3",
+      "version": "2.1.13",
+      "purl": "pkg:nuget/SQLitePCLRaw.provider.e_sqlite3@2.1.13",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xunit.abstractions",
+      "version": "2.0.3",
+      "purl": "pkg:nuget/xunit.abstractions@2.0.3",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xunit.analyzers",
+      "version": "1.18.0",
+      "purl": "pkg:nuget/xunit.analyzers@1.18.0",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xunit.assert",
+      "version": "2.9.3",
+      "purl": "pkg:nuget/xunit.assert@2.9.3",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xunit.core",
+      "version": "2.9.3",
+      "purl": "pkg:nuget/xunit.core@2.9.3",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xunit.extensibility.core",
+      "version": "2.9.3",
+      "purl": "pkg:nuget/xunit.extensibility.core@2.9.3",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xunit.extensibility.execution",
+      "version": "2.9.3",
+      "purl": "pkg:nuget/xunit.extensibility.execution@2.9.3",
+      "scope": "optional",
+      "properties": [
+        {
+          "name": "kstd:project",
+          "value": "tests/backend/Kstd.Api.Tests"
+        },
+        {
+          "name": "kstd:framework",
+          "value": "net10.0"
+        },
+        {
+          "name": "kstd:dependencyType",
+          "value": "Transitive"
+        },
+        {
+          "name": "kstd:licenseMetadataKind",
+          "value": "expression"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "runId": "2026-10-20T05-45-05-330Z",
+  "baseUrl": "http://localhost:8000",
+  "browser": "156.0.8078.4",
+  "results": [
+    {
+      "testId": "E2E-WORKFLOW",
+      "result": "실패",
+      "observed": "locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '로그아웃', exact: true }) to be visible\u001b[22m\n\n    at login (/Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:44:65)\n    at async file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:68:3\n    at async run (/Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:50:20)\n    at async file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:63:1",
+      "elapsed_ms": 15675,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:45:21.186Z"
+    },
+    {
+      "testId": "E2E-HELP",
+      "result": "실패",
+      "observed": "locator.selectOption: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('표준 분류', { exact: true })\u001b[22m\n\n    at /Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:152:51\n    at async run (/Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:50:20)\n    at async file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:121:1",
+      "elapsed_ms": 16242,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:45:37.448Z"
+    },
+    {
+      "testId": "E2E-KEYBOARD",
+      "result": "실패",
+      "observed": "AssertionError [ERR_ASSERTION]: dialog focus escaped\n    at file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:165:5\n    at async run (file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:50:20)\n    at async file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:157:1",
+      "elapsed_ms": 221,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:45:37.693Z"
+    },
+    {
+      "testId": "E2E-REFLOW",
+      "result": "통과",
+      "observed": {
+        "widths": [
+          {
+            "route": "/",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/requests",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/requests/new",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/help",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/gallery",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/privacy",
+            "viewport": 320,
+            "document": 320
+          }
+        ],
+        "screenshots": [
+          {
+            "path": "evidence/browser/screenshots/mobile.png",
+            "sha256": "44458b58cc390dbae0e7cac9908f253e3fb3f55f32bfde0a513d08460f9dc49b"
+          },
+          {
+            "path": "evidence/browser/screenshots/text-spacing.png",
+            "sha256": "5cc0223616903b0dcb3ec72a96fd8fa8d76c4440663875b71b789d55d4a2450d"
+          }
+        ],
+        "limitations": "320CSS px 가상viewport 및 DOM검사. 실제400%브라우저확대/200%텍스트확대/시각정보손실 전수판정 미실행"
+      },
+      "elapsed_ms": 1684,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:45:39.392Z"
+    },
+    {
+      "testId": "E2E-ERROR",
+      "result": "통과",
+      "observed": {
+        "assertions": "명시적인503주입/오류안내·재시도복구, 빈검색결과, URL검색상태 새로고침유지",
+        "screenshots": [
+          {
+            "path": "evidence/browser/screenshots/server-error.png",
+            "sha256": "5168dee8055f20ecefbfead9b8f42faee6ebf9ca6cab10f2ea6bd6e2e4b99917"
+          },
+          {
+            "path": "evidence/browser/screenshots/empty-results.png",
+            "sha256": "7c1338940e5b2841f0359951aafd7dce720c6a341e645947b8792da266f2e05d"
+          }
+        ]
+      },
+      "elapsed_ms": 9743,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:45:49.152Z"
+    },
+    {
+      "testId": "E2E-AXE",
+      "result": "실패",
+      "observed": "AssertionError [ERR_ASSERTION]: [\n  {\n    \"state\": \"login\",\n    \"id\": \"color-contrast\",\n    \"impact\": \"serious\",\n    \"nodes\": [\n      {\n        \"target\": [\n          \".page-overline\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.32 (foreground color: #667a6a, background color: #f7f8f5, font size: 7.3pt (9.69px), font weight: bold). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \".flow-illustration > div:nth-child(1) > span\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.21 (foreground color: #69805e, background color: #fcfcfb, font size: 10.6pt (14.11px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \".flow-illustration > div:nth-child(5) > span\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.21 (foreground color: #69805e, background color: #fcfcfb, font size: 10.6pt (14.11px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \".login-principle > span\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.17 (foreground color: #677e5e, background color: #f7f8f5, font size: 8.3pt (11.05px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      }\n    ]\n  },\n  {\n    \"state\": \"help-expanded\",\n    \"id\": \"color-contrast\",\n    \"impact\": \"serious\",\n    \"nodes\": [\n      {\n        \"target\": [\n          \".page-overline\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.32 (foreground color: #667a6a, background color: #f7f8f5, font size: 7.3pt (9.69px), font weight: bold). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \"div:nth-child(1) > dt\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.38 (foreground color: #697a60, background color: #f8faf4, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \"div:nth-child(2) > dt\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.38 (foreground color: #697a60, background color: #f8faf4, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \"div:nth-child(3) > dt\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.38 (foreground color: #697a60, background color: #f8faf4, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \"div:nth-child(4) > dt\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.38 (foreground color: #697a60, background color: #f8faf4, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \"div:nth-child(5) > dt\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.38 (foreground color: #697a60, background color: #f8faf4, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \"div:nth-child(6) > dt\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.38 (foreground color: #697a60, background color: #f8faf4, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \"div:nth-child(7) > dt\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.38 (foreground color: #697a60, background color: #f8faf4, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      },\n      {\n        \"target\": [\n          \"div:nth-child(8) > dt\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Element has insufficient color contrast of 4.38 (foreground color: #697a60, background color: #f8faf4, font size: 8.9pt (11.9px), font weight: normal). Expected contrast ratio of 4.5:1\"\n      }\n    ]\n  },\n  {\n    \"state\": \"help-expanded\",\n    \"id\": \"label-content-name-mismatch\",\n    \"impact\": \"serious\",\n    \"nodes\": [\n      {\n        \"target\": [\n          \".copy-button\"\n        ],\n        \"summary\": \"Fix any of the following:\\n  Text inside the element is not included in the accessible name\"\n      }\n    ]\n  }\n]\n\n3 !== 0\n\n    at file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:228:10\n    at run (file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:50:26)\n    at file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:225:7",
+      "elapsed_ms": 46,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:45:49.217Z"
+    }
+  ]
+}

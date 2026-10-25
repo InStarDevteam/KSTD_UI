@@ -92,15 +92,17 @@
       "AUTO-LEDGER",
       "MAN-GOV-004"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-LEDGER-2026-10-20T06-18-33-156Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "GOV-005",
@@ -142,17 +144,20 @@
       "scripts/manage.mjs#setup"
     ],
     "test_refs": [
+      "AUTO-DISTRIBUTION",
       "MAN-GOV-006"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-DISTRIBUTION-2026-10-20T06-16-19-409Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "GOV-007",
@@ -171,15 +176,17 @@
       "AUTO-LEDGER",
       "MAN-GOV-007"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-LEDGER-2026-10-20T06-18-33-156Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "GOV-008",
@@ -197,15 +204,17 @@
       "AUTO-AUDIT",
       "MAN-GOV-008"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-AUDIT-2026-10-20T06-18-28-772Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-001",
@@ -224,15 +233,17 @@
       "AUTO-FRONTEND",
       "MAN-COD-001"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-FRONTEND-2026-10-20T06-16-58-989Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-002",
@@ -251,15 +262,17 @@
       "AUTO-FRONTEND",
       "MAN-COD-002"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-FRONTEND-2026-10-20T06-16-58-989Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-003",
@@ -278,15 +291,17 @@
       "AUTO-FRONTEND",
       "MAN-COD-003"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-FRONTEND-2026-10-20T06-16-58-989Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-004",
@@ -306,15 +321,17 @@
       "AUTO-BACKEND",
       "MAN-COD-004"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-005",
@@ -333,15 +350,17 @@
       "AUTO-BACKEND",
       "MAN-COD-005"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-006",
@@ -360,15 +379,17 @@
       "AUTO-BACKEND",
       "MAN-COD-006"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-007",
@@ -388,15 +409,17 @@
       "AUTO-BACKEND",
       "MAN-COD-007"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-008",
@@ -415,15 +438,17 @@
       "AUTO-BACKEND",
       "MAN-COD-008"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-009",
@@ -442,15 +467,17 @@
       "AUTO-FRONTEND",
       "MAN-COD-009"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-FRONTEND-2026-10-20T06-16-58-989Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-010",
@@ -495,15 +522,17 @@
       "AUTO-FRONTEND",
       "MAN-COD-011"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-FRONTEND-2026-10-20T06-16-58-989Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-012",
@@ -522,15 +551,17 @@
       "AUTO-FRONTEND",
       "MAN-COD-012"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-FRONTEND-2026-10-20T06-16-58-989Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-013",
@@ -603,15 +634,17 @@
       "AUTO-BACKEND",
       "MAN-COD-015"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-016",
@@ -630,15 +663,17 @@
       "AUTO-BACKEND",
       "MAN-COD-016"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-017",
@@ -657,15 +692,17 @@
       "AUTO-BACKEND",
       "MAN-COD-017"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "COD-018",
@@ -684,15 +721,17 @@
       "AUTO-BACKEND",
       "MAN-COD-018"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-001",
@@ -737,15 +776,17 @@
       "AUTO-BACKEND",
       "MAN-SEC-002"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-003",
@@ -791,15 +832,18 @@
       "SCREEN-LOGIN",
       "MAN-SEC-004"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z",
+      "SCREEN-LOGIN-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-005",
@@ -820,15 +864,18 @@
       "SCREEN-DETAIL",
       "MAN-SEC-005"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z",
+      "SCREEN-DETAIL-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-006",
@@ -847,15 +894,17 @@
       "AUTO-BACKEND",
       "MAN-SEC-006"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-007",
@@ -876,15 +925,17 @@
       "AUTO-BACKEND",
       "MAN-SEC-007"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-008",
@@ -905,15 +956,18 @@
       "AUTO-SECRET",
       "MAN-SEC-008"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z",
+      "AUTO-SECRET-2026-10-20T06-18-32-896Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-009",
@@ -933,15 +987,17 @@
       "AUTO-BACKEND",
       "MAN-SEC-009"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-010",
@@ -961,15 +1017,17 @@
       "AUTO-BACKEND",
       "MAN-SEC-010"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-011",
@@ -986,17 +1044,20 @@
       "docs/SECURITY_STANDARD.md"
     ],
     "test_refs": [
+      "AUTO-DISTRIBUTION",
       "MAN-SEC-011"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-DISTRIBUTION-2026-10-20T06-16-19-409Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-012",
@@ -1015,15 +1076,17 @@
       "AUTO-BACKEND",
       "MAN-SEC-012"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-013",
@@ -1043,15 +1106,17 @@
       "AUTO-BACKEND",
       "MAN-SEC-013"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-014",
@@ -1072,15 +1137,18 @@
       "AUTO-SECRET",
       "MAN-SEC-014"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-AUDIT-2026-10-20T06-18-28-772Z",
+      "AUTO-SECRET-2026-10-20T06-18-32-896Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "SEC-015",
@@ -1104,7 +1172,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-HELP-2026-10-20T05-51-59-908Z"
+      "AUTO-EXPORT-2026-10-20T06-18-28-443Z",
+      "E2E-HELP-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -1287,13 +1356,16 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-DASHBOARD-2026-10-20T06-15-00-647Z",
+      "SCREEN-GALLERY-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "UI-004",
@@ -1463,13 +1535,15 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-GALLERY-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "UI-011",
@@ -2811,13 +2885,15 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-DETAIL-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "UI-068",
@@ -2839,13 +2915,16 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-SERVER-ERROR-2026-10-20T06-15-00-647Z",
+      "SCREEN-SERVER-VALIDATION-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "UI-069",
@@ -3040,13 +3119,15 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-LIST-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "UI-077",
@@ -3092,13 +3173,16 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-LIST-2026-10-20T06-15-00-647Z",
+      "SCREEN-EMPTY-RESULTS-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "UI-079",
@@ -3169,13 +3253,15 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-LOGIN-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "UI-082",
@@ -3196,13 +3282,15 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-LOGIN-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "UI-083",
@@ -3245,7 +3333,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z",
+      "SCREEN-LOGIN-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -3273,7 +3362,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -3448,7 +3537,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -3474,7 +3563,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -3596,7 +3685,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-ERROR-2026-10-20T05-51-59-908Z"
+      "E2E-ERROR-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -4296,7 +4385,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-HELP-2026-10-20T05-51-59-908Z"
+      "AUTO-EXPORT-2026-10-20T06-18-28-443Z",
+      "E2E-HELP-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -4393,7 +4483,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -4518,7 +4608,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -4570,7 +4660,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-KEYBOARD-2026-10-20T05-51-59-908Z"
+      "E2E-KEYBOARD-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -4599,7 +4689,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-KEYBOARD-2026-10-20T05-51-59-908Z"
+      "E2E-KEYBOARD-2026-10-20T06-15-00-647Z",
+      "SCREEN-MODAL-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -4742,7 +4833,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-KEYBOARD-2026-10-20T05-51-59-908Z"
+      "E2E-KEYBOARD-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -4770,7 +4861,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -4894,7 +4985,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -4941,7 +5032,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5022,8 +5113,10 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z",
-      "E2E-ERROR-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z",
+      "E2E-ERROR-2026-10-20T06-15-00-647Z",
+      "SCREEN-FORM-ERROR-2026-10-20T06-15-00-647Z",
+      "SCREEN-SERVER-VALIDATION-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5053,8 +5146,9 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z",
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z",
+      "E2E-AXE-2026-10-20T06-15-00-647Z",
+      "SCREEN-FORM-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5079,13 +5173,15 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-LOGIN-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "KWA-031",
@@ -5105,7 +5201,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z",
+      "SCREEN-COMPLETE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5133,7 +5230,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5161,13 +5258,15 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-GALLERY-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "WCA-001",
@@ -5318,7 +5417,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5394,7 +5493,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-REFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-REFLOW-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5492,7 +5591,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5519,7 +5618,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-REFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-REFLOW-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5572,7 +5671,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-REFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-REFLOW-2026-10-20T06-15-00-647Z",
+      "SCREEN-MOBILE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5624,7 +5724,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-REFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-REFLOW-2026-10-20T06-15-00-647Z",
+      "SCREEN-TEXT-SPACING-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5677,7 +5778,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-KEYBOARD-2026-10-20T05-51-59-908Z"
+      "E2E-KEYBOARD-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5705,7 +5806,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-KEYBOARD-2026-10-20T05-51-59-908Z"
+      "E2E-KEYBOARD-2026-10-20T06-15-00-647Z",
+      "SCREEN-MODAL-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5825,7 +5927,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-KEYBOARD-2026-10-20T05-51-59-908Z"
+      "E2E-KEYBOARD-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5853,7 +5955,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5882,7 +5984,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-KEYBOARD-2026-10-20T05-51-59-908Z"
+      "E2E-KEYBOARD-2026-10-20T06-15-00-647Z",
+      "SCREEN-MODAL-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -5986,7 +6089,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-KEYBOARD-2026-10-20T05-51-59-908Z"
+      "E2E-KEYBOARD-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6088,7 +6191,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6182,7 +6285,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6364,8 +6467,10 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z",
-      "E2E-ERROR-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z",
+      "E2E-ERROR-2026-10-20T06-15-00-647Z",
+      "SCREEN-FORM-ERROR-2026-10-20T06-15-00-647Z",
+      "SCREEN-SERVER-VALIDATION-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6395,8 +6500,9 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z",
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z",
+      "E2E-AXE-2026-10-20T06-15-00-647Z",
+      "SCREEN-FORM-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6427,7 +6533,9 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-ERROR-2026-10-20T05-51-59-908Z"
+      "E2E-ERROR-2026-10-20T06-15-00-647Z",
+      "SCREEN-FORM-ERROR-2026-10-20T06-15-00-647Z",
+      "SCREEN-SERVER-VALIDATION-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6479,7 +6587,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z",
+      "SCREEN-FORM-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6504,13 +6613,15 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-LOGIN-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "WCA-054",
@@ -6532,7 +6643,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6565,7 +6676,10 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-ERROR-2026-10-20T05-51-59-908Z"
+      "E2E-ERROR-2026-10-20T06-15-00-647Z",
+      "SCREEN-COMPLETE-2026-10-20T06-15-00-647Z",
+      "SCREEN-SERVER-ERROR-2026-10-20T06-15-00-647Z",
+      "SCREEN-EMPTY-RESULTS-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6613,7 +6727,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-REFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-REFLOW-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6787,13 +6901,15 @@
     ],
     "auto_result": "미실행",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "SCREEN-DASHBOARD-2026-10-20T06-15-00-647Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "INC-010",
@@ -6861,7 +6977,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-HELP-2026-10-20T05-51-59-908Z"
+      "E2E-HELP-2026-10-20T06-15-00-647Z",
+      "SCREEN-HELP-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -6888,15 +7005,18 @@
       "AUTO-SECRET",
       "MAN-QA-001"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-FRONTEND-2026-10-20T06-16-58-989Z",
+      "AUTO-SECRET-2026-10-20T06-18-32-896Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "QA-002",
@@ -6915,15 +7035,17 @@
       "AUTO-BACKEND",
       "MAN-QA-002"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "QA-003",
@@ -6943,15 +7065,17 @@
       "AUTO-BACKEND",
       "MAN-QA-003"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "QA-004",
@@ -6971,15 +7095,17 @@
       "AUTO-BACKEND",
       "MAN-QA-004"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "QA-005",
@@ -7001,7 +7127,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -7029,7 +7155,7 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -7110,7 +7236,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-REFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-REFLOW-2026-10-20T06-15-00-647Z",
+      "SCREEN-MOBILE-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -7216,15 +7343,17 @@
       "AUTO-BACKEND",
       "MAN-OPS-001"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "OPS-002",
@@ -7243,15 +7372,17 @@
       "AUTO-BACKEND",
       "MAN-OPS-002"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "OPS-003",
@@ -7296,15 +7427,17 @@
       "AUTO-BACKEND",
       "MAN-OPS-004"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "OPS-005",
@@ -7323,15 +7456,17 @@
       "AUTO-AUDIT",
       "MAN-OPS-005"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-AUDIT-2026-10-20T06-18-28-772Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "OPS-006",
@@ -7347,17 +7482,20 @@
       ".github/workflows/verify.yml#verify"
     ],
     "test_refs": [
+      "AUTO-DISTRIBUTION",
       "MAN-OPS-006"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-DISTRIBUTION-2026-10-20T06-16-19-409Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "DOC-001",
@@ -7378,10 +7516,13 @@
       "SCREEN-HELP",
       "MAN-DOC-001"
     ],
-    "auto_result": "부분확인",
+    "auto_result": "통과",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-HELP-2026-10-20T05-51-59-908Z"
+      "AUTO-LEDGER-2026-10-20T06-18-33-156Z",
+      "AUTO-EXPORT-2026-10-20T06-18-28-443Z",
+      "E2E-HELP-2026-10-20T06-15-00-647Z",
+      "SCREEN-HELP-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",
@@ -7406,15 +7547,17 @@
       "AUTO-LEDGER",
       "MAN-DOC-002"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-LEDGER-2026-10-20T06-18-33-156Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "DOC-003",
@@ -7433,15 +7576,17 @@
       "AUTO-LEDGER",
       "MAN-DOC-003"
     ],
-    "auto_result": "미실행",
+    "auto_result": "통과",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-LEDGER-2026-10-20T06-18-33-156Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "DOC-004",
@@ -7459,15 +7604,17 @@
       "AUTO-LEDGER",
       "MAN-DOC-004"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-LEDGER-2026-10-20T06-18-33-156Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "DOC-005",
@@ -7481,17 +7628,20 @@
       "apps/web/src/StandardsBrowser.tsx#StandardsBrowser"
     ],
     "test_refs": [
+      "AUTO-DISTRIBUTION",
       "MAN-DOC-005"
     ],
-    "auto_result": "미실행",
+    "auto_result": "부분확인",
     "manual_result": "미실행",
-    "evidence_ids": [],
+    "evidence_ids": [
+      "AUTO-DISTRIBUTION-2026-10-20T06-16-19-409Z"
+    ],
     "reviewer": "",
     "reviewed_at": "",
     "deviation_id": "",
     "official_exception": null,
     "company_deviation": null,
-    "final_result": "미실행"
+    "final_result": "부분확인"
   },
   {
     "rule_id": "DOC-006",
@@ -7514,7 +7664,8 @@
     "auto_result": "부분확인",
     "manual_result": "미실행",
     "evidence_ids": [
-      "E2E-HELP-2026-10-20T05-51-59-908Z"
+      "E2E-HELP-2026-10-20T06-15-00-647Z",
+      "SCREEN-HELP-2026-10-20T06-15-00-647Z"
     ],
     "reviewer": "",
     "reviewed_at": "",

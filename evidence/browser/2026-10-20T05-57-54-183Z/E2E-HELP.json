@@ -1,0 +1,33 @@
+{
+  "testId": "E2E-HELP",
+  "result": "통과",
+  "observed": {
+    "assertions": "297개 원장 로드, MDR확인필요, ID검색, 출처/시험/증빙 복사, JSON/CSV/Markdown 필터결과 다운로드, 권한거부시 수동복사 대화상자",
+    "downloads": [
+      {
+        "name": "FlowCore_표준_2026-10-20.json",
+        "bytes": 444517,
+        "sha256": "cd1f73e595302fe22c735c215598d23fed079ee32c1c572f7b71c5ed3cdd31bc"
+      },
+      {
+        "name": "FlowCore_표준_2026-10-20.csv",
+        "bytes": 1479,
+        "sha256": "a83bc64213c0bde5b08e569c78795cdea3d42b261edeb7040b1168aa7360101b"
+      },
+      {
+        "name": "FlowCore_표준_2026-10-20.md",
+        "bytes": 3761,
+        "sha256": "8f47a51b109eb7b42b240f4895f6f32d3ccdb36aa05b4b34a32c1569c28f5866"
+      }
+    ],
+    "screenshots": [
+      {
+        "path": "evidence/browser/2026-10-20T05-57-54-183Z/screenshots/help.png",
+        "sha256": "771e348f0e0a9b8fa6008c6ad53308de338676df9fd5857208462952be1a2de5"
+      }
+    ]
+  },
+  "elapsed_ms": 1134,
+  "browser": "156.0.8078.4",
+  "actual_at": "2026-10-20T05:57:59.610Z"
+}

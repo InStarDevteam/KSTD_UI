@@ -1,0 +1,24 @@
+{
+  "testId": "E2E-ERROR",
+  "result": "통과",
+  "observed": {
+    "assertions": "503주입/재시도복구·빈검색결과·URL유지 및 실제API로변조된DTO전송→실제400→오류단계복귀/필드오류/입력보존",
+    "screenshots": [
+      {
+        "path": "evidence/browser/2026-10-20T05-57-54-183Z/screenshots/server-error.png",
+        "sha256": "18088e47f98c80c8ff67a1467bc789949f8c265f77158c0a0e36e2174538464f"
+      },
+      {
+        "path": "evidence/browser/2026-10-20T05-57-54-183Z/screenshots/empty-results.png",
+        "sha256": "c155b96f1efca6471f64c9534e2145d9542bdc77a0802703b1f591579a746975"
+      },
+      {
+        "path": "evidence/browser/2026-10-20T05-57-54-183Z/screenshots/server-validation.png",
+        "sha256": "3ed35d8b24232c6c1ff3edfb2dc243ff440118bd85baaa97f89e76823043e410"
+      }
+    ]
+  },
+  "elapsed_ms": 1129,
+  "browser": "156.0.8078.4",
+  "actual_at": "2026-10-20T05:58:03.447Z"
+}

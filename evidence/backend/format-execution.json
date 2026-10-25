@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/Users/qanddev/.dotnet/dotnet",
+    "format",
+    "apps/api/Kstd.Api.csproj",
+    "--verify-no-changes",
+    "--no-restore"
+  ],
+  "started": "2026-10-20T06:17:09.053Z",
+  "finished": "2026-10-20T06:17:13.426Z",
+  "exit_code": 0,
+  "result": "통과"
+}

@@ -1,0 +1,9 @@
+/Users/qanddev/Documents/문서 - Q%27Dev의 MacBook Pro/kimi_project/KSTD_UI/tests/backend/Kstd.Api.Tests/bin/Debug/net10.0/Kstd.Api.Tests.dll(.NETCoreApp,Version=v10.0)에 대한 테스트 실행
+지정된 패턴과 일치한 총 테스트 파일 수는 1개입니다.
+경고: 결과 파일을 덮어쓰는 중: /Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/evidence/backend/unit/backend-unit.trx
+결과 파일: /Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/evidence/backend/unit/backend-unit.trx
+
+통과!  - 실패:     0, 통과:    30, 건너뜀:     0, 전체:    30, 기간: 164 ms - Kstd.Api.Tests.dll (net10.0)
+
+첨부 파일:
+  /Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/evidence/backend/unit/8a47c53a-59cb-4bd5-8e7a-bf21be7e3dc5/coverage.cobertura.xml

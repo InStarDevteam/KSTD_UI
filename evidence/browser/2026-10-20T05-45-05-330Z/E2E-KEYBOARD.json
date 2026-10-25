@@ -1,0 +1,8 @@
+{
+  "testId": "E2E-KEYBOARD",
+  "result": "실패",
+  "observed": "AssertionError [ERR_ASSERTION]: dialog focus escaped\n    at file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:165:5\n    at async run (file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:50:20)\n    at async file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:157:1",
+  "elapsed_ms": 221,
+  "browser": "156.0.8078.4",
+  "actual_at": "2026-10-20T05:45:37.693Z"
+}

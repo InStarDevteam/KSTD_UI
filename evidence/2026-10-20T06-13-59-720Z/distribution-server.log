@@ -1,0 +1,20 @@
+info: Microsoft.EntityFrameworkCore.Migrations[20411]
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20261020053705_InitialSchema'.
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20261020054050_SubmissionIdempotency'.
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20261020055231_SessionRevocationVersion'.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {42a5afac-6abf-4f67-904f-5f23b8a326b1} may be persisted to storage in unencrypted form.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://127.0.0.1:18002
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/artifacts/api
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-20",
-  "commit_sha": "7c22d65461e638660e0895c47c19a6ce7308b5d4",
+  "commit_sha": "88f8c934cf73feb34cb1a3e55a5dd9021d65fff3",
   "families": [
     {
       "family": "표준 운영",
@@ -94,8 +94,8 @@
     }
   ],
   "rule_count": 297,
-  "test_count": 339,
-  "evidence_count": 6,
+  "test_count": 340,
+  "evidence_count": 28,
   "limitations": [
     "MDR 명칭 확인 / 원본코드표·사업적용범위 확인필요",
     "원문 등급·그림/예외/비번호 규칙 전수 수동 검토 미완료",

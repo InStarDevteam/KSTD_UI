@@ -1,0 +1,326 @@
+{
+  "run_id": "backend-20261020T061824Z",
+  "collected_at": "2026-10-20T06:18:24.031296+00:00",
+  "environment": {
+    "os": "darwin",
+    "server": ".NET10 ASP.NET Core / SQLite",
+    "target": "http://localhost:18001/api",
+    "database": "isolated temporary real SQLite"
+  },
+  "tests": [
+    {
+      "test_id": "BE-INT-001",
+      "title": "비인증 요청과 개인정보 조회 차단",
+      "result": "통과",
+      "observed": "비인증 요청과 개인정보 조회 차단",
+      "duration_ms": 13
+    },
+    {
+      "test_id": "BE-INT-002",
+      "title": "로그인 CSRF 토큰 누락 차단",
+      "result": "통과",
+      "observed": "로그인 CSRF 토큰 누락 차단",
+      "duration_ms": 7
+    },
+    {
+      "test_id": "BE-INT-003",
+      "title": "실제 사용자 로그인",
+      "result": "통과",
+      "observed": "실제 사용자 로그인",
+      "duration_ms": 331
+    },
+    {
+      "test_id": "BE-INT-004",
+      "title": "실제 관리자 로그인",
+      "result": "통과",
+      "observed": "실제 관리자 로그인",
+      "duration_ms": 47
+    },
+    {
+      "test_id": "BE-INT-005",
+      "title": "다른 사용자 로그인",
+      "result": "통과",
+      "observed": "다른 사용자 로그인",
+      "duration_ms": 45
+    },
+    {
+      "test_id": "BE-INT-006",
+      "title": "입력 DTO 길이·허용값 검증",
+      "result": "통과",
+      "observed": "입력 DTO 길이·허용값 검증",
+      "duration_ms": 11
+    },
+    {
+      "test_id": "BE-INT-007",
+      "title": "요청 영속 등록·mass assignment 방지·UTC",
+      "result": "통과",
+      "observed": "요청ID=8; owner/status/id mass assignment 무시; UTC Z",
+      "duration_ms": 9
+    },
+    {
+      "test_id": "BE-INT-008",
+      "title": "다른 사용자의 요청 객체 조회 차단",
+      "result": "통과",
+      "observed": "다른 사용자의 요청 객체 조회 차단",
+      "duration_ms": 41
+    },
+    {
+      "test_id": "BE-INT-009",
+      "title": "일반 사용자의 관리자 처리 차단",
+      "result": "통과",
+      "observed": "일반 사용자의 관리자 처리 차단",
+      "duration_ms": 3
+    },
+    {
+      "test_id": "BE-INT-010",
+      "title": "저장 요청 CSRF 토큰 누락 차단",
+      "result": "통과",
+      "observed": "저장 요청 CSRF 토큰 누락 차단",
+      "duration_ms": 2
+    },
+    {
+      "test_id": "BE-INT-011",
+      "title": "작성자 수정 및 동시성 버전 증가",
+      "result": "통과",
+      "observed": "작성자 수정 및 동시성 버전 증가",
+      "duration_ms": 0
+    },
+    {
+      "test_id": "BE-INT-012",
+      "title": "오래된 버전 수정 거부",
+      "result": "통과",
+      "observed": "오래된 버전 수정 거부",
+      "duration_ms": 5
+    },
+    {
+      "test_id": "BE-INT-013",
+      "title": "확장자 위장 첨부 차단",
+      "result": "통과",
+      "observed": "확장자 위장 첨부 차단",
+      "duration_ms": 28
+    },
+    {
+      "test_id": "BE-INT-014",
+      "title": "실행 파일 첨부 차단",
+      "result": "통과",
+      "observed": "실행 파일 첨부 차단",
+      "duration_ms": 3
+    },
+    {
+      "test_id": "BE-INT-015",
+      "title": "첨부 5MB 초과 차단",
+      "result": "통과",
+      "observed": "첨부 5MB 초과 차단",
+      "duration_ms": 19
+    },
+    {
+      "test_id": "BE-INT-016",
+      "title": "실제 첨부 저장·파일명 경로 제거",
+      "result": "통과",
+      "observed": "실제 첨부 저장·파일명 경로 제거",
+      "duration_ms": 0
+    },
+    {
+      "test_id": "BE-INT-017",
+      "title": "본인 첨부 실제 바이트 다운로드",
+      "result": "통과",
+      "observed": "본인 첨부 실제 바이트 다운로드",
+      "duration_ms": 14
+    },
+    {
+      "test_id": "BE-INT-018",
+      "title": "다른 사용자 첨부 다운로드 차단",
+      "result": "통과",
+      "observed": "다른 사용자 첨부 다운로드 차단",
+      "duration_ms": 2
+    },
+    {
+      "test_id": "BE-INT-019",
+      "title": "첨부 총3개 제한",
+      "result": "통과",
+      "observed": "첨부 총3개 제한",
+      "duration_ms": 3
+    },
+    {
+      "test_id": "BE-INT-020",
+      "title": "허용 PDF·PNG signature 첨부",
+      "result": "통과",
+      "observed": "허용 PDF·PNG signature 첨부",
+      "duration_ms": 5
+    },
+    {
+      "test_id": "BE-INT-021",
+      "title": "SQL 입력을 검색 문자열로 처리",
+      "result": "통과",
+      "observed": "SQL 입력을 검색 문자열로 처리",
+      "duration_ms": 32
+    },
+    {
+      "test_id": "BE-INT-022",
+      "title": "검색·필터·정렬·페이지 개수",
+      "result": "통과",
+      "observed": "검색·필터·정렬·페이지 개수",
+      "duration_ms": 17
+    },
+    {
+      "test_id": "BE-INT-023",
+      "title": "잘못된 페이지 조건 거부",
+      "result": "통과",
+      "observed": "잘못된 페이지 조건 거부",
+      "duration_ms": 2
+    },
+    {
+      "test_id": "BE-INT-024",
+      "title": "미허용 상태전이 거부",
+      "result": "통과",
+      "observed": "미허용 상태전이 거부",
+      "duration_ms": 20
+    },
+    {
+      "test_id": "BE-INT-025",
+      "title": "관리자 상태전이 실행",
+      "result": "통과",
+      "observed": "관리자 상태전이 실행",
+      "duration_ms": 5
+    },
+    {
+      "test_id": "BE-INT-026",
+      "title": "처리 중 작성자 수정 차단",
+      "result": "통과",
+      "observed": "처리 중 작성자 수정 차단",
+      "duration_ms": 3
+    },
+    {
+      "test_id": "BE-INT-027",
+      "title": "처리 이력 작성자·사유·상태 보존",
+      "result": "통과",
+      "observed": "처리 이력 작성자·사유·상태 보존",
+      "duration_ms": 2
+    },
+    {
+      "test_id": "BE-INT-028",
+      "title": "세션 최소10회 연장·경고시간 계약",
+      "result": "통과",
+      "observed": "10회 연장 HTTP200; 매회1190초 이상 남음; 경고60초",
+      "duration_ms": 31
+    },
+    {
+      "test_id": "BE-INT-029",
+      "title": "개발 cookie 정책 및 보안 헤더",
+      "result": "통과",
+      "observed": "HttpOnly; SameSite=Strict; Development localhost HTTP Secure 예외",
+      "duration_ms": 43
+    },
+    {
+      "test_id": "BE-INT-030",
+      "title": "API 보안 응답 헤더",
+      "result": "통과",
+      "observed": "API 보안 응답 헤더",
+      "duration_ms": 17
+    },
+    {
+      "test_id": "BE-INT-031",
+      "title": "서버 재시작 후 DB·첨부·인증키 영속",
+      "result": "통과",
+      "observed": "서버 재시작 후 DB·첨부·인증키 영속",
+      "duration_ms": 189
+    },
+    {
+      "test_id": "BE-INT-032",
+      "title": "로그아웃 후 인증 차단",
+      "result": "통과",
+      "observed": "로그아웃 후 인증 차단",
+      "duration_ms": 23
+    },
+    {
+      "test_id": "BE-INT-043",
+      "title": "로그아웃 후 복제티켓·동일계정 모든세션 즉시폐기",
+      "result": "통과",
+      "observed": "로그아웃 전 복제cookie 및 독립 로그인한 동일계정의 me/extend401",
+      "duration_ms": 12
+    },
+    {
+      "test_id": "BE-INT-044",
+      "title": "실제 로컬 DB·첨부·키 저장소 최소파일권한",
+      "result": "통과",
+      "observed": "Unix 데이터/첨부/키디렉터리0700; DB/첨부파일0600",
+      "duration_ms": 0
+    },
+    {
+      "test_id": "BE-INT-033",
+      "title": "계정 반복 로그인 실패 잠금",
+      "result": "통과",
+      "observed": "다른 가상계정 5회 실패 후 올바른 비밀번호도5분 잠금",
+      "duration_ms": 215
+    },
+    {
+      "test_id": "BE-INT-034",
+      "title": "DB 감사 이벤트와 비밀 제외",
+      "result": "통과",
+      "observed": "감사이벤트29개; 성공/실패·추적ID 저장; 비밀번호 비포함",
+      "duration_ms": 1
+    },
+    {
+      "test_id": "BE-INT-037",
+      "title": "알 수 없는 API 경로는 SPA 대신404",
+      "result": "통과",
+      "observed": "알 수 없는 API 경로는 SPA 대신404",
+      "duration_ms": 1
+    },
+    {
+      "test_id": "BE-INT-038",
+      "title": "Idempotency-Key 중복제출 저장 방지",
+      "result": "통과",
+      "observed": "같은 UUID 재전송: 최초201/재시도200, 같은ID=9",
+      "duration_ms": 65
+    },
+    {
+      "test_id": "BE-INT-039",
+      "title": "작성자 첨부 삭제와 다운로드 차단",
+      "result": "통과",
+      "observed": "DB첨부삭제204; 삭제후다운로드404",
+      "duration_ms": 58
+    },
+    {
+      "test_id": "BE-INT-041",
+      "title": "로그인IP별 요청 속도 제한",
+      "result": "통과",
+      "observed": "22회 로그인 요청 중429차단=9회",
+      "duration_ms": 30
+    },
+    {
+      "test_id": "BE-INT-042",
+      "title": "동시 동일키 제출 DB고유제약",
+      "result": "통과",
+      "observed": "동시2건HTTP=[409, 201]; DB최종1건",
+      "duration_ms": 226
+    },
+    {
+      "test_id": "BE-INT-035",
+      "title": "실제 서버 세션 만료 후 재인증 강제",
+      "result": "통과",
+      "observed": "Development1분 설정 후62초 실제 경과; me/extend401",
+      "duration_ms": 62022
+    },
+    {
+      "test_id": "BE-INT-036",
+      "title": "운영환경 샘플seed 실행 거부",
+      "result": "통과",
+      "observed": "운영환경 샘플seed 실행 거부",
+      "duration_ms": 0
+    },
+    {
+      "test_id": "BE-INT-040",
+      "title": "실제 DB·첨부·인증키 백업/복구",
+      "result": "통과",
+      "observed": "실제tar.gz백업·다른디렉터리복원; SQLite요청/첨부바이트/인증키일치",
+      "duration_ms": 113
+    }
+  ],
+  "limitations": [
+    "운영 HTTPS TLS 종료·Secure cookie 실제 브라우저 시험 미실행",
+    "악성코드 탐지엔진 미구현",
+    "실제 화면낭독기·장애당사자 시험 포함 안 함",
+    "운영 부하·침투 시험 아님"
+  ]
+}

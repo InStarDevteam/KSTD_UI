@@ -1,0 +1,51 @@
+
+> flowcore-web@1.0.0 verify
+> npm run format && npm run lint && npm run typecheck && npm test && npm run build
+
+
+> flowcore-web@1.0.0 format
+> prettier --check src ../../packages/ui *.json *.ts *.js index.html
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> flowcore-web@1.0.0 lint
+> eslint src
+
+
+> flowcore-web@1.0.0 typecheck
+> tsc --noEmit
+
+
+> flowcore-web@1.0.0 test
+> node --experimental-strip-types --test src/*.test.ts
+
+✔ formula injection is neutralized including leading control characters (0.651208ms)
+✔ CSV preserves Korean, quotes and embedded newlines in quoted fields (0.132083ms)
+✔ large export keeps every data row and does not evaluate formulas (6.034416ms)
+✔ request return path preserves local query context but rejects external and alternate routes (0.468125ms)
+✔ actual ASP.NET numeric entity IDs normalize for session, request and nested records (0.611125ms)
+✔ boundary rejects unsafe identifiers and wrong numeric response shapes (0.190125ms)
+✔ ProblemDetails field errors preserve server validation messages and reject invalid shapes (0.51825ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 95.0635
+
+> flowcore-web@1.0.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 1927 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.61 kB │ gzip:  0.42 kB
+dist/assets/index-DyEOSmus.css   45.66 kB │ gzip: 10.55 kB
+dist/assets/index-DR9uJxen.js   315.92 kB │ gzip: 95.83 kB │ map: 1,331.15 kB
+
+✓ built in 210ms

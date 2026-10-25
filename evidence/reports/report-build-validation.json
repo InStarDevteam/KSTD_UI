@@ -1,0 +1,337 @@
+{
+  "as_of": "2026-10-20",
+  "commit_sha": "88f8c934cf73feb34cb1a3e55a5dd9021d65fff3",
+  "counts": {
+    "rules": 297,
+    "tests": 340,
+    "evidence": 28,
+    "numbered": 725,
+    "sections": 103,
+    "interactions": 52,
+    "slides": 18
+  },
+  "families": [
+    {
+      "family": "표준 운영",
+      "total": 8,
+      "applicable": 8,
+      "conditional": 0,
+      "not_applicable": 0,
+      "unconfirmed": 0,
+      "implemented": 4,
+      "verified": 0
+    },
+    {
+      "family": "코딩",
+      "total": 18,
+      "applicable": 18,
+      "conditional": 0,
+      "not_applicable": 0,
+      "unconfirmed": 0,
+      "implemented": 14,
+      "verified": 0
+    },
+    {
+      "family": "보안",
+      "total": 18,
+      "applicable": 17,
+      "conditional": 1,
+      "not_applicable": 0,
+      "unconfirmed": 0,
+      "implemented": 8,
+      "verified": 0
+    },
+    {
+      "family": "MDR 확인",
+      "total": 1,
+      "applicable": 0,
+      "conditional": 0,
+      "not_applicable": 0,
+      "unconfirmed": 1,
+      "implemented": 0,
+      "verified": 0
+    },
+    {
+      "family": "KRDS UI/UX",
+      "total": 128,
+      "applicable": 106,
+      "conditional": 18,
+      "not_applicable": 4,
+      "unconfirmed": 0,
+      "implemented": 97,
+      "verified": 0
+    },
+    {
+      "family": "KWCAG 2.2",
+      "total": 33,
+      "applicable": 29,
+      "conditional": 4,
+      "not_applicable": 0,
+      "unconfirmed": 0,
+      "implemented": 25,
+      "verified": 0
+    },
+    {
+      "family": "WCAG 2.2 A·AA",
+      "total": 55,
+      "applicable": 48,
+      "conditional": 7,
+      "not_applicable": 0,
+      "unconfirmed": 0,
+      "implemented": 40,
+      "verified": 0
+    },
+    {
+      "family": "포용적 UX",
+      "total": 12,
+      "applicable": 12,
+      "conditional": 0,
+      "not_applicable": 0,
+      "unconfirmed": 0,
+      "implemented": 6,
+      "verified": 0
+    },
+    {
+      "family": "검증·운영·보고",
+      "total": 24,
+      "applicable": 24,
+      "conditional": 0,
+      "not_applicable": 0,
+      "unconfirmed": 0,
+      "implemented": 13,
+      "verified": 0
+    }
+  ],
+  "formula_fixtures": {
+    "blank_evidence_blocks_pass": true,
+    "unexecuted_manual_blocks_pass": true,
+    "deviation_blocks_pass": true,
+    "missing_reviewer_blocks_pass": true,
+    "missing_review_time_blocks_pass": true,
+    "edit_recalculates": true,
+    "zero_denominator_distinguished": true,
+    "spreadsheet_injection_boundaries_checked": true
+  },
+  "rendered_sheets": [
+    "01_요약",
+    "02_통합적용대장",
+    "03_접근성시험",
+    "04_KRDS원문항목",
+    "05_KRDS범위색인",
+    "06_출처변경관리"
+  ],
+  "rendered_slides": 18,
+  "powerpoint_application_validation": "미실행 / PowerPoint에서 열기·편집 동작은 이 빌더가 수행하지 않음",
+  "excel_application_validation": "Artifact Tool 계산·편집 fixture 확인. Microsoft Excel 실제 앱 검사는 별도.",
+  "finalization": {
+    "finalPath": "/Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/tmp/artifacts/final-output/final-1792477170920.pptx",
+    "receiptPath": "/Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/tmp/artifacts/final-1792477170920.pptx.validation.json",
+    "schemaVersion": "presentation-finalization.v1",
+    "finalSha256": "9bb6b8c3ff5fb37f9812fbf5dea90238a8caae38856f657000d5c3ee80a05e70",
+    "byteCount": 1296694,
+    "packageIntegrity": {
+      "chart_count": 0,
+      "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+      "finding_count": 0,
+      "findings": [],
+      "notes_parts_skipped": 18,
+      "relationship_part_count": 46,
+      "slide_count": 18,
+      "status": "pass",
+      "exitCode": 0,
+      "findingCount": 0,
+      "warnings": []
+    },
+    "presentationLayout": {
+      "finding_count": 0,
+      "findings": [],
+      "font_policy": {
+        "checked_text_script_count": 524,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Arial"
+        ],
+        "observed_font_use_counts": {
+          "Arial": 524
+        },
+        "passed": true,
+        "performed": true
+      },
+      "slide_count": 18,
+      "slide_size_in": [
+        13.3333,
+        7.5
+      ],
+      "warning_count": 0,
+      "warnings": [],
+      "exitCode": 0,
+      "findingCount": 0,
+      "fontPolicy": {
+        "checked_text_script_count": 524,
+        "native_font_rendering_verified": false,
+        "observed_font_families": [
+          "Arial"
+        ],
+        "observed_font_use_counts": {
+          "Arial": 524
+        },
+        "passed": true,
+        "performed": true
+      }
+    },
+    "fontSelection": {
+      "basis": "design",
+      "approvedFamilies": [
+        "Arial"
+      ],
+      "scriptFonts": {},
+      "referenceSha256": null,
+      "referenceFontsVerifiedInEncodedText": false,
+      "checked_text_script_count": 524,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Arial"
+      ],
+      "observed_font_use_counts": {
+        "Arial": 524
+      },
+      "passed": true,
+      "performed": true
+    },
+    "firstPartyImport": {
+      "performed": true,
+      "passed": true,
+      "slideCount": 18,
+      "sha256": "9bb6b8c3ff5fb37f9812fbf5dea90238a8caae38856f657000d5c3ee80a05e70",
+      "runtimeNodeModules": "/Users/qanddev/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+      "nodeExecutable": "/Users/qanddev/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+    },
+    "nativeTableArithmetic": {
+      "performed": true,
+      "checked_column_count": 0,
+      "checks": [],
+      "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+      "eligible_table_count": 0,
+      "finding_count": 0,
+      "findings": [],
+      "native_table_count": 11,
+      "passed": true,
+      "schema_version": "presentation-native-table-arithmetic.v1",
+      "skipped_tables": [
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 2,
+          "table": 1
+        },
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 3,
+          "table": 1
+        },
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 4,
+          "table": 1
+        },
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 5,
+          "table": 1
+        },
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 6,
+          "table": 1
+        },
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 7,
+          "table": 1
+        },
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 9,
+          "table": 1
+        },
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 14,
+          "table": 1
+        },
+        {
+          "reason": "no_unambiguous_bottom_total",
+          "slide": 15,
+          "table": 1
+        },
+        {
+          "reason": "no_unambiguous_bottom_total",
+          "slide": 16,
+          "table": 1
+        },
+        {
+          "reason": "no_numeric_amounts",
+          "slide": 17,
+          "table": 1
+        }
+      ],
+      "slide_count": 18,
+      "warning_count": 0,
+      "warnings": []
+    },
+    "nativeChartTitles": {
+      "performed": true,
+      "checks": [],
+      "finding_count": 0,
+      "findings": [],
+      "native_chart_count": 0,
+      "native_powerpoint_verified": false,
+      "passed": true,
+      "presentation_sha256": "9bb6b8c3ff5fb37f9812fbf5dea90238a8caae38856f657000d5c3ee80a05e70",
+      "schema_version": "presentation-native-chart-titles.v1",
+      "slide_count": 18,
+      "source_text_emitted": false,
+      "unresolved_linked_title_count": 0
+    },
+    "sourceDerivedPolicyFlags": [
+      "--expected-slide-size-emu",
+      "12192000,6858000",
+      "--validate-heading-fit",
+      "--require-native-table-slide",
+      "2",
+      "--require-native-table-slide",
+      "3",
+      "--require-native-table-slide",
+      "4",
+      "--require-native-table-slide",
+      "5",
+      "--require-native-table-slide",
+      "6",
+      "--require-native-table-slide",
+      "7",
+      "--require-native-table-slide",
+      "9",
+      "--require-native-table-slide",
+      "14",
+      "--require-native-table-slide",
+      "15",
+      "--require-native-table-slide",
+      "16",
+      "--require-native-table-slide",
+      "17",
+      "--cover-role",
+      "none",
+      "--expected-slide-count",
+      "18",
+      "--approved-font-family",
+      "Arial"
+    ],
+    "nativeChartValidation": {
+      "detectedOwnerSlides": [],
+      "detectedChartCount": 0,
+      "targetApplication": null,
+      "sourceChartOwnersExplicitlyDeclared": false,
+      "validatorRan": false,
+      "passed": true
+    }
+  }
+}

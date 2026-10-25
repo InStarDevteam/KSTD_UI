@@ -1,0 +1,20 @@
+{
+  "testId": "E2E-ERROR",
+  "result": "통과",
+  "observed": {
+    "assertions": "명시적인503주입/오류안내·재시도복구, 빈검색결과, URL검색상태 새로고침유지",
+    "screenshots": [
+      {
+        "path": "evidence/browser/screenshots/server-error.png",
+        "sha256": "84d8366bb7de35494be876630640d8d2d6a4f1e3e806826645c409820c000b54"
+      },
+      {
+        "path": "evidence/browser/screenshots/empty-results.png",
+        "sha256": "525d5bdeb9a9ba0ca2df3d31344975624e05dad8da0a245d17d37f1fcb02df02"
+      }
+    ]
+  },
+  "elapsed_ms": 674,
+  "browser": "156.0.8078.4",
+  "actual_at": "2026-10-20T05:52:10.197Z"
+}

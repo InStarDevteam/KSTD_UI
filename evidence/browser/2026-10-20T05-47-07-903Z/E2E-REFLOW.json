@@ -1,0 +1,52 @@
+{
+  "testId": "E2E-REFLOW",
+  "result": "통과",
+  "observed": {
+    "widths": [
+      {
+        "route": "/",
+        "viewport": 320,
+        "document": 320
+      },
+      {
+        "route": "/requests",
+        "viewport": 320,
+        "document": 320
+      },
+      {
+        "route": "/requests/new",
+        "viewport": 320,
+        "document": 320
+      },
+      {
+        "route": "/help",
+        "viewport": 320,
+        "document": 320
+      },
+      {
+        "route": "/gallery",
+        "viewport": 320,
+        "document": 320
+      },
+      {
+        "route": "/privacy",
+        "viewport": 320,
+        "document": 320
+      }
+    ],
+    "screenshots": [
+      {
+        "path": "evidence/browser/screenshots/mobile.png",
+        "sha256": "a2c2d9de49ad00e83829d61634fbcb3f3339fc010aecf9cba243f98212bb9aeb"
+      },
+      {
+        "path": "evidence/browser/screenshots/text-spacing.png",
+        "sha256": "939c8df7ec080fa0f0e206f1a5b444432dee6bfc27df8aef2e87396342cbe465"
+      }
+    ],
+    "limitations": "320CSS px 가상viewport 및 DOM검사. 실제400%브라우저확대/200%텍스트확대/시각정보손실 전수판정 미실행"
+  },
+  "elapsed_ms": 1744,
+  "browser": "156.0.8078.4",
+  "actual_at": "2026-10-20T05:47:14.111Z"
+}

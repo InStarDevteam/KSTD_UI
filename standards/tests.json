@@ -4766,9 +4766,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "통과",
+    "observed": "실제 종료코드 0. 명령의 출력 로그 참조",
+    "evidence_ids": [
+      "AUTO-LEDGER-2026-10-20T06-18-33-156Z"
+    ]
   },
   {
     "test_id": "AUTO-FRONTEND",
@@ -4786,9 +4788,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "통과",
+    "observed": "실제 종료코드 0. 명령의 출력 로그 참조",
+    "evidence_ids": [
+      "AUTO-FRONTEND-2026-10-20T06-16-58-989Z"
+    ]
   },
   {
     "test_id": "AUTO-BACKEND",
@@ -4824,9 +4828,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "통과",
+    "observed": "실제 종료코드 0. 명령의 출력 로그 참조",
+    "evidence_ids": [
+      "AUTO-BACKEND-2026-10-20T06-17-05-753Z"
+    ]
   },
   {
     "test_id": "AUTO-EXPORT",
@@ -4840,9 +4846,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "통과",
+    "observed": "실제 종료코드 0. 명령의 출력 로그 참조",
+    "evidence_ids": [
+      "AUTO-EXPORT-2026-10-20T06-18-28-443Z"
+    ]
   },
   {
     "test_id": "E2E-WORKFLOW",
@@ -4865,9 +4873,9 @@
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
     "status": "통과",
-    "observed": "{\"assertions\":\"실제 로그인→검증오류→단계뒤로입력보존→첨부포함등록→파일바이트다운로드→관리자처리중/완료→이력 확인\",\"requestUrl\":\"/requests/10\",\"screenshots\":[{\"path\":\"evidence/browser/screenshots/login.png\",\"sha256\":\"565daac5d592b63713a8e1023a118259ee1920d74aafac61d58038a8ac71f4fe\"},{\"path\":\"evidence/browser/screenshots/dashboard.png\",\"sha256\":\"1df427e3dfe03fb7aa5dfae8400eb54a13de590c3254a9609a9d91b7dd18a36c\"},{\"path\":\"evidence/browser/screenshots/form-error.png\",\"sha256\":\"6b7ece7ba8c6c901e1048646f119cb588ca838ff95e56167969927803d1ddf3a\"},{\"path\":\"evidence/browser/screenshots/form.png\",\"sha256\":\"0ff28a1414958b7f3f283286d671308c32834bdfc72636408ba61765e6c2f3a3\"},{\"path\":\"evidence/browser/screenshots/complete.png\",\"sha256\":\"670d096ba3ce37aee56a9facfeba12372dbd7c5d3a8cff132683b32a702fa995\"},{\"path\":\"evidence/browser/screenshots/detail.png\",\"sha256\":\"99699e4a6cb9da70df7dabeb872622b98cbc785675db879cbe500c16a405de93\"},{\"path\":\"evidence/browser/screenshots/modal.png\",\"sha256\":\"ee6ff92bdb5569db34182184e96f8fac67ef5d384b20933744e4472e6f2f78d1\"}]}",
+    "observed": "{\"assertions\":\"실제 로그인→검증오류→단계뒤로입력보존→첨부포함등록→파일바이트다운로드→관리자처리중/완료→이력 확인\",\"requestUrl\":\"/requests/14\",\"screenshots\":[{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/login.png\",\"sha256\":\"15b92f0d047b5d78b64693b5990a0109c3179ac4d543ff7bff03e9f85e10e096\"},{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/dashboard.png\",\"sha256\":\"be0315651867b88c923967d2dd3c8e499d938af7dfee5c6bc0b76eefb9c422e7\"},{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/form-error.png\",\"sha256\":\"4e307ce1ecdc495a6c23731b88da323d25b518d904c76ce2d1c8ea7b59fd1e5c\"},{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/form.png\",\"sha256\":\"44406594c3e19291c558252f168d45df6140a95c28ebbb7061c7069bb86e491b\"},{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/complete.png\",\"sha256\":\"77ba00249f30b5a8de0267e9cd2a1ca66946546f6880ff088d701f18b07613f5\"},{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/detail.png\",\"sha256\":\"66ecd576ecc4676865de0acc934525f5c6730e5d8d87aff0b6c4f439161e9d35\"},{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/modal.png\",\"sha256\":\"2b5be3c554ba3e148cec6e1c3c03bdc68a54f942420f3e23ebc02b2190f59b14\"}]}",
     "evidence_ids": [
-      "E2E-WORKFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-WORKFLOW-2026-10-20T06-15-00-647Z"
     ]
   },
   {
@@ -4885,9 +4893,9 @@
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
     "status": "통과",
-    "observed": "{\"assertions\":\"297개 원장 로드, MDR확인필요, ID검색, 출처/시험/증빙 복사, JSON/CSV/Markdown 필터결과 다운로드, 권한거부시 수동복사 대화상자\",\"downloads\":[{\"name\":\"FlowCore_표준_2026-10-20.json\",\"bytes\":434720,\"sha256\":\"608ee966de807ba158de89c1ed19e67edac529e76e145901af0d0c308f29d74d\"},{\"name\":\"FlowCore_표준_2026-10-20.csv\",\"bytes\":1479,\"sha256\":\"a83bc64213c0bde5b08e569c78795cdea3d42b261edeb7040b1168aa7360101b\"},{\"name\":\"FlowCore_표준_2026-10-20.md\",\"bytes\":3761,\"sha256\":\"e948d86fde0445fb3be3ee870c6a103cbe38827e9729b65896b94a3815b6f699\"}],\"screenshots\":[{\"path\":\"evidence/browser/screenshots/help.png\",\"sha256\":\"771e348f0e0a9b8fa6008c6ad53308de338676df9fd5857208462952be1a2de5\"}]}",
+    "observed": "{\"assertions\":\"297개 원장 로드, MDR확인필요, ID검색, 출처/시험/증빙 복사, JSON/CSV/Markdown 필터결과 다운로드, 권한거부시 수동복사 대화상자\",\"downloads\":[{\"name\":\"FlowCore_표준_2026-10-20.json\",\"bytes\":654221,\"sha256\":\"a46388a98f2fe96407e89a84d91de0e45f6384c8f5d856c9811c64eef0234bd1\"},{\"name\":\"FlowCore_표준_2026-10-20.csv\",\"bytes\":9863,\"sha256\":\"2ae6f50b749afe3cd1ed9e91c79bb7b40f069d6adbd66831f54b3856815f8631\"},{\"name\":\"FlowCore_표준_2026-10-20.md\",\"bytes\":12620,\"sha256\":\"d12f5bc7812929b27338abe3484de9ec536fcb0d687374918e6d18524dea127b\"}],\"screenshots\":[{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/help.png\",\"sha256\":\"3c31b2f849ee469051a02a99fc0dd1d27df4e1f3897948cc11445aac8040debe\"}]}",
     "evidence_ids": [
-      "E2E-HELP-2026-10-20T05-51-59-908Z"
+      "E2E-HELP-2026-10-20T06-15-00-647Z"
     ]
   },
   {
@@ -4908,9 +4916,9 @@
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
     "status": "통과",
-    "observed": "{\"assertions\":\"키보드로 모달열기/Tab8회내부유지/Escape닫기/원래버튼초점복귀, 본문바로가기 초점, 갤러리오류·로딩\",\"screenshots\":[{\"path\":\"evidence/browser/screenshots/gallery.png\",\"sha256\":\"082261576c7bf5a37601af3a1d223a1ed10ca12003aa240212b846f05945afb6\"}],\"limitations\":\"전체 업무과정 키보드 전수 수동평가는 별도 미실행\"}",
+    "observed": "{\"assertions\":\"키보드로 모달열기/Tab8회내부유지/Escape닫기/원래버튼초점복귀, 본문바로가기 초점, 갤러리오류·로딩\",\"screenshots\":[{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/gallery.png\",\"sha256\":\"082261576c7bf5a37601af3a1d223a1ed10ca12003aa240212b846f05945afb6\"}],\"limitations\":\"전체 업무과정 키보드 전수 수동평가는 별도 미실행\"}",
     "evidence_ids": [
-      "E2E-KEYBOARD-2026-10-20T05-51-59-908Z"
+      "E2E-KEYBOARD-2026-10-20T06-15-00-647Z"
     ]
   },
   {
@@ -4929,9 +4937,9 @@
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
     "status": "통과",
-    "observed": "{\"widths\":[{\"route\":\"/\",\"viewport\":320,\"document\":320},{\"route\":\"/requests\",\"viewport\":320,\"document\":320},{\"route\":\"/requests/new\",\"viewport\":320,\"document\":320},{\"route\":\"/help\",\"viewport\":320,\"document\":320},{\"route\":\"/gallery\",\"viewport\":320,\"document\":320},{\"route\":\"/privacy\",\"viewport\":320,\"document\":320}],\"screenshots\":[{\"path\":\"evidence/browser/screenshots/mobile.png\",\"sha256\":\"24a0e8b4755d9e8d9b84d6cf676b64d5b07c54efa3dc18bfce5f912a4cacbd00\"},{\"path\":\"evidence/browser/screenshots/text-spacing.png\",\"sha256\":\"dec1ffe51ab7f49ed650fc1e77333360893660a7def3ab1030e6d2ea9d1eae4f\"}],\"limitations\":\"320CSS px 가상viewport 및 DOM검사. 실제400%브라우저확대/200%텍스트확대/시각정보손실 전수판정 미실행\"}",
+    "observed": "{\"widths\":[{\"route\":\"/\",\"viewport\":320,\"document\":320},{\"route\":\"/requests\",\"viewport\":320,\"document\":320},{\"route\":\"/requests/new\",\"viewport\":320,\"document\":320},{\"route\":\"/help\",\"viewport\":320,\"document\":320},{\"route\":\"/gallery\",\"viewport\":320,\"document\":320},{\"route\":\"/privacy\",\"viewport\":320,\"document\":320}],\"screenshots\":[{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/mobile.png\",\"sha256\":\"85228a02d757ebfa32484e1a827db9f5e3ae064ad96a5db2607a70cea8a52151\"},{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/text-spacing.png\",\"sha256\":\"e90f024ddbf74ed3423ad4dc70f47bf8ea1196bf43c25c7d381286cbfc2458bc\"}],\"limitations\":\"320CSS px 가상viewport 및 DOM검사. 실제400%브라우저확대/200%텍스트확대/시각정보손실 전수판정 미실행\"}",
     "evidence_ids": [
-      "E2E-REFLOW-2026-10-20T05-51-59-908Z"
+      "E2E-REFLOW-2026-10-20T06-15-00-647Z"
     ]
   },
   {
@@ -4949,9 +4957,9 @@
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
     "status": "통과",
-    "observed": "{\"assertions\":\"명시적인503주입/오류안내·재시도복구, 빈검색결과, URL검색상태 새로고침유지\",\"screenshots\":[{\"path\":\"evidence/browser/screenshots/server-error.png\",\"sha256\":\"84d8366bb7de35494be876630640d8d2d6a4f1e3e806826645c409820c000b54\"},{\"path\":\"evidence/browser/screenshots/empty-results.png\",\"sha256\":\"525d5bdeb9a9ba0ca2df3d31344975624e05dad8da0a245d17d37f1fcb02df02\"}]}",
+    "observed": "{\"assertions\":\"503주입/재시도복구·빈검색결과·URL유지 및 실제API로변조된DTO전송→실제400→오류단계복귀/필드오류/입력보존\",\"screenshots\":[{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/server-error.png\",\"sha256\":\"18088e47f98c80c8ff67a1467bc789949f8c265f77158c0a0e36e2174538464f\"},{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/empty-results.png\",\"sha256\":\"c155b96f1efca6471f64c9534e2145d9542bdc77a0802703b1f591579a746975\"},{\"path\":\"evidence/browser/2026-10-20T06-15-00-647Z/screenshots/server-validation.png\",\"sha256\":\"3ed35d8b24232c6c1ff3edfb2dc243ff440118bd85baaa97f89e76823043e410\"}]}",
     "evidence_ids": [
-      "E2E-ERROR-2026-10-20T05-51-59-908Z"
+      "E2E-ERROR-2026-10-20T06-15-00-647Z"
     ]
   },
   {
@@ -4979,9 +4987,9 @@
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
     "status": "통과",
-    "observed": "{\"states\":17,\"violations\":0,\"incomplete\":15,\"raw\":\"evidence/browser/2026-10-20T05-51-59-908Z/axe-states.json\",\"limitations\":\"incomplete는 자동판정 불가이며 통과로 간주하지 않음. 대표 상태의 자동검사만 수행.\"}",
+    "observed": "{\"states\":21,\"violations\":0,\"incomplete\":20,\"raw\":\"evidence/browser/2026-10-20T06-15-00-647Z/axe-states.json\",\"limitations\":\"incomplete는 자동판정 불가이며 통과로 간주하지 않음. 대표 상태의 자동검사만 수행.\"}",
     "evidence_ids": [
-      "E2E-AXE-2026-10-20T05-51-59-908Z"
+      "E2E-AXE-2026-10-20T06-15-00-647Z"
     ]
   },
   {
@@ -4996,9 +5004,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "통과",
+    "observed": "실제 종료코드 0. 명령의 출력 로그 참조",
+    "evidence_ids": [
+      "AUTO-AUDIT-2026-10-20T06-18-28-772Z"
+    ]
   },
   {
     "test_id": "AUTO-SECRET",
@@ -5012,9 +5022,30 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "통과",
+    "observed": "실제 종료코드 0. 명령의 출력 로그 참조",
+    "evidence_ids": [
+      "AUTO-SECRET-2026-10-20T06-18-32-896Z"
+    ]
+  },
+  {
+    "test_id": "AUTO-DISTRIBUTION",
+    "rule_ids": [
+      "OPS-006",
+      "GOV-006",
+      "DOC-005",
+      "SEC-011"
+    ],
+    "type": "자동",
+    "title": "AUTO-DISTRIBUTION",
+    "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
+    "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
+    "environment": "로컬 macOS / Chromium / Node / .NET10",
+    "status": "통과",
+    "observed": "{\"observations\":[{\"file\":\"Company_SW_Standards_Register.xlsx\",\"bytes\":296757,\"contentType\":\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\"},{\"file\":\"Company_SW_Standards_Application_Report.pptx\",\"bytes\":1294677,\"contentType\":\"application/vnd.openxmlformats-officedocument.presentationml.presentation\"},{\"reportSearch\":\"MDR-000 = 1개\",\"clipboardReadback\":true,\"scriptErrors\":[],\"browser\":\"156.0.8078.4\"}],\"failure\":\"\"}",
+    "evidence_ids": [
+      "AUTO-DISTRIBUTION-2026-10-20T06-16-19-409Z"
+    ]
   },
   {
     "test_id": "SCREEN-LOGIN",
@@ -5031,9 +5062,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 login, http://localhost:8000/, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-LOGIN-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-DASHBOARD",
@@ -5046,9 +5079,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 dashboard, http://localhost:8000/, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-DASHBOARD-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-FORM",
@@ -5062,9 +5097,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 form, http://localhost:8000/requests/new, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-FORM-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-FORM-ERROR",
@@ -5078,9 +5115,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 form-error, http://localhost:8000/requests/new, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-FORM-ERROR-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-COMPLETE",
@@ -5093,9 +5132,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 complete, http://localhost:8000/requests/new, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-COMPLETE-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-DETAIL",
@@ -5108,9 +5149,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 detail, http://localhost:8000/requests/14, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-DETAIL-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-LIST",
@@ -5123,9 +5166,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 list, http://localhost:8000/requests, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-LIST-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-MODAL",
@@ -5139,9 +5184,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 modal, http://localhost:8000/requests/14, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-MODAL-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-HELP",
@@ -5155,9 +5202,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 help, http://localhost:8000/help, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-HELP-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-GALLERY",
@@ -5171,9 +5220,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 gallery, http://localhost:8000/gallery, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-GALLERY-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-MOBILE",
@@ -5186,9 +5237,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 mobile, http://localhost:8000/privacy, {\"width\":320,\"height\":800}",
+    "evidence_ids": [
+      "SCREEN-MOBILE-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-TEXT-SPACING",
@@ -5200,9 +5253,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 text-spacing, http://localhost:8000/help?tab=guide, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-TEXT-SPACING-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-SERVER-ERROR",
@@ -5215,9 +5270,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 server-error, http://localhost:8000/requests, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-SERVER-ERROR-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-EMPTY-RESULTS",
@@ -5230,9 +5287,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 empty-results, http://localhost:8000/requests?q=%EA%B2%B0%EA%B3%BC%EC%97%86%EC%9D%8C-unique-xyz&sort=created_desc&page=1, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-EMPTY-RESULTS-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "SCREEN-SERVER-VALIDATION",
@@ -5247,9 +5306,11 @@
     "steps": "evidence의 command와 환경으로 실제 실행; 기록된 assertion 범위만 확인",
     "expected": "실제 검사 assertion 및 로그 일치. 관련 원문 조항의 전수 통과를 의미하지 않음",
     "environment": "로컬 macOS / Chromium / Node / .NET10",
-    "status": "미실행",
-    "observed": "",
-    "evidence_ids": []
+    "status": "부분확인",
+    "observed": "실제 실행화면 server-validation, http://localhost:8000/requests/new, {\"width\":1440,\"height\":1100}",
+    "evidence_ids": [
+      "SCREEN-SERVER-VALIDATION-2026-10-20T06-15-00-647Z"
+    ]
   },
   {
     "test_id": "AT-01",

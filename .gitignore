@@ -13,3 +13,6 @@ tmp/
 evidence/source/krds-guideline.txt
 reports/previews/
 artifacts/
+
+# Download archives are generated locally; source and reports remain tracked.
+reports/*.zip

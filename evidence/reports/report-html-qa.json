@@ -1,0 +1,22 @@
+{
+  "rules": 297,
+  "search": true,
+  "clipboard": true,
+  "json_download": true,
+  "other_downloads": [
+    "Company_SW_Standards_Register.xlsx",
+    "Company_SW_Standards_Application_Report.pptx",
+    "standards-result.csv"
+  ],
+  "embedded_images": 8,
+  "mobile_320": {
+    "client": 320,
+    "scroll": 320,
+    "pre": 288
+  },
+  "console_errors": [],
+  "axe_violations": [],
+  "axe_incomplete": [],
+  "browser": "156.0.8078.4",
+  "limitations": "HTML reporting surface only. This does not execute or replace criterion-specific manual accessibility evaluation."
+}

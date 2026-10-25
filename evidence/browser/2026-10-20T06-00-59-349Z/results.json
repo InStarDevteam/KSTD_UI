@@ -1,0 +1,188 @@
+{
+  "runId": "2026-10-20T06-00-59-349Z",
+  "baseUrl": "http://localhost:8000",
+  "browser": "156.0.8078.4",
+  "results": [
+    {
+      "testId": "E2E-WORKFLOW",
+      "result": "통과",
+      "observed": {
+        "assertions": "실제 로그인→검증오류→단계뒤로입력보존→첨부포함등록→파일바이트다운로드→관리자처리중/완료→이력 확인",
+        "requestUrl": "/requests/12",
+        "screenshots": [
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/login.png",
+            "sha256": "b96e5ed1a1021aabe79e12a637795815d36553afd12907a56e28fef907280197"
+          },
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/dashboard.png",
+            "sha256": "4f42985c357a12c83bca846595b932b61e5df66a68c3cb9f37061554150f6d34"
+          },
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/form-error.png",
+            "sha256": "4e307ce1ecdc495a6c23731b88da323d25b518d904c76ce2d1c8ea7b59fd1e5c"
+          },
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/form.png",
+            "sha256": "44406594c3e19291c558252f168d45df6140a95c28ebbb7061c7069bb86e491b"
+          },
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/complete.png",
+            "sha256": "77ba00249f30b5a8de0267e9cd2a1ca66946546f6880ff088d701f18b07613f5"
+          },
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/detail.png",
+            "sha256": "73b4a83d21a499690239e0d9c22f6c56b4950861e29fd797eb44e084b8945909"
+          },
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/modal.png",
+            "sha256": "f7949ab2b3439c67210b549ab210c1de0e02d99cf6a9c19d903650eebc021496"
+          }
+        ]
+      },
+      "elapsed_ms": 4630,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T06:01:04.483Z"
+    },
+    {
+      "testId": "E2E-HELP",
+      "result": "통과",
+      "observed": {
+        "assertions": "297개 원장 로드, MDR확인필요, ID검색, 출처/시험/증빙 복사, JSON/CSV/Markdown 필터결과 다운로드, 권한거부시 수동복사 대화상자",
+        "downloads": [
+          {
+            "name": "FlowCore_표준_2026-10-20.json",
+            "bytes": 584641,
+            "sha256": "74353b7bc8e7d7220784537063ebb263cb8af3ca2e3d57641015439bf7198f6b"
+          },
+          {
+            "name": "FlowCore_표준_2026-10-20.csv",
+            "bytes": 1479,
+            "sha256": "a83bc64213c0bde5b08e569c78795cdea3d42b261edeb7040b1168aa7360101b"
+          },
+          {
+            "name": "FlowCore_표준_2026-10-20.md",
+            "bytes": 3761,
+            "sha256": "47e9c347e17506d7ad6f629011214bd68f1b1639c0982d07e4b83b2aa71b2366"
+          }
+        ],
+        "screenshots": [
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/help.png",
+            "sha256": "771e348f0e0a9b8fa6008c6ad53308de338676df9fd5857208462952be1a2de5"
+          }
+        ]
+      },
+      "elapsed_ms": 1070,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T06:01:05.569Z"
+    },
+    {
+      "testId": "E2E-KEYBOARD",
+      "result": "통과",
+      "observed": {
+        "assertions": "키보드로 모달열기/Tab8회내부유지/Escape닫기/원래버튼초점복귀, 본문바로가기 초점, 갤러리오류·로딩",
+        "screenshots": [
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/gallery.png",
+            "sha256": "082261576c7bf5a37601af3a1d223a1ed10ca12003aa240212b846f05945afb6"
+          }
+        ],
+        "limitations": "전체 업무과정 키보드 전수 수동평가는 별도 미실행"
+      },
+      "elapsed_ms": 1018,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T06:01:06.605Z"
+    },
+    {
+      "testId": "E2E-REFLOW",
+      "result": "통과",
+      "observed": {
+        "widths": [
+          {
+            "route": "/",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/requests",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/requests/new",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/help",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/gallery",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/privacy",
+            "viewport": 320,
+            "document": 320
+          }
+        ],
+        "screenshots": [
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/mobile.png",
+            "sha256": "85228a02d757ebfa32484e1a827db9f5e3ae064ad96a5db2607a70cea8a52151"
+          },
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/text-spacing.png",
+            "sha256": "e90f024ddbf74ed3423ad4dc70f47bf8ea1196bf43c25c7d381286cbfc2458bc"
+          }
+        ],
+        "limitations": "320CSS px 가상viewport 및 DOM검사. 실제400%브라우저확대/200%텍스트확대/시각정보손실 전수판정 미실행"
+      },
+      "elapsed_ms": 1812,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T06:01:08.436Z"
+    },
+    {
+      "testId": "E2E-ERROR",
+      "result": "통과",
+      "observed": {
+        "assertions": "503주입/재시도복구·빈검색결과·URL유지 및 실제API로변조된DTO전송→실제400→오류단계복귀/필드오류/입력보존",
+        "screenshots": [
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/server-error.png",
+            "sha256": "18088e47f98c80c8ff67a1467bc789949f8c265f77158c0a0e36e2174538464f"
+          },
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/empty-results.png",
+            "sha256": "c155b96f1efca6471f64c9534e2145d9542bdc77a0802703b1f591579a746975"
+          },
+          {
+            "path": "evidence/browser/2026-10-20T06-00-59-349Z/screenshots/server-validation.png",
+            "sha256": "3ed35d8b24232c6c1ff3edfb2dc243ff440118bd85baaa97f89e76823043e410"
+          }
+        ]
+      },
+      "elapsed_ms": 1155,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T06:01:09.608Z"
+    },
+    {
+      "testId": "E2E-AXE",
+      "result": "통과",
+      "observed": {
+        "states": 21,
+        "violations": 0,
+        "incomplete": 20,
+        "raw": "evidence/browser/2026-10-20T06-00-59-349Z/axe-states.json",
+        "limitations": "incomplete는 자동판정 불가이며 통과로 간주하지 않음. 대표 상태의 자동검사만 수행."
+      },
+      "elapsed_ms": 1,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T06:01:09.625Z"
+    }
+  ]
+}

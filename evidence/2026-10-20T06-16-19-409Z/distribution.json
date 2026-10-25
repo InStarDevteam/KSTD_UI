@@ -1,0 +1,23 @@
+{
+  "result": "통과",
+  "observations": [
+    {
+      "file": "Company_SW_Standards_Register.xlsx",
+      "bytes": 296757,
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "file": "Company_SW_Standards_Application_Report.pptx",
+      "bytes": 1294677,
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    {
+      "reportSearch": "MDR-000 = 1개",
+      "clipboardReadback": true,
+      "scriptErrors": [],
+      "browser": "156.0.8078.4"
+    }
+  ],
+  "failure": "",
+  "limitation": "독립 Release배포물의 로컬 HTTP/Development smoke검사. 실제운영TLS·인프라 배포검사 아님."
+}

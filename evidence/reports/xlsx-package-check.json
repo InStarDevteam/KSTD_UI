@@ -1,0 +1,87 @@
+{
+  "sheets": [
+    "01_요약",
+    "02_통합적용대장",
+    "03_접근성시험",
+    "04_KRDS원문항목",
+    "05_KRDS범위색인",
+    "06_출처변경관리"
+  ],
+  "table_count": 6,
+  "external_links": [],
+  "macros": [],
+  "details": [
+    {
+      "sheet": 1,
+      "frozen": null,
+      "formulas": 81,
+      "validations": 0,
+      "rows": 37
+    },
+    {
+      "sheet": 2,
+      "frozen": {
+        "xSplit": "1",
+        "ySplit": "6",
+        "topLeftCell": "B7",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      },
+      "formulas": 297,
+      "validations": 7,
+      "rows": 300
+    },
+    {
+      "sheet": 3,
+      "frozen": {
+        "xSplit": "1",
+        "ySplit": "6",
+        "topLeftCell": "B7",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      },
+      "formulas": 0,
+      "validations": 1,
+      "rows": 326
+    },
+    {
+      "sheet": 4,
+      "frozen": {
+        "xSplit": "1",
+        "ySplit": "6",
+        "topLeftCell": "B7",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      },
+      "formulas": 0,
+      "validations": 0,
+      "rows": 728
+    },
+    {
+      "sheet": 5,
+      "frozen": {
+        "xSplit": "1",
+        "ySplit": "6",
+        "topLeftCell": "B7",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      },
+      "formulas": 0,
+      "validations": 0,
+      "rows": 158
+    },
+    {
+      "sheet": 6,
+      "frozen": {
+        "xSplit": "1",
+        "ySplit": "6",
+        "topLeftCell": "B7",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      },
+      "formulas": 0,
+      "validations": 0,
+      "rows": 61
+    }
+  ]
+}

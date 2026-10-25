@@ -1,0 +1,24 @@
+{
+  "archive": "reports/FlowCore_Sample_Source.zip",
+  "bytes": 54359313,
+  "sha256": "79ee24799f7db4738b3ec2638eeee26186fa8561981013d968e305875111cc1b",
+  "file_count": 693,
+  "git_head": "88f8c934cf73feb34cb1a3e55a5dd9021d65fff3",
+  "zip_integrity": "pass",
+  "forbidden_artifacts": 0,
+  "credential_matches": 0,
+  "checks": {
+    "standards_rebuild": {
+      "exit_code": 0,
+      "output": "{\"as_of\": \"2026-10-20\", \"commit_sha\": \"88f8c934cf73feb34cb1a3e55a5dd9021d65fff3\", \"families\": [{\"family\": \"표준 운영\", \"total\": 8, \"applicable\": 8, \"conditional\": 0, \"not_applicable\": 0, \"unconfirmed\": 0, \"implemented\": 4, \"verified\": 0}, {\"family\": \"코딩\", \"total\": 18, \"applicable\": 18, \"conditional\": 0, \"not_applicable\": 0, \"unconfirmed\": 0, \"implemented\": 14, \"verified\": 0}, {\"family\": \"보안\", \"total\": 18, \"applicable\": 17, \"conditional\": 1, \"not_applicable\": 0, \"unconfirmed\": 0, \"implemented\": 8, \"verified\": 0}, {\"family\": \"MDR 확인\", \"total\": 1, \"applicable\": 0, \"conditional\": 0, \"not_applicable\": 0, \"unconfirmed\": 1, \"implemented\": 0, \"verified\": 0}, {\"family\": \"KRDS UI/UX\", \"total\": 128, \"applicable\": 106, \"conditional\": 18, \"not_applicable\": 4, \"unconfirmed\": 0, \"implemented\": 97, \"verified\": 0}, {\"family\": \"KWCAG 2.2\", \"total\": 33, \"applicable\": 29, \"conditional\": 4, \"not_applicable\": 0, \"unconfirmed\": 0, \"implemented\": 25, \"verified\": 0}, {\"family\": \"WCAG 2.2 A·AA\", \"total\": 55, \"applicable\": 48, \"conditional\": 7, \"not_applicable\": 0, \"unconfirmed\": 0, \"implemented\": 40, \"verified\": 0}, {\"family\": \"포용적 UX\", \"total\": 12, \"applicable\": 12, \"conditional\": 0, \"not_applicable\": 0, \"unconfirmed\": 0, \"implemented\": 6, \"verified\": 0}, {\"family\": \"검증·운영·보고\", \"total\": 24, \"applicable\": 24, \"conditional\": 0, \"not_applicable\": 0, \"unconfirmed\": 0, \"implemented\": 13, \"verified\": 0}], \"rule_count\": 297, \"test_count\": 340, \"evidence_count\": 28, \"limitations\": [\"MDR 명칭 확인 / 원본코드표·사업적용범위 확인필요\", \"원문 등급·그림/예외/비번호 규칙 전수 수동 검토 미완료\", \"NVDA/TalkBack/VoiceOver 실제 음성·당사자 사용성 평가 미실행\", \"운영 TLS·백신·상용 정적분석·외부 CI 실제실행 미확인\", \"자동 assertion 통과는 해당 표준 전체 통과나 인증이 아님\", \"검토자/검토일 자동생성하지 않으며 종합 검증완료는 보류\"]}\n",
+      "stderr": ""
+    },
+    "evidence_check": {
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"통과\",\n  \"errors\": [],\n  \"scope\": \"원장·시험연결·경로·SHA256·commit·시험시점 소스·허위 PASS 차단\"\n}\n",
+      "stderr": ""
+    }
+  },
+  "fresh_setup_prior_execution": "동일 잠금파일·실행스크립트의 이전 추출본에서 npm run setup 실제 완료. 최종 추출본에서는 Git commit 존재·원장 재생성·증빙 검사를 재확인.",
+  "limitations": "SDK와 npm 의존성 자체는 포함하지 않음. 새 환경에서 RUNBOOK의 요구 도구와 의존성 다운로드 필요."
+}

@@ -1,0 +1,151 @@
+{
+  "runId": "2026-10-20T05-50-41-987Z",
+  "baseUrl": "http://localhost:8000",
+  "browser": "156.0.8078.4",
+  "results": [
+    {
+      "testId": "E2E-WORKFLOW",
+      "result": "실패",
+      "observed": "locator.fill: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('이메일')\u001b[22m\n\n    at login (/Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:41:50)\n    at async file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:110:3\n    at async run (/Users/qanddev/Documents/문서 - Q'Dev의 MacBook Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:50:20)\n    at async file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/tests/e2e/browser.mjs:63:1",
+      "elapsed_ms": 17675,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:51:00.126Z"
+    },
+    {
+      "testId": "E2E-HELP",
+      "result": "통과",
+      "observed": {
+        "assertions": "297개 원장 로드, MDR확인필요, ID검색, 출처/시험/증빙 복사, JSON/CSV/Markdown 필터결과 다운로드, 권한거부시 수동복사 대화상자",
+        "downloads": [
+          {
+            "name": "FlowCore_표준_2026-10-20.json",
+            "bytes": 378414,
+            "sha256": "ff2b7481ee2cfb932938ea73461fcd8f4f1d6b25c0625c004a87bcccf4c806e9"
+          },
+          {
+            "name": "FlowCore_표준_2026-10-20.csv",
+            "bytes": 1323,
+            "sha256": "77bca0775938e40d362ec89de2b9d33cb52a5940b182ad847b944fec6a1fbc73"
+          },
+          {
+            "name": "FlowCore_표준_2026-10-20.md",
+            "bytes": 3605,
+            "sha256": "e5c34b9962c67df423153b4628c60be089d1ed55fe1a4db24e65bf606681ee59"
+          }
+        ],
+        "screenshots": [
+          {
+            "path": "evidence/browser/screenshots/help.png",
+            "sha256": "a7bb5a098f0b92c6e9fa72b00d8e647d76822c42397a5c08725de95eca5aed0d"
+          }
+        ]
+      },
+      "elapsed_ms": 1204,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:51:01.353Z"
+    },
+    {
+      "testId": "E2E-KEYBOARD",
+      "result": "통과",
+      "observed": {
+        "assertions": "키보드로 모달열기/Tab8회내부유지/Escape닫기/원래버튼초점복귀, 본문바로가기 초점, 갤러리오류·로딩",
+        "screenshots": [
+          {
+            "path": "evidence/browser/screenshots/gallery.png",
+            "sha256": "c826f0f8ddb0d84ca2fb04e709ae003f4374d7ac16ecee1a01db2022ae57d4e5"
+          }
+        ],
+        "limitations": "전체 업무과정 키보드 전수 수동평가는 별도 미실행"
+      },
+      "elapsed_ms": 553,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:51:01.922Z"
+    },
+    {
+      "testId": "E2E-REFLOW",
+      "result": "통과",
+      "observed": {
+        "widths": [
+          {
+            "route": "/",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/requests",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/requests/new",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/help",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/gallery",
+            "viewport": 320,
+            "document": 320
+          },
+          {
+            "route": "/privacy",
+            "viewport": 320,
+            "document": 320
+          }
+        ],
+        "screenshots": [
+          {
+            "path": "evidence/browser/screenshots/mobile.png",
+            "sha256": "3a5f196022ea88f96b72c8e29d26b68d50cb94465a2efd55319989bee6aeabd9"
+          },
+          {
+            "path": "evidence/browser/screenshots/text-spacing.png",
+            "sha256": "81c0ab3de276a762c3f5a649b774591d115560f216a569d6ca2457cb8b871fc1"
+          }
+        ],
+        "limitations": "320CSS px 가상viewport 및 DOM검사. 실제400%브라우저확대/200%텍스트확대/시각정보손실 전수판정 미실행"
+      },
+      "elapsed_ms": 1654,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:51:03.592Z"
+    },
+    {
+      "testId": "E2E-ERROR",
+      "result": "통과",
+      "observed": {
+        "assertions": "명시적인503주입/오류안내·재시도복구, 빈검색결과, URL검색상태 새로고침유지",
+        "screenshots": [
+          {
+            "path": "evidence/browser/screenshots/server-error.png",
+            "sha256": "5bfb1b053d4417a658fb858dd66842869cc56efbb1a99f881a18e7ec9ec63476"
+          },
+          {
+            "path": "evidence/browser/screenshots/empty-results.png",
+            "sha256": "36a5205c6fd2280bbc091eb0873cdc32c770b391f24e8fe99acad30fd3e424ce"
+          }
+        ]
+      },
+      "elapsed_ms": 659,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:51:04.267Z"
+    },
+    {
+      "testId": "E2E-AXE",
+      "result": "통과",
+      "observed": {
+        "states": 15,
+        "violations": 0,
+        "incomplete": 14,
+        "raw": "evidence/browser/2026-10-20T05-50-41-987Z/axe-states.json",
+        "limitations": "incomplete는 자동판정 불가이며 통과로 간주하지 않음. 대표 상태의 자동검사만 수행."
+      },
+      "elapsed_ms": 0,
+      "browser": "156.0.8078.4",
+      "actual_at": "2026-10-20T05:51:04.282Z"
+    }
+  ]
+}

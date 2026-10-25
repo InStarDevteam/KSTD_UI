@@ -1,0 +1,41 @@
+{
+  "testId": "E2E-WORKFLOW",
+  "result": "통과",
+  "observed": {
+    "assertions": "실제 로그인→검증오류→단계뒤로입력보존→첨부포함등록→파일바이트다운로드→관리자처리중/완료→이력 확인",
+    "requestUrl": "/requests/10",
+    "screenshots": [
+      {
+        "path": "evidence/browser/screenshots/login.png",
+        "sha256": "565daac5d592b63713a8e1023a118259ee1920d74aafac61d58038a8ac71f4fe"
+      },
+      {
+        "path": "evidence/browser/screenshots/dashboard.png",
+        "sha256": "1df427e3dfe03fb7aa5dfae8400eb54a13de590c3254a9609a9d91b7dd18a36c"
+      },
+      {
+        "path": "evidence/browser/screenshots/form-error.png",
+        "sha256": "6b7ece7ba8c6c901e1048646f119cb588ca838ff95e56167969927803d1ddf3a"
+      },
+      {
+        "path": "evidence/browser/screenshots/form.png",
+        "sha256": "0ff28a1414958b7f3f283286d671308c32834bdfc72636408ba61765e6c2f3a3"
+      },
+      {
+        "path": "evidence/browser/screenshots/complete.png",
+        "sha256": "670d096ba3ce37aee56a9facfeba12372dbd7c5d3a8cff132683b32a702fa995"
+      },
+      {
+        "path": "evidence/browser/screenshots/detail.png",
+        "sha256": "99699e4a6cb9da70df7dabeb872622b98cbc785675db879cbe500c16a405de93"
+      },
+      {
+        "path": "evidence/browser/screenshots/modal.png",
+        "sha256": "ee6ff92bdb5569db34182184e96f8fac67ef5d384b20933744e4472e6f2f78d1"
+      }
+    ]
+  },
+  "elapsed_ms": 4122,
+  "browser": "156.0.8078.4",
+  "actual_at": "2026-10-20T05:52:04.271Z"
+}

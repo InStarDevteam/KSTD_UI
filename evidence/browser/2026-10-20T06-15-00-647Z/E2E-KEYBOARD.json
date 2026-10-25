@@ -1,0 +1,17 @@
+{
+  "testId": "E2E-KEYBOARD",
+  "result": "통과",
+  "observed": {
+    "assertions": "키보드로 모달열기/Tab8회내부유지/Escape닫기/원래버튼초점복귀, 본문바로가기 초점, 갤러리오류·로딩",
+    "screenshots": [
+      {
+        "path": "evidence/browser/2026-10-20T06-15-00-647Z/screenshots/gallery.png",
+        "sha256": "082261576c7bf5a37601af3a1d223a1ed10ca12003aa240212b846f05945afb6"
+      }
+    ],
+    "limitations": "전체 업무과정 키보드 전수 수동평가는 별도 미실행"
+  },
+  "elapsed_ms": 1009,
+  "browser": "156.0.8078.4",
+  "actual_at": "2026-10-20T06:15:06.539Z"
+}

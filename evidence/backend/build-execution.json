@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/Users/qanddev/.dotnet/dotnet",
+    "build",
+    "tests/backend/Kstd.Api.Tests/Kstd.Api.Tests.csproj",
+    "--no-restore"
+  ],
+  "started": "2026-10-20T06:17:07.701Z",
+  "finished": "2026-10-20T06:17:09.053Z",
+  "exit_code": 0,
+  "result": "통과"
+}

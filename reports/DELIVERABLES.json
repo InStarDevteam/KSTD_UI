@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-20",
+  "tested_source_commit": "88f8c934cf73feb34cb1a3e55a5dd9021d65fff3",
+  "claim": "실행 샘플 및 실제 자동시험 결과. 표준 전체 준수·접근성 인증을 주장하지 않음.",
+  "files": [
+    {
+      "path": "reports/Company_SW_Standards_Register.xlsx",
+      "bytes": 297046,
+      "sha256": "a4d5db44ab0a60eaa6531b26858e1d334d347b0cfd6aa341f7ea75fdf8f358fe"
+    },
+    {
+      "path": "reports/Company_SW_Standards_Application_Report.pptx",
+      "bytes": 1296694,
+      "sha256": "9bb6b8c3ff5fb37f9812fbf5dea90238a8caae38856f657000d5c3ee80a05e70"
+    },
+    {
+      "path": "reports/index.html",
+      "bytes": 2287426,
+      "sha256": "8aff27855f3de8cd65e3ec558354cb2c576ab1817536001f196b463eaf08b01d"
+    },
+    {
+      "path": "reports/report.js",
+      "bytes": 1067,
+      "sha256": "81151d51706d3b386da1554fb960d817537feab150d4934d6305032406ccf31e"
+    },
+    {
+      "path": "reports/standards-result.json",
+      "bytes": 1348360,
+      "sha256": "c4597b8cb283b3b8d2e928803f70663bf6ed779f306248dcec87eb37b7cccb9f"
+    },
+    {
+      "path": "reports/standards-result.csv",
+      "bytes": 356540,
+      "sha256": "fb06fb225b7d5e950e7450e0b6cf8993d840c8d9f86564b7c52b6ce9a7529d83"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "result": "실패",
+  "observations": [],
+  "failure": "AssertionError [ERR_ASSERTION]: npm run publish:local이 필요합니다.\n    at file:///Users/qanddev/Documents/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%20-%20Q'Dev%E1%84%8B%E1%85%B4%20MacBook%C2%A0Pro/kimi_project/KSTD_UI/scripts/test-distribution.mjs:24:3\n    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)\n    at async node:internal/modules/esm/loader:650:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)",
+  "limitation": "독립 Release배포물의 로컬 HTTP/Development smoke검사. 실제운영TLS·인프라 배포검사 아님."
+}

@@ -60,6 +60,7 @@
   {
     "rule_id": "GOV-006",
     "test_ids": [
+      "AUTO-DISTRIBUTION",
       "MAN-GOV-006"
     ],
     "code_refs": [
@@ -470,6 +471,7 @@
   {
     "rule_id": "SEC-011",
     "test_ids": [
+      "AUTO-DISTRIBUTION",
       "MAN-SEC-011"
     ],
     "code_refs": [
@@ -3184,6 +3186,7 @@
   {
     "rule_id": "OPS-006",
     "test_ids": [
+      "AUTO-DISTRIBUTION",
       "MAN-OPS-006"
     ],
     "code_refs": [
@@ -3248,6 +3251,7 @@
   {
     "rule_id": "DOC-005",
     "test_ids": [
+      "AUTO-DISTRIBUTION",
       "MAN-DOC-005"
     ],
     "code_refs": [

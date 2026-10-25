@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/Users/qanddev/.dotnet/dotnet",
+    "restore",
+    "tests/backend/Kstd.Api.Tests/Kstd.Api.Tests.csproj",
+    "--locked-mode"
+  ],
+  "started": "2026-10-20T06:17:05.817Z",
+  "finished": "2026-10-20T06:17:07.701Z",
+  "exit_code": 0,
+  "result": "통과"
+}

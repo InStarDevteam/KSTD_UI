@@ -1,0 +1,19 @@
+
+> flowcore-web@1.0.0 test
+> node --experimental-strip-types --test src/*.test.ts
+
+✔ formula injection is neutralized including leading control characters (0.753ms)
+✔ CSV preserves Korean, quotes and embedded newlines in quoted fields (0.148083ms)
+✔ large export keeps every data row and does not evaluate formulas (6.768792ms)
+✔ request return path preserves local query context but rejects external and alternate routes (0.476292ms)
+✔ actual ASP.NET numeric entity IDs normalize for session, request and nested records (0.627041ms)
+✔ boundary rejects unsafe identifiers and wrong numeric response shapes (0.201333ms)
+✔ ProblemDetails field errors preserve server validation messages and reject invalid shapes (0.504542ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 96.5865
