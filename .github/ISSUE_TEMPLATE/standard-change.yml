@@ -1,0 +1,80 @@
+name: 표준·기준 수정 요청
+description: 원문·회사 기준·적용성·구현·시험·문서의 변경을 제안합니다.
+title: "[표준 변경] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        공개 Issue입니다. 실제 비밀번호·토큰·개인정보는 올리지 마세요.
+        원문 요구, 회사 제안, 샘플 설계 선택을 구분하고 미실행 시험은 미실행이라고 적어 주세요.
+  - type: input
+    id: rule_id
+    attributes:
+      label: 대상 규칙 ID
+      description: 복수 ID 또는 신규 규칙 제안 여부를 적어 주세요.
+      placeholder: "예: UI-001, KWA-001, MDR-000 / 신규"
+    validations:
+      required: true
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: 변경 유형
+      multiple: true
+      options:
+        - 원문·판본·출처 정정
+        - 회사 기준 신설·수정
+        - 적용성·조건·예외 변경
+        - 구현·보안·접근성 문제
+        - 시험·증빙·판정 정정
+        - README·Excel·PPT·Help 문서 개선
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 공식 출처와 판본
+      description: 기관·표준명·판본·공식 URL·절·페이지를 적어 주세요. 회사 제안이면 그 사실을 명시해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 현재 내용과 문제
+      description: 현재 문구·구현·판정, 재현 조건과 기대 동작을 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 변경 제안과 근거
+      description: 제안 문구, 적용 조건, 회사 기준과 원문 요구의 구분, 해결 근거를 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: 영향 범위
+      description: 화면·역할·API·언어 프로파일·기존 예외·문서와의 관계를 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: 시험 방법과 실제 증빙
+      description: 절차·예상 결과·실제 결과·환경·도구·로그/캡처를 적어 주세요. 아직 실행하지 않았다면 미실행이라고 명시해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: rollout
+    attributes:
+      label: 우선순위·시행 및 이행 제안
+      description: 희망 시행일, 단계 적용, 기존 데이터·기능 이행이 필요한지 적어 주세요.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 제출 전 확인
+      options:
+        - label: 실제 계정의 비밀번호·토큰·개인정보를 포함하지 않았습니다.
+          required: true
+        - label: 실제 실행 결과와 미실행·계획을 구분했습니다.
+          required: true
